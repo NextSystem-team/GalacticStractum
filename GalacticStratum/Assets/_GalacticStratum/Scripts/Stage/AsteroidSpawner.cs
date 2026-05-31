@@ -128,12 +128,19 @@ public class AsteroidSpawner : MonoBehaviour
     {
         GameObject asteroid = Instantiate(asteroidPrefab);
         SpriteRenderer spriteRenderer = asteroid.GetComponent<SpriteRenderer>();
+        SpriteRenderer brushSpriteRender = asteroid.transform.GetChild(0).GetComponent<SpriteRenderer>();
 
         asteroid.transform.position = position;
         asteroid.GetComponent<Asteroid>().data = asteroidData;
         asteroid.transform.localEulerAngles = new Vector3(0, 0, Random.Range(0, 361));
-        spriteRenderer.flipX = Random.value >= 0.5f;
-        spriteRenderer.flipY = Random.value >= 0.5f;
+
+        bool canFlipX = Random.value >= 0.5f;
+        bool canFlipY = Random.value >= 0.5f;
+        spriteRenderer.flipX = canFlipX;
+        brushSpriteRender.flipX = canFlipX;
+        spriteRenderer.flipY = canFlipY;
+        brushSpriteRender.flipY = canFlipY;
+
         asteroid.transform.parent = transform;
         asteroid.name = $"{asteroidData.Size.Type}Asteroid_{spawnedAsteroids.Count + 1}";
 

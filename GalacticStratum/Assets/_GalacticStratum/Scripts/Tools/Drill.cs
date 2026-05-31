@@ -96,6 +96,7 @@ public class Drill : MonoBehaviour
             currentAsteroid = collision.transform.parent.GetComponent<Asteroid>();
             currentData = currentAsteroid.data;
 
+            currentAsteroid.RevealAsteroid();
             StartCoroutine(Mine());
         }
     }

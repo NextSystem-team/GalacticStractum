@@ -55,11 +55,11 @@ public class AsteroidData
     private readonly Dictionary<ResourceType, int> resources = new()
     {
         { ResourceType.Nothing, 30 },
-        { ResourceType.Water, 5 },
-        { ResourceType.Beskarium, 16 },
-        { ResourceType.Peridot, 16 },
-        { ResourceType.Lechatelierite, 16 },
-        { ResourceType.Elaliite, 16 }
+        { ResourceType.Water, 2 },
+        { ResourceType.Beskarium, 12 },
+        { ResourceType.Peridot, 12 },
+        { ResourceType.Lechatelierite, 12 },
+        { ResourceType.Elaliite, 12 }
     };
 
     private readonly Dictionary<AsteroidSize, int> sizes = new()

@@ -198,8 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8066cdec8f8e7034da332dfb36477aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Asteroid
-  brush: {fileID: 1655209446028026972}
-  data: {fileID: 0}
+  brush: {fileID: 5583879102664098019}
   spritesDatabase: {fileID: 11400000, guid: c6ba76488fc2c244f97addd90924d964, type: 2}
 --- !u!70 &1157266606205811582
 CapsuleCollider2D:

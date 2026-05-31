@@ -3,23 +3,26 @@ using UnityEngine;
 public class Asteroid : MonoBehaviour
 {
     [Header("Dados do Asteroide")]
-    [SerializeField] private SpriteRenderer brush;
+    [SerializeField] private GameObject brush;
     public AsteroidData data;
 
     [Header("Banco de dados das sprites de Asteroide")]
     [SerializeField] private AsteroidVisualData spritesDatabase;
 
     private SpriteRenderer spriteRenderer;
+    private SpriteRenderer brushRenderer;
 
     void Start()
     {
+        brushRenderer = brush.GetComponent<SpriteRenderer>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        brush.enabled = false;
+        brush.SetActive(true);
+        brushRenderer.enabled = false;
 
         AsteroidVisualData.AsteroidVisual visual = spritesDatabase.GetRandomSprite();
         spriteRenderer.sprite = visual.Sprite;
-        brush.sprite = visual.BrushSprite;
+        brushRenderer.sprite = visual.BrushSprite;
 
         transform.localScale = Vector3.one * Random.Range(data.Size.MinSize, data.Size.MaxSize);
     }
@@ -27,8 +30,8 @@ public class Asteroid : MonoBehaviour
     public void RevealAsteroid()
     {
         //Colocar efeitos visuais e sonoros aqui...
-
-        brush.enabled = true;
+        brush.SetActive(true);
+        brush.GetComponent<SpriteRenderer>().enabled = true;
     }
 
     public void Explode()
