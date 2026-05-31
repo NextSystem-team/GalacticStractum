@@ -9,12 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 950cd9db25c88434482ffd6c4577dde0, type: 3}
-  m_Name: AsteroidFinder
-  m_EditorClassIdentifier: Assembly-CSharp::ToolData
-  toolType: 0
-  toolName: 
-  toolDescription: 
-  toolIcon: {fileID: 0}
-  toolPrice: 0
-  tool: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 374603d6ef50c2645b1cac282e600ad7, type: 3}
+  m_Name: DrillBrain
+  m_EditorClassIdentifier: Assembly-CSharp::DrillObject
+  drillPrefab: {fileID: 7222036359446969936, guid: 2aaf61193b7631f4abf7ac16ed486f16, type: 3}

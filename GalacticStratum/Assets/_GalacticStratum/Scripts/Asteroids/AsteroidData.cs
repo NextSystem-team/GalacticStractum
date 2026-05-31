@@ -10,7 +10,8 @@ public class AsteroidData
         Beskarium,
         Peridot,
         Lechatelierite,
-        Elaliite
+        Elaliite,
+        Count
     }
 
     public enum AsteroidType
@@ -49,6 +50,7 @@ public class AsteroidData
     public int PeridotAmount { get; private set; }
     public int LechatelieriteAmount { get; private set; }
     public int ElaliiteAmount { get; private set; }
+    public Asteroid Asteroid { get; set; }
 
     private readonly Dictionary<ResourceType, int> resources = new()
     {
@@ -62,10 +64,10 @@ public class AsteroidData
 
     private readonly Dictionary<AsteroidSize, int> sizes = new()
     {
-        { AsteroidSize.Small, 20 },
+        { AsteroidSize.Small, 30 },
         { AsteroidSize.Medium, 50 },
-        { AsteroidSize.Large, 30 },
-        { AsteroidSize.Massive, 5 }
+        { AsteroidSize.Large, 20 },
+        { AsteroidSize.Massive, 2 }
     };
 
     public AsteroidData()
@@ -156,7 +158,7 @@ public class AsteroidData
                 break;
         }
     }
-    private void TakeResource(ResourceType resourceType)
+    public void TakeResource(ResourceType resourceType)
     {
         switch (resourceType)
         {
@@ -199,6 +201,27 @@ public class AsteroidData
                 break;
             default:
                 break;
+        }
+    }
+
+    public bool CheckIfResourceDepleted(ResourceType resourceType)
+    {
+        switch (resourceType)
+        {
+            case ResourceType.Water:
+                return WaterAmount <= 0;
+            case ResourceType.Beskarium:
+                return BeskariumAmount <= 0;
+            case ResourceType.Peridot:
+                return PeridotAmount <= 0;
+            case ResourceType.Lechatelierite:
+                return LechatelieriteAmount <= 0;
+            case ResourceType.Elaliite:
+                return ElaliiteAmount <= 0;
+            case ResourceType.Nothing:
+                return true;
+            default:
+                return true;
         }
     }
 }

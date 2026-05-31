@@ -16,6 +16,6 @@ MonoBehaviour:
   toolName: Drill
   toolDescription: It launches a cable with a drill bit on the end in one direction;
     if it hits an asteroid, it begins extracting its resources.
-  toolIcon: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  toolIcon: {fileID: 21300000, guid: 3d7d8ee249c37ea44aec275ae27fcccd, type: 3}
   toolPrice: 0
-  tool: {fileID: 0}
+  tool: {fileID: 11400000, guid: 867a2525d8a04dd43aa2881dcbf930a8, type: 2}

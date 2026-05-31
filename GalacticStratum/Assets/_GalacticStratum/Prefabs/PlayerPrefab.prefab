@@ -171,7 +171,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -5
   m_MaskInteraction: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 0.68975663, b: 0, a: 0.29411766}
@@ -195,9 +195,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81a3c6d3d25b49746a5677bb6185a2a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAim
+  player: {fileID: 5164564251838243585}
   aimZoneRadius: 10
   isAiming: 0
-  clickInput: {fileID: 0}
+  currentTool: {fileID: 0}
+  leftClickInput: {fileID: -5180914884982539946, guid: f763683b805aa274788d9049077dfc10, type: 3}
+  rightClickInput: {fileID: 5050115576377663979, guid: f763683b805aa274788d9049077dfc10, type: 3}
 --- !u!1 &8619044556369516592
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,9 +214,9 @@ GameObject:
   - component: {fileID: 5164564251838243585}
   - component: {fileID: 7346719970475662528}
   - component: {fileID: 6831088424903405961}
-  - component: {fileID: 1291257139840745126}
+  - component: {fileID: 2394685768094425502}
   m_Layer: 0
-  m_Name: Player
+  m_Name: PlayerPrefab
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -356,6 +359,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 12cf6a95-345f-47f6-9f33-1c9e95f6b6bd
     m_ActionName: 'Player/UseTool[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7b404570-588c-4e1d-8419-b0023e4a2f7a
+    m_ActionName: 'PlayerInStage/RemoveTool[/Mouse/rightButton]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -387,9 +394,9 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!70 &1291257139840745126
-CapsuleCollider2D:
+  m_Constraints: 4
+--- !u!58 &2394685768094425502
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -423,5 +430,4 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1.05, y: 1.69}
-  m_Direction: 0
+  m_Radius: 0.72

@@ -5,28 +5,31 @@ using UnityEngine.EventSystems;
 
 public class PlayerAim : MonoBehaviour
 {
+    [SerializeField] private Player player;
     public float aimZoneRadius;
     public bool isAiming;
 
     public _ToolObject currentTool;
 
-    [SerializeField] private InputActionReference clickInput;
+    [SerializeField] private InputActionReference leftClickInput;
+    [SerializeField] private InputActionReference rightClickInput;
 
     private Camera mainCamera;
-    private RaycastHit2D hit;
 
     private SpriteRenderer aimZoneRenderer;
 
     private void OnEnable()
     {
-        if (clickInput != null) clickInput.action.Enable();
+        if (leftClickInput != null) leftClickInput.action.Enable();
+        if (rightClickInput != null) rightClickInput.action.Enable();
 
         GlobalEvents.OnToolSelected += EquipTool;
     }
 
     private void OnDisable()
     {
-        if (clickInput != null) clickInput.action.Disable();
+        if (leftClickInput != null) leftClickInput.action.Disable();
+        if (rightClickInput != null) rightClickInput.action.Disable();
 
         GlobalEvents.OnToolSelected -= EquipTool;
     }
@@ -41,17 +44,22 @@ public class PlayerAim : MonoBehaviour
     {
         if (isAiming)
         {
-            GenericApplyClick();
+            ApplyClick();
         }
     }
 
-    private void GenericApplyClick()
+    private void ApplyClick()
     {
-        if (clickInput.action.WasReleasedThisFrame())
+        if (rightClickInput.action.WasPressedThisFrame())
+        {
+            TurnOffAim();
+            currentTool = null;
+        }
+
+        if (leftClickInput.action.WasPressedThisFrame())
         {
             if (EventSystem.current.IsPointerOverGameObject())
             {
-                print("Não é válido: O jogador clicou na UI.");
                 return;
             }
 
@@ -61,25 +69,12 @@ public class PlayerAim : MonoBehaviour
 
             print(mouseScreenPosition);
 
-            if (currentTool != null && currentTool.useAim && clickDistance > aimZoneRadius)
+            if (currentTool != null && currentTool.UseAim && clickDistance > aimZoneRadius)
             {
-                print("Não é válido: Fora da mira");
                 return;
             }
 
-            hit = Physics2D.Raycast(mouseWorldPosition, Vector2.zero);
-            if (hit.collider != null)
-            {
-                if (hit.collider.CompareTag("Asteroid") || hit.collider.CompareTag("Player"))
-                {
-                    print("Não é válido: Objeto obstruindo");
-                    return;
-                }
-            }
-            else
-            {
-                print("É válido");
-            }
+            currentTool.OnUse(mouseWorldPosition, player);
         }
     }
 
@@ -111,9 +106,9 @@ public class PlayerAim : MonoBehaviour
     {
         currentTool = tool;
 
-        if (currentTool != null && currentTool.useAim)
+        if (currentTool != null && currentTool.UseAim)
         {
-            aimZoneRadius = currentTool.aimRadius;
+            aimZoneRadius = currentTool.AimRadius;
             AdjustAimZoneSize();
             TurnOnAim();
         }

@@ -1,6 +1,7 @@
+using System;
 using UnityEngine;
 
-public abstract class _ToolObject : MonoBehaviour
+public abstract class _ToolObject : ScriptableObject
 {
     public abstract bool UseAim { get; }
     public abstract float AimRadius { get; }

@@ -32,6 +32,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "RemoveTool",
+                    "type": "Button",
+                    "id": "7b404570-588c-4e1d-8419-b0023e4a2f7a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -114,12 +123,12 @@
                 },
                 {
                     "name": "",
-                    "id": "90777580-3643-4358-857c-37cf823b7c91",
-                    "path": "<Pointer>/press",
+                    "id": "1a018e70-78b8-462f-ba31-be4b5113eda6",
+                    "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Interact",
+                    "action": "RemoveTool",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

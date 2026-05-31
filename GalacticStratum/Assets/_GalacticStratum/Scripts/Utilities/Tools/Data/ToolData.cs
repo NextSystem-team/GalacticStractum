@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "ToolData", menuName = "Scriptable Objects/Tools/ToolData")]
+[CreateAssetMenu(fileName = "ToolData", menuName = "Scriptable Objects/Tools/Tool")]
 public class ToolData : ScriptableObject
 {
     public enum ToolType
@@ -8,7 +8,7 @@ public class ToolData : ScriptableObject
         All,
         Locator,
         Miner,
-        Storage
+        Other
     }
 
     [Header("Tool Information")]

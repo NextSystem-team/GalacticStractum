@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class Drill : MonoBehaviour
@@ -9,11 +10,13 @@ public class Drill : MonoBehaviour
 
     [Header("Drill Settings")]
     [SerializeField] private float drillSpeed;
+    [SerializeField] private float timeToExtractEachResource;
     public Vector2 targetPosition;
 
     public bool canMove = false;
 
-    private AsteroidData asteroidData;
+    private Asteroid currentAsteroid;
+    private AsteroidData currentData;
 
     private void Update()
     {
@@ -28,15 +31,52 @@ public class Drill : MonoBehaviour
 
         if (Vector2.Distance(rope.GetPosition(0), rope.GetPosition(1)) > ropeLength)
         {
-            print("Rope broke!");
             Destroy(gameObject);
         }
 
-        if ((Vector2)transform.position == targetPosition && asteroidData == null)
+        if ((Vector2)transform.position == targetPosition && currentAsteroid == null)
         {
-            print("Drill hit the target position but no asteroid data was found!");
             Destroy(gameObject);
         }
+    }
+
+    private IEnumerator Mine()
+    {
+        yield return new WaitForSeconds(timeToExtractEachResource);
+
+        if (currentData.WaterAmount > 0)
+        {
+            currentData.TakeResource(AsteroidData.ResourceType.Water);
+            print("Extracted Water");
+            StartCoroutine(Mine());
+        }
+        else
+        {
+            AsteroidData.ResourceType randomResource;
+
+            if (currentData.ResourcesQuantity > 0)
+            {
+                while (true)
+                {
+                    randomResource = (AsteroidData.ResourceType)Random.Range(2, (int)AsteroidData.ResourceType.Count);
+                    if (!currentData.CheckIfResourceDepleted(randomResource))
+                    {
+                        break;
+                    }
+                }
+
+                currentData.TakeResource(randomResource);
+                print($"Extracted {randomResource}");
+
+                StartCoroutine(Mine());
+            }
+            else
+            {
+                currentAsteroid.Explode();
+            }
+
+        }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -44,7 +84,11 @@ public class Drill : MonoBehaviour
         if (collision.CompareTag("Asteroid"))
         {
             drillSpeed = 0;
-            asteroidData = collision.transform.parent.GetComponent<Asteroid>().data;
+            targetPosition = transform.position;
+            currentAsteroid = collision.transform.parent.GetComponent<Asteroid>();
+            currentData = currentAsteroid.data;
+
+            StartCoroutine(Mine());
         }
     }
 
