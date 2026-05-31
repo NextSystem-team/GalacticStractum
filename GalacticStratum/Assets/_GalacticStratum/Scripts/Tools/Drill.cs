@@ -13,10 +13,17 @@ public class Drill : MonoBehaviour
     [SerializeField] private float timeToExtractEachResource;
     public Vector2 targetPosition;
 
+    private Vector2 direction;
+
     public bool canMove = false;
 
     private Asteroid currentAsteroid;
     private AsteroidData currentData;
+
+    private void Start()
+    {
+        direction = (targetPosition - (Vector2)startRopePoint.transform.position).normalized;
+    }
 
     private void Update()
     {
@@ -26,7 +33,7 @@ public class Drill : MonoBehaviour
         if (!canMove) return;
 
         // Move the drill towards the target position
-        transform.position = Vector2.MoveTowards(transform.position, targetPosition, drillSpeed * Time.deltaTime);
+        transform.Translate(drillSpeed * Time.deltaTime * direction, Space.World);
         transform.up = transform.position - startRopePoint.transform.position;
 
         if (Vector2.Distance(rope.GetPosition(0), rope.GetPosition(1)) > ropeLength)
@@ -73,6 +80,7 @@ public class Drill : MonoBehaviour
             else
             {
                 currentAsteroid.Explode();
+                Destroy(gameObject);
             }
 
         }

@@ -67,8 +67,6 @@ public class PlayerAim : MonoBehaviour
             Vector2 mouseWorldPosition = mainCamera.ScreenToWorldPoint(mouseScreenPosition);
             float clickDistance = Vector2.Distance(mouseWorldPosition, transform.position);
 
-            print(mouseScreenPosition);
-
             if (currentTool != null && currentTool.UseAim && clickDistance > aimZoneRadius)
             {
                 return;
