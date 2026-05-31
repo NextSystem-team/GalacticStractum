@@ -224,4 +224,23 @@ public class AsteroidData
                 return true;
         }
     }
+
+    public int GetResourceQuantity(ResourceType resourceType)
+    {
+        switch (resourceType)
+        {
+            case ResourceType.Water:
+                return WaterAmount;
+            case ResourceType.Beskarium:
+                return BeskariumAmount;
+            case ResourceType.Peridot:
+                return PeridotAmount;
+            case ResourceType.Lechatelierite:
+                return LechatelieriteAmount;
+            case ResourceType.Elaliite:
+                return ElaliiteAmount;
+            default:
+                return 0;
+        }
+    }
 }
