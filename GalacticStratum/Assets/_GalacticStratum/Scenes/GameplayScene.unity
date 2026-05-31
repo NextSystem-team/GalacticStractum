@@ -1485,7 +1485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1010325426
 SpriteRenderer:
   serializedVersion: 2
@@ -2818,7 +2818,7 @@ GameObject:
   - component: {fileID: 1826055319}
   m_Layer: 0
   m_Name: MapCam
-  m_TagString: Untagged
+  m_TagString: MapCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3120,7 +3120,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 145658f91ffa6104cb1dfd2fb924e42a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReportList
+  reportButtonPrefab: {fileID: 8626879240847189602, guid: 31f3acfcc6c6aa64f84216850ceefa79, type: 3}
+  reportTitlePrefab: {fileID: 8934468069500552450, guid: beffddfef7ad83444a3aef14a132f090, type: 3}
+  reportSubTitlePrefab: {fileID: 6740419029269964314, guid: e36c048bb9392824eba5e4972047b6bb, type: 3}
+  reportResourceAmountPrefab: {fileID: 2503602615251416811, guid: f5b1810720ee46442bff0dc3866d33a2, type: 3}
+  reportResourcePercentagePrefab: {fileID: 2808388889983328051, guid: 89777cd1e03bc554fb97367909cf3679, type: 3}
   reportListButton: {fileID: 1339487846}
+  reportListContent: {fileID: 457878436}
   animationSpeed: 8
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

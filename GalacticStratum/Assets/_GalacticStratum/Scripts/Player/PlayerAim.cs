@@ -7,7 +7,6 @@ public class PlayerAim : MonoBehaviour
 {
     [SerializeField] private Player player;
     public float aimZoneRadius;
-    public bool isAiming;
 
     public _ToolObject currentTool;
 
@@ -42,10 +41,7 @@ public class PlayerAim : MonoBehaviour
 
     private void Update()
     {
-        if (isAiming)
-        {
-            ApplyClick();
-        }
+        ApplyClick();
     }
 
     private void ApplyClick()
@@ -56,7 +52,8 @@ public class PlayerAim : MonoBehaviour
             currentTool = null;
         }
 
-        if (leftClickInput.action.WasPressedThisFrame())
+
+        if (currentTool != null && leftClickInput.action.WasPressedThisFrame())
         {
             if (EventSystem.current.IsPointerOverGameObject())
             {
@@ -89,13 +86,11 @@ public class PlayerAim : MonoBehaviour
 
     public void TurnOffAim()
     {
-        isAiming = false;
         aimZoneRenderer.enabled = false;
     }
 
     public void TurnOnAim()
     {
-        isAiming = true;
         aimZoneRenderer.enabled = true;
         AdjustAimZoneSize();
     }

@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.Splines;
 using UnityEngine.UI;
@@ -6,14 +7,14 @@ public class ReportList : MonoBehaviour
 {
     [Header("Prefabs")]
     [SerializeField] private GameObject reportButtonPrefab;
-    [SerializeField] private Text reportTitlePrefab;
-    [SerializeField] private Text reportSubTitlePrefab;
-    [SerializeField] private Text reportResourceAmountPrefab;
-    [SerializeField] private Text reportResourcePercentagePrefab;
+    [SerializeField] private TextMeshProUGUI reportTitlePrefab;
+    [SerializeField] private TextMeshProUGUI reportSubTitlePrefab;
+    [SerializeField] private TextMeshProUGUI reportResourceAmountPrefab;
+    [SerializeField] private TextMeshProUGUI reportResourcePercentagePrefab;
 
     [Header("List Properties")]
     [SerializeField] private Button reportListButton;
-    [SerializeField] private GameObject reportContent;
+    [SerializeField] private GameObject reportListContent;
     [SerializeField] private float animationSpeed;
 
     private int numberOfReports;
@@ -22,10 +23,10 @@ public class ReportList : MonoBehaviour
 
     private RectTransform reportListPanelTransform;
 
-    private void OnEnable()
-    {
-        GlobalEvents.CreateReport += CreateNewReport;
-    }
+    //private void OnEnable()
+    //{
+    //    GlobalEvents.CreateReport += CreateNewReport;
+    //}
 
     private void OnDisable()
     {
@@ -35,6 +36,7 @@ public class ReportList : MonoBehaviour
     private void Start()
     {
         reportListPanelTransform = GetComponent<RectTransform>();
+        GlobalEvents.CreateReport += CreateNewReport;
 
         reportListButton.onClick.AddListener(ToggleReportList);
     }
@@ -70,15 +72,16 @@ public class ReportList : MonoBehaviour
     {
         numberOfReports++;
 
-        GameObject newReport = Instantiate(reportButtonPrefab, reportContent.transform);
+        GameObject newReport = Instantiate(reportButtonPrefab, reportListContent.transform);
+        GameObject reportContent = newReport.GetComponent<ReportButton>().reportContent;
 
-        Text newReportTitle = Instantiate(reportTitlePrefab, newReport.transform);
-        newReportTitle.text = $"#{numberOfReports.ToString("000")} Report";
+        TextMeshProUGUI newReportTitle = Instantiate(reportTitlePrefab, reportContent.transform);
+        newReportTitle.text = $"#{numberOfReports:000} Report";
 
-        Text newReportSubtitle = Instantiate(reportSubTitlePrefab, newReport.transform);
+        TextMeshProUGUI newReportSubtitle = Instantiate(reportSubTitlePrefab, reportContent.transform);
         newReportSubtitle.text = $"{asteroid.Size.Type} Asteroid";
 
-        Text newReportResourceAmount = Instantiate(reportResourceAmountPrefab, newReport.transform);
+        TextMeshProUGUI newReportResourceAmount = Instantiate(reportResourceAmountPrefab, reportContent.transform);
         newReportResourceAmount.text = $"Resources Amount: {asteroid.ResourcesQuantity}";
 
         for (int i = 1; i < (int)AsteroidData.ResourceType.Count; i++)
@@ -87,9 +90,9 @@ public class ReportList : MonoBehaviour
 
             if (!asteroid.CheckIfResourceDepleted(type))
             {
-                float percentage = (asteroid.GetResourceQuantity(type)/asteroid.ResourcesQuantity)*100f;
+                float percentage = ((float)asteroid.GetResourceAmount(type)/ (float)asteroid.ResourcesQuantity)*100f;
 
-                Text newResourcePercentage = Instantiate(reportResourcePercentagePrefab, newReport.transform);
+                TextMeshProUGUI newResourcePercentage = Instantiate(reportResourcePercentagePrefab, reportContent.transform);
                 newResourcePercentage.text = $"{type}: {percentage:F1}%";
             }
         }

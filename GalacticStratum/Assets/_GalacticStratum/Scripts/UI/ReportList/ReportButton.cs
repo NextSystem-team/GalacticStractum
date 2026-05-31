@@ -3,6 +3,7 @@ using UnityEngine.UI;
 
 public class ReportButton : MonoBehaviour
 {
+    public GameObject reportContent;
     [SerializeField] private float animationSpeed;
 
     private readonly float closedContentHeight = 45f;

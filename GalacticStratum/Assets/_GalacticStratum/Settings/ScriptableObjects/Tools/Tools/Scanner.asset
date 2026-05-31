@@ -15,6 +15,6 @@ MonoBehaviour:
   toolType: 3
   toolName: Scanner
   toolDescription: Select an asteroid to discover what it's hiding.
-  toolIcon: {fileID: 0}
+  toolIcon: {fileID: 1135294915662562172, guid: ea2848afc21254e4a9558ba3c3c31828, type: 3}
   toolPrice: 100
-  tool: {fileID: 0}
+  tool: {fileID: 11400000, guid: d534a652738c6fd4e8cea7cb2110c710, type: 2}

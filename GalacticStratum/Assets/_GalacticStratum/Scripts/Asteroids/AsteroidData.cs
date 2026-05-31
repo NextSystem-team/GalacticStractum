@@ -37,10 +37,10 @@ public class AsteroidData
             MaxResources = maxResources;
         }
 
-        public static readonly AsteroidSize Small = new AsteroidSize(1, 3, AsteroidType.Small, 10);
-        public static readonly AsteroidSize Medium = new AsteroidSize(4, 6, AsteroidType.Medium, 50);
-        public static readonly AsteroidSize Large = new AsteroidSize(7, 11, AsteroidType.Large, 100);
-        public static readonly AsteroidSize Massive = new AsteroidSize(15, 21, AsteroidType.Massive, 200);
+        public static readonly AsteroidSize Small = new AsteroidSize(1, 3, AsteroidType.Small, 30);
+        public static readonly AsteroidSize Medium = new AsteroidSize(4, 6, AsteroidType.Medium, 100);
+        public static readonly AsteroidSize Large = new AsteroidSize(7, 11, AsteroidType.Large, 200);
+        public static readonly AsteroidSize Massive = new AsteroidSize(15, 21, AsteroidType.Massive, 500);
     }
 
     public AsteroidSize Size { get; private set; }
@@ -54,12 +54,12 @@ public class AsteroidData
 
     private readonly Dictionary<ResourceType, int> resources = new()
     {
-        { ResourceType.Nothing, 50 },
-        { ResourceType.Water, 20 },
-        { ResourceType.Beskarium, 8 },
-        { ResourceType.Peridot, 8 },
-        { ResourceType.Lechatelierite, 8 },
-        { ResourceType.Elaliite, 8 }
+        { ResourceType.Nothing, 30 },
+        { ResourceType.Water, 5 },
+        { ResourceType.Beskarium, 16 },
+        { ResourceType.Peridot, 16 },
+        { ResourceType.Lechatelierite, 16 },
+        { ResourceType.Elaliite, 16 }
     };
 
     private readonly Dictionary<AsteroidSize, int> sizes = new()
@@ -67,7 +67,7 @@ public class AsteroidData
         { AsteroidSize.Small, 30 },
         { AsteroidSize.Medium, 50 },
         { AsteroidSize.Large, 20 },
-        { AsteroidSize.Massive, 2 }
+        { AsteroidSize.Massive, 1 }
     };
 
     public AsteroidData()
@@ -225,7 +225,7 @@ public class AsteroidData
         }
     }
 
-    public int GetResourceQuantity(ResourceType resourceType)
+    public int GetResourceAmount(ResourceType resourceType)
     {
         switch (resourceType)
         {

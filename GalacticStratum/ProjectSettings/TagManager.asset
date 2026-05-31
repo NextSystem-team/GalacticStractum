@@ -6,6 +6,7 @@ TagManager:
   tags:
   - FollowerCamera
   - Asteroid
+  - MapCamera
   layers:
   - Default
   - TransparentFX

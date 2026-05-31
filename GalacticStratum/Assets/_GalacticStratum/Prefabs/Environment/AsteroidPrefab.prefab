@@ -199,6 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Asteroid
   brush: {fileID: 1655209446028026972}
+  data: {fileID: 0}
   spritesDatabase: {fileID: 11400000, guid: c6ba76488fc2c244f97addd90924d964, type: 2}
 --- !u!70 &1157266606205811582
 CapsuleCollider2D:
@@ -282,7 +283,7 @@ CapsuleCollider2D:
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
