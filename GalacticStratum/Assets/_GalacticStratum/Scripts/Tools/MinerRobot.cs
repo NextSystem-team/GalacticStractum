@@ -11,7 +11,7 @@ public class MinerRobot : MonoBehaviour
 
     public int waterAmount;
     public int beskariumAmount;
-    public int merriliteAmount;
+    public int whitlockiteAmount;
     public int lechatelieriteAmount;
     public int elaliiteAmount;
 
@@ -87,8 +87,8 @@ public class MinerRobot : MonoBehaviour
             case AsteroidData.ResourceType.Water:
                 waterAmount++;
                 break;
-            case AsteroidData.ResourceType.Merrilite:
-                merriliteAmount++;
+            case AsteroidData.ResourceType.Whitlockite:
+                whitlockiteAmount++;
                 break;
             case AsteroidData.ResourceType.Beskarium:
                 beskariumAmount++;

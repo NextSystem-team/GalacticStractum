@@ -8,7 +8,7 @@ public class AsteroidData
         Nothing,
         Water,
         Beskarium,
-        Merrilite,
+        Whitlockite,
         Lechatelierite,
         Elaliite,
         Count
@@ -57,7 +57,7 @@ public class AsteroidData
         { ResourceType.Nothing, 30 },
         { ResourceType.Water, 2 },
         { ResourceType.Beskarium, 12 },
-        { ResourceType.Merrilite, 12 },
+        { ResourceType.Whitlockite, 12 },
         { ResourceType.Lechatelierite, 12 },
         { ResourceType.Elaliite, 12 }
     };
@@ -139,7 +139,7 @@ public class AsteroidData
                 BeskariumAmount++;
                 ResourcesQuantity++;
                 break;
-            case ResourceType.Merrilite:
+            case ResourceType.Whitlockite:
                 MerriliteAmount++;
                 ResourcesQuantity++;
                 break;
@@ -176,7 +176,7 @@ public class AsteroidData
                     ResourcesQuantity--;
                 }
                 break;
-            case ResourceType.Merrilite:
+            case ResourceType.Whitlockite:
                 if (MerriliteAmount > 0)
                 {
                     MerriliteAmount--;
@@ -212,7 +212,7 @@ public class AsteroidData
                 return WaterAmount <= 0;
             case ResourceType.Beskarium:
                 return BeskariumAmount <= 0;
-            case ResourceType.Merrilite:
+            case ResourceType.Whitlockite:
                 return MerriliteAmount <= 0;
             case ResourceType.Lechatelierite:
                 return LechatelieriteAmount <= 0;
@@ -233,7 +233,7 @@ public class AsteroidData
                 return WaterAmount;
             case ResourceType.Beskarium:
                 return BeskariumAmount;
-            case ResourceType.Merrilite:
+            case ResourceType.Whitlockite:
                 return MerriliteAmount;
             case ResourceType.Lechatelierite:
                 return LechatelieriteAmount;

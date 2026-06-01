@@ -8,7 +8,7 @@ public class PlayerStorage : MonoBehaviour
 
     public float fuelAmount;
     public int beskariumAmount;
-    public int merriliteAmount;
+    public int whitlockiteAmount;
     public int lechatelieriteAmount;
     public int elaliiteAmount;
 
@@ -30,7 +30,7 @@ public class PlayerStorage : MonoBehaviour
         }
 
         beskariumAmount += robot.beskariumAmount;
-        merriliteAmount += robot.merriliteAmount;
+        whitlockiteAmount += robot.whitlockiteAmount;
         lechatelieriteAmount += robot.lechatelieriteAmount;
         elaliiteAmount += robot.elaliiteAmount;
     }
@@ -60,8 +60,8 @@ public class PlayerStorage : MonoBehaviour
             case AsteroidData.ResourceType.Beskarium:
                 beskariumAmount++;
                 break;
-            case AsteroidData.ResourceType.Merrilite:
-                merriliteAmount++;
+            case AsteroidData.ResourceType.Whitlockite:
+                whitlockiteAmount++;
                 break;
             case AsteroidData.  ResourceType.Lechatelierite:
                 lechatelieriteAmount++;

@@ -7,7 +7,7 @@ public class PlayerData
     public int moneyAmount;
 
     public int beskariumAmount;
-    public int merriliteAmount;
+    public int whitlockiteAmount;
     public int lechatelieriteAmount;
     public int elaliiteAmount;
 
@@ -20,6 +20,7 @@ public class GameData
     public float sfxVolume;
 
     public int currentMoneyGoal;
+    public int timeToReachGoal;
 }
 
 public static class SaveManager
@@ -53,7 +54,8 @@ public static class SaveManager
             {
                 musicVolume = 0.5f,
                 sfxVolume = 0.5f,
-                currentMoneyGoal = 5000
+                currentMoneyGoal = 5000,
+                timeToReachGoal = 3
             };
         }
 

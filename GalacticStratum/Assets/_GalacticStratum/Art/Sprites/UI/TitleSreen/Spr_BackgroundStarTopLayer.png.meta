@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 757c5743971a768489135d4cbc9e9904
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7428437897894594146
+    second: Spr_BackgroundStarTopLayer_0
+  - first:
+      213: 8383845006316737265
+    second: Spr_BackgroundStarTopLayer_1
+  - first:
+      213: 3301767032395988086
+    second: Spr_BackgroundStarTopLayer_2
+  - first:
+      213: -2504966019908902353
+    second: Spr_BackgroundStarTopLayer_3
+  - first:
+      213: 8228481550493302587
+    second: Spr_BackgroundStarTopLayer_4
+  - first:
+      213: 2353320839624768069
+    second: Spr_BackgroundStarTopLayer_5
+  - first:
+      213: -5972462618405372418
+    second: Spr_BackgroundStarTopLayer_6
+  - first:
+      213: -1701764522798359450
+    second: Spr_BackgroundStarTopLayer_7
+  - first:
+      213: 3638755073235408481
+    second: Spr_BackgroundStarTopLayer_8
+  - first:
+      213: 2816049131323493912
+    second: Spr_BackgroundStarTopLayer_9
+  - first:
+      213: 1726207425048413285
+    second: Spr_BackgroundStarTopLayer_10
+  - first:
+      213: -8943263468571328500
+    second: Spr_BackgroundStarTopLayer_11
+  - first:
+      213: 8569235964637471104
+    second: Spr_BackgroundStarTopLayer_12
+  - first:
+      213: -4807807358543062033
+    second: Spr_BackgroundStarTopLayer_13
+  - first:
+      213: 980934678352428910
+    second: Spr_BackgroundStarTopLayer_14
+  - first:
+      213: -5732861328218194587
+    second: Spr_BackgroundStarTopLayer_15
+  - first:
+      213: 452816124551350014
+    second: Spr_BackgroundStarTopLayer_16
+  - first:
+      213: 606231375709177061
+    second: Spr_BackgroundStarTopLayer_17
+  - first:
+      213: 3043935383523345020
+    second: Spr_BackgroundStarTopLayer_18
+  - first:
+      213: 387743878003767131
+    second: Spr_BackgroundStarTopLayer_19
+  - first:
+      213: -2858210490495425207
+    second: Spr_BackgroundStarTopLayer_20
+  - first:
+      213: 5297542370636852760
+    second: Spr_BackgroundStarTopLayer_21
+  - first:
+      213: 8904575394301578635
+    second: Spr_BackgroundStarTopLayer_22
+  - first:
+      213: -7687800644419855890
+    second: Spr_BackgroundStarTopLayer_23
+  - first:
+      213: 7864291413766047830
+    second: Spr_BackgroundStarTopLayer_24
+  - first:
+      213: 7669207348623979770
+    second: Spr_BackgroundStarTopLayer_25
+  - first:
+      213: 2526995680172266373
+    second: Spr_BackgroundStarTopLayer_26
+  - first:
+      213: -7641039830116655238
+    second: Spr_BackgroundStarTopLayer_27
+  - first:
+      213: 181512414906921889
+    second: Spr_BackgroundStarTopLayer_28
+  - first:
+      213: -1127877227433406518
+    second: Spr_BackgroundStarTopLayer_29
+  - first:
+      213: 1226656894971064321
+    second: Spr_BackgroundStarTopLayer_30
+  - first:
+      213: -4648795329602175315
+    second: Spr_BackgroundStarTopLayer_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_0
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 111
+        width: 68
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2668e0c19ec171760800000000000000
+      internalID: 7428437897894594146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 93
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2117d1d96695470800000000000000
+      internalID: 8383845006316737265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 181
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cfe095f9b32dd20800000000000000
+      internalID: 3301767032395988086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 135
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22e7e04da29c3dd0800000000000000
+      internalID: -2504966019908902353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 37
+        width: 126
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f3202bf50713270800000000000000
+      internalID: 8228481550493302587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 175
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54abb50d5dca8a020800000000000000
+      internalID: 2353320839624768069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_6
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efdf5ab54ec8d1da0800000000000000
+      internalID: -5972462618405372418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 139
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cdd3fce2e1268e0800000000000000
+      internalID: -1701764522798359450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_8
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 101
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166d8dcc5747f7230800000000000000
+      internalID: 3638755073235408481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_9
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 195
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e859ec3cd941720800000000000000
+      internalID: 2816049131323493912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_10
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 193
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56407aad188b4f710800000000000000
+      internalID: 1726207425048413285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_11
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 173
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00041f324523e380800000000000000
+      internalID: -8943263468571328500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_12
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 157
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081e7b445ba0ce670800000000000000
+      internalID: 8569235964637471104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 205
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb18852eac374db0800000000000000
+      internalID: -4807807358543062033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_14
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 115
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ffe0b84eafc9d00800000000000000
+      internalID: 980934678352428910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_15
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 135
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56dfaf8fef8c070b0800000000000000
+      internalID: -5732861328218194587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_16
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 187
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6c37cbdd9b84600800000000000000
+      internalID: 452816124551350014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_17
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 213
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e487d86934c96800800000000000000
+      internalID: 606231375709177061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_18
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 167
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72c6269a1b3e3a20800000000000000
+      internalID: 3043935383523345020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_19
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 133
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b573f30b00b816500800000000000000
+      internalID: 387743878003767131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_20
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 165
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945a9bcc3b89558d0800000000000000
+      internalID: -2858210490495425207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_21
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 127
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ee360f7b6a48940800000000000000
+      internalID: 5297542370636852760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_22
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 141
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d87058428639b70800000000000000
+      internalID: 8904575394301578635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_23
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 51
+        width: 28
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9d55dab027f4590800000000000000
+      internalID: -7687800644419855890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_24
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 139
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6580eafbf53932d60800000000000000
+      internalID: 7864291413766047830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_25
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 125
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af43c8b437f7e6a60800000000000000
+      internalID: 7669207348623979770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_26
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 133
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5835d99be21b11320800000000000000
+      internalID: 2526995680172266373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_27
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 141
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f194b22c295f590800000000000000
+      internalID: -7641039830116655238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_28
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 125
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3b9d4649cd48200800000000000000
+      internalID: 181512414906921889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_29
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 169
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf449c23a9f850f0800000000000000
+      internalID: -1127877227433406518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_30
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 107
+        width: 44
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100b80662f5f50110800000000000000
+      internalID: 1226656894971064321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_BackgroundStarTopLayer_31
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 79
+        width: 10
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae319137492c7fb0800000000000000
+      internalID: -4648795329602175315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spr_BackgroundStarTopLayer_0: 7428437897894594146
+      Spr_BackgroundStarTopLayer_1: 8383845006316737265
+      Spr_BackgroundStarTopLayer_10: 1726207425048413285
+      Spr_BackgroundStarTopLayer_11: -8943263468571328500
+      Spr_BackgroundStarTopLayer_12: 8569235964637471104
+      Spr_BackgroundStarTopLayer_13: -4807807358543062033
+      Spr_BackgroundStarTopLayer_14: 980934678352428910
+      Spr_BackgroundStarTopLayer_15: -5732861328218194587
+      Spr_BackgroundStarTopLayer_16: 452816124551350014
+      Spr_BackgroundStarTopLayer_17: 606231375709177061
+      Spr_BackgroundStarTopLayer_18: 3043935383523345020
+      Spr_BackgroundStarTopLayer_19: 387743878003767131
+      Spr_BackgroundStarTopLayer_2: 3301767032395988086
+      Spr_BackgroundStarTopLayer_20: -2858210490495425207
+      Spr_BackgroundStarTopLayer_21: 5297542370636852760
+      Spr_BackgroundStarTopLayer_22: 8904575394301578635
+      Spr_BackgroundStarTopLayer_23: -7687800644419855890
+      Spr_BackgroundStarTopLayer_24: 7864291413766047830
+      Spr_BackgroundStarTopLayer_25: 7669207348623979770
+      Spr_BackgroundStarTopLayer_26: 2526995680172266373
+      Spr_BackgroundStarTopLayer_27: -7641039830116655238
+      Spr_BackgroundStarTopLayer_28: 181512414906921889
+      Spr_BackgroundStarTopLayer_29: -1127877227433406518
+      Spr_BackgroundStarTopLayer_3: -2504966019908902353
+      Spr_BackgroundStarTopLayer_30: 1226656894971064321
+      Spr_BackgroundStarTopLayer_31: -4648795329602175315
+      Spr_BackgroundStarTopLayer_4: 8228481550493302587
+      Spr_BackgroundStarTopLayer_5: 2353320839624768069
+      Spr_BackgroundStarTopLayer_6: -5972462618405372418
+      Spr_BackgroundStarTopLayer_7: -1701764522798359450
+      Spr_BackgroundStarTopLayer_8: 3638755073235408481
+      Spr_BackgroundStarTopLayer_9: 2816049131323493912
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
