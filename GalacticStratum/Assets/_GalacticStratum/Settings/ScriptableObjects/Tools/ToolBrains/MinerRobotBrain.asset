@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6baa915611797340ad7be9c1ed5217b, type: 3}
+  m_Name: MinerRobotBrain
+  m_EditorClassIdentifier: Assembly-CSharp::MinerRobotObject
+  minerRobotPrefab: {fileID: 2111639102646139708, guid: bf192ca185c5bb74382f87dd9a3811c6, type: 3}
+  persistentMap: {fileID: 8400000, guid: 6902cc2f36c2e0e48817d2544e86a36e, type: 2}

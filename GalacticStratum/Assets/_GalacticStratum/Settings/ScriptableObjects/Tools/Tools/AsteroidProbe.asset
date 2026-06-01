@@ -15,6 +15,6 @@ MonoBehaviour:
   toolType: 1
   toolName: Asteroid Probe
   toolDescription: Emits a probe that reveal nearby Asteroids.
-  toolIcon: {fileID: -3021494556208450697, guid: c259cc8227c4e8749bd58e35c093e8ae, type: 3}
+  toolIcon: {fileID: 21300000, guid: b0b45149866ec614da3356109945712b, type: 3}
   toolPrice: 500
   tool: {fileID: 11400000, guid: f29cb32f1e5ea9b4a8fc5a2228ec596b, type: 2}

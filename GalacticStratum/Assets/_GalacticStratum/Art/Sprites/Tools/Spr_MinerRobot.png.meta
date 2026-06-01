@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3d7d8ee249c37ea44aec275ae27fcccd
+guid: c6339bf083d6ec546975c21b991b936b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3636851752059315231
-    second: Spr_Drill_0
+      213: 7648134806868481675
+    second: Spr_MinerRobot_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -48,11 +48,11 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
-  spriteBorder: {x: 92, y: 52, z: 96, w: 60}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -139,23 +139,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spr_Drill_0
+      name: Spr_MinerRobot_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 51
-        width: 70
-        height: 146
+        x: 35
+        y: 19
+        width: 186
+        height: 218
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f14a04e4661b87230800000000000000
-      internalID: 3636851752059315231
+      spriteID: b8652b5d512a32a60800000000000000
+      internalID: 7648134806868481675
       vertices: []
       indices: 
       edges: []
@@ -165,7 +165,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Spr_Drill_0: 3636851752059315231
+      Spr_MinerRobot_0: 7648134806868481675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

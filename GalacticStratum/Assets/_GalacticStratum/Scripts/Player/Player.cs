@@ -102,4 +102,13 @@ public class Player : MonoBehaviour
             confiner.InvalidateBoundingShapeCache();
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("MinerRobot"))
+        {
+            print("Robô recolhido");
+            Destroy(collision.gameObject);
+        }
+    }
 }

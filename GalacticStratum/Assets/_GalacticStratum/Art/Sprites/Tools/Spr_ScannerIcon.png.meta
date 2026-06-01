@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3d7d8ee249c37ea44aec275ae27fcccd
+guid: 09fe4447512a1614c9f283cfebd0647d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3636851752059315231
-    second: Spr_Drill_0
+      213: 693985695704024172
+    second: Spr_ScannerIcon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +52,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 92, y: 52, z: 96, w: 60}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -139,23 +139,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spr_Drill_0
+      name: Spr_ScannerIcon_0
       rect:
         serializedVersion: 2
-        x: 91
-        y: 51
-        width: 70
-        height: 146
+        x: 59
+        y: 59
+        width: 134
+        height: 134
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f14a04e4661b87230800000000000000
-      internalID: 3636851752059315231
+      spriteID: c6404a7305881a900800000000000000
+      internalID: 693985695704024172
       vertices: []
       indices: 
       edges: []
@@ -165,7 +165,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Spr_Drill_0: 3636851752059315231
+      Spr_ScannerIcon_0: 693985695704024172
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
