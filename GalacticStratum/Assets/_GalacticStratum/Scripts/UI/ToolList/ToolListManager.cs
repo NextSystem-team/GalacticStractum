@@ -34,7 +34,10 @@ public class ToolListManager : MonoBehaviour
         {
             if (category == ToolData.ToolType.All || tool.Type == category)
             {
-                CreateToolButton(tool);
+                if (SaveManager.CheckIfHasTool(tool.ToolID))
+                {
+                    CreateToolButton(tool);
+                }
             }
         }
     }

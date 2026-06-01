@@ -197,7 +197,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerAim
   player: {fileID: 5164564251838243585}
   aimZoneRadius: 10
-  isAiming: 0
   currentTool: {fileID: 0}
   leftClickInput: {fileID: -5180914884982539946, guid: f763683b805aa274788d9049077dfc10, type: 3}
   rightClickInput: {fileID: 5050115576377663979, guid: f763683b805aa274788d9049077dfc10, type: 3}
@@ -211,10 +210,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2860380159066130956}
   - component: {fileID: 1711398122624498582}
-  - component: {fileID: 5164564251838243585}
   - component: {fileID: 7346719970475662528}
   - component: {fileID: 6831088424903405961}
   - component: {fileID: 2394685768094425502}
+  - component: {fileID: 5164564251838243585}
+  - component: {fileID: 4607074020452294400}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Player
@@ -298,30 +298,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &5164564251838243585
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8619044556369516592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: edf426d4f27389949aa4d6ff53785cc2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Player
-  maxSpeed: 20
-  secondsToReachMaxSpeed: 3
-  secondsToStop: 1
-  rotationSpeed: 100
-  driftFactor: 0.1
-  move: {fileID: -3591443006272381160, guid: f763683b805aa274788d9049077dfc10, type: 3}
-  zoom: {fileID: 473418938978225786, guid: f763683b805aa274788d9049077dfc10, type: 3}
-  mainCamera: {fileID: 0}
-  map: {fileID: 0}
-  zoomSpeed: 2.5
-  minZoom: 5
-  maxZoom: 50
 --- !u!114 &7346719970475662528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -431,3 +407,46 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.72
+--- !u!114 &5164564251838243585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8619044556369516592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: edf426d4f27389949aa4d6ff53785cc2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player
+  maxSpeed: 20
+  secondsToReachMaxSpeed: 3
+  secondsToStop: 1
+  rotationSpeed: 100
+  driftFactor: 0.1
+  move: {fileID: -3591443006272381160, guid: f763683b805aa274788d9049077dfc10, type: 3}
+  zoom: {fileID: 473418938978225786, guid: f763683b805aa274788d9049077dfc10, type: 3}
+  mainCamera: {fileID: 0}
+  map: {fileID: 0}
+  zoomSpeed: 2.5
+  minZoom: 5
+  maxZoom: 50
+--- !u!114 &4607074020452294400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8619044556369516592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a26d1760bc60d54a9029697e343b4c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerStorage
+  maxFuel: 100
+  fuelLossBySecond: 1
+  fuelAmount: 0
+  beskariumAmount: 0
+  peridotAmount: 0
+  lechatelieriteAmount: 0
+  elaliiteAmount: 0

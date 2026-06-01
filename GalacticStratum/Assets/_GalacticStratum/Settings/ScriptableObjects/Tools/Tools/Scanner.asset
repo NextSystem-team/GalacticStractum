@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950cd9db25c88434482ffd6c4577dde0, type: 3}
   m_Name: Scanner
   m_EditorClassIdentifier: Assembly-CSharp::ToolData
+  toolID: tScanner
   toolType: 3
   toolName: Scanner
   toolDescription: Select an asteroid to discover what it's hiding.

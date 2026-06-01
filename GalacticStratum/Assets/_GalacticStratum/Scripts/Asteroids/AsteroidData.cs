@@ -8,7 +8,7 @@ public class AsteroidData
         Nothing,
         Water,
         Beskarium,
-        Peridot,
+        Merrilite,
         Lechatelierite,
         Elaliite,
         Count
@@ -47,7 +47,7 @@ public class AsteroidData
     public int ResourcesQuantity { get; private set; }
     public int WaterAmount { get; private set; }
     public int BeskariumAmount { get; private set; }
-    public int PeridotAmount { get; private set; }
+    public int MerriliteAmount { get; private set; }
     public int LechatelieriteAmount { get; private set; }
     public int ElaliiteAmount { get; private set; }
     public Asteroid Asteroid { get; set; }
@@ -57,7 +57,7 @@ public class AsteroidData
         { ResourceType.Nothing, 30 },
         { ResourceType.Water, 2 },
         { ResourceType.Beskarium, 12 },
-        { ResourceType.Peridot, 12 },
+        { ResourceType.Merrilite, 12 },
         { ResourceType.Lechatelierite, 12 },
         { ResourceType.Elaliite, 12 }
     };
@@ -80,7 +80,7 @@ public class AsteroidData
             AddResource(resourceType);
         }
 
-        ResourcesQuantity = WaterAmount + BeskariumAmount + PeridotAmount + LechatelieriteAmount + ElaliiteAmount;
+        ResourcesQuantity = WaterAmount + BeskariumAmount + MerriliteAmount + LechatelieriteAmount + ElaliiteAmount;
     }
 
     private ResourceType RandomPickResource()
@@ -139,8 +139,8 @@ public class AsteroidData
                 BeskariumAmount++;
                 ResourcesQuantity++;
                 break;
-            case ResourceType.Peridot:
-                PeridotAmount++;
+            case ResourceType.Merrilite:
+                MerriliteAmount++;
                 ResourcesQuantity++;
                 break;
             case ResourceType.Lechatelierite:
@@ -176,10 +176,10 @@ public class AsteroidData
                     ResourcesQuantity--;
                 }
                 break;
-            case ResourceType.Peridot:
-                if (PeridotAmount > 0)
+            case ResourceType.Merrilite:
+                if (MerriliteAmount > 0)
                 {
-                    PeridotAmount--;
+                    MerriliteAmount--;
                     ResourcesQuantity--;
                 }
                 break;
@@ -212,8 +212,8 @@ public class AsteroidData
                 return WaterAmount <= 0;
             case ResourceType.Beskarium:
                 return BeskariumAmount <= 0;
-            case ResourceType.Peridot:
-                return PeridotAmount <= 0;
+            case ResourceType.Merrilite:
+                return MerriliteAmount <= 0;
             case ResourceType.Lechatelierite:
                 return LechatelieriteAmount <= 0;
             case ResourceType.Elaliite:
@@ -233,8 +233,8 @@ public class AsteroidData
                 return WaterAmount;
             case ResourceType.Beskarium:
                 return BeskariumAmount;
-            case ResourceType.Peridot:
-                return PeridotAmount;
+            case ResourceType.Merrilite:
+                return MerriliteAmount;
             case ResourceType.Lechatelierite:
                 return LechatelieriteAmount;
             case ResourceType.Elaliite:

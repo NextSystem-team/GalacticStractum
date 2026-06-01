@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950cd9db25c88434482ffd6c4577dde0, type: 3}
   m_Name: AsteroidProbe
   m_EditorClassIdentifier: Assembly-CSharp::ToolData
+  toolID: tProbe
   toolType: 1
   toolName: Asteroid Probe
   toolDescription: Emits a probe that reveal nearby Asteroids.

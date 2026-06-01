@@ -12,6 +12,7 @@ public class ToolData : ScriptableObject
     }
 
     [Header("Tool Information")]
+    [SerializeField] private string toolID;
     [SerializeField] private ToolType toolType;
     [SerializeField] private string toolName;
     [SerializeField] private string toolDescription;
@@ -21,6 +22,7 @@ public class ToolData : ScriptableObject
     [SerializeField] private int toolPrice;
     [SerializeField] private _ToolObject tool;
 
+    public string ToolID => toolID;
     public ToolType Type => toolType;
     public string Name => toolName;
     public string Description => toolDescription;

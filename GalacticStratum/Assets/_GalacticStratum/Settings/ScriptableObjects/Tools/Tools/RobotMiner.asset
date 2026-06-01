@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950cd9db25c88434482ffd6c4577dde0, type: 3}
   m_Name: RobotMiner
   m_EditorClassIdentifier: Assembly-CSharp::ToolData
+  toolID: tRobotMiner
   toolType: 2
   toolName: Miner Robot
   toolDescription: A robot that can autonomously mine an asteroid and then deliver

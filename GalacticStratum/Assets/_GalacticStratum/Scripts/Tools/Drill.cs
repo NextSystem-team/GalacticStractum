@@ -6,6 +6,7 @@ public class Drill : MonoBehaviour
     [Header("Rope Settings")]
     [SerializeField] private LineRenderer rope;
     public Player startRopePoint;
+    private PlayerStorage storage;
     public float ropeLength;
 
     [Header("Drill Settings")]
@@ -23,6 +24,8 @@ public class Drill : MonoBehaviour
     private void Start()
     {
         direction = (targetPosition - (Vector2)startRopePoint.transform.position).normalized;
+
+        storage = startRopePoint.GetComponent<PlayerStorage>();
     }
 
     private void Update()
@@ -54,7 +57,8 @@ public class Drill : MonoBehaviour
         if (currentData.WaterAmount > 0)
         {
             currentData.TakeResource(AsteroidData.ResourceType.Water);
-            print("Extracted Water");
+            storage.AddResource(AsteroidData.ResourceType.Water);
+
             StartCoroutine(Mine());
         }
         else
@@ -73,7 +77,7 @@ public class Drill : MonoBehaviour
                 }
 
                 currentData.TakeResource(randomResource);
-                print($"Extracted {randomResource}");
+                storage.AddResource(randomResource);
 
                 StartCoroutine(Mine());
             }
@@ -96,7 +100,6 @@ public class Drill : MonoBehaviour
             currentAsteroid = collision.transform.parent.GetComponent<Asteroid>();
             currentData = currentAsteroid.data;
 
-            currentAsteroid.RevealAsteroid();
             StartCoroutine(Mine());
         }
     }

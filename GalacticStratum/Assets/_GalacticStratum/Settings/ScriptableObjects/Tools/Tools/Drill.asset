@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 950cd9db25c88434482ffd6c4577dde0, type: 3}
   m_Name: Drill
   m_EditorClassIdentifier: Assembly-CSharp::ToolData
+  toolID: tDrill
   toolType: 2
   toolName: Drill
   toolDescription: It launches a cable with a drill bit on the end in one direction;
