@@ -1,0 +1,1534 @@
+fileFormatVersion: 2
+guid: dec5a45f971c3b04e83eecd5111f50bc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6191218034199213866
+    second: Spr_FogStarsLastLayer_0
+  - first:
+      213: -2721981612030869625
+    second: Spr_FogStarsLastLayer_1
+  - first:
+      213: -4594594034588322285
+    second: Spr_FogStarsLastLayer_2
+  - first:
+      213: -1677703123817928896
+    second: Spr_FogStarsLastLayer_3
+  - first:
+      213: -1284677777607715370
+    second: Spr_FogStarsLastLayer_4
+  - first:
+      213: -6953452415773778694
+    second: Spr_FogStarsLastLayer_5
+  - first:
+      213: 8180066960261670433
+    second: Spr_FogStarsLastLayer_6
+  - first:
+      213: -7565877517500888306
+    second: Spr_FogStarsLastLayer_7
+  - first:
+      213: 4545167467939749276
+    second: Spr_FogStarsLastLayer_8
+  - first:
+      213: -51965417956720669
+    second: Spr_FogStarsLastLayer_9
+  - first:
+      213: 7971616620193201092
+    second: Spr_FogStarsLastLayer_10
+  - first:
+      213: 1902379244679822420
+    second: Spr_FogStarsLastLayer_11
+  - first:
+      213: -1585442481980018858
+    second: Spr_FogStarsLastLayer_12
+  - first:
+      213: -5541806193292717109
+    second: Spr_FogStarsLastLayer_13
+  - first:
+      213: -8700010205485994687
+    second: Spr_FogStarsLastLayer_14
+  - first:
+      213: 241832490812047753
+    second: Spr_FogStarsLastLayer_15
+  - first:
+      213: 2219633995997480625
+    second: Spr_FogStarsLastLayer_16
+  - first:
+      213: -1610761750636565322
+    second: Spr_FogStarsLastLayer_17
+  - first:
+      213: -1386914389433708656
+    second: Spr_FogStarsLastLayer_18
+  - first:
+      213: 2213241859197065010
+    second: Spr_FogStarsLastLayer_19
+  - first:
+      213: 7455223261318601279
+    second: Spr_FogStarsLastLayer_20
+  - first:
+      213: 2589246970478566569
+    second: Spr_FogStarsLastLayer_21
+  - first:
+      213: 1573853853247716840
+    second: Spr_FogStarsLastLayer_22
+  - first:
+      213: -2733660103322052341
+    second: Spr_FogStarsLastLayer_23
+  - first:
+      213: 5862166133647981346
+    second: Spr_FogStarsLastLayer_24
+  - first:
+      213: -5352748831459228743
+    second: Spr_FogStarsLastLayer_25
+  - first:
+      213: 1308261179310702848
+    second: Spr_FogStarsLastLayer_26
+  - first:
+      213: -4049174738711624949
+    second: Spr_FogStarsLastLayer_27
+  - first:
+      213: 1768863503632427766
+    second: Spr_FogStarsLastLayer_28
+  - first:
+      213: 5686762006693183692
+    second: Spr_FogStarsLastLayer_29
+  - first:
+      213: -4854292884841866969
+    second: Spr_FogStarsLastLayer_30
+  - first:
+      213: -7993722613668591322
+    second: Spr_FogStarsLastLayer_31
+  - first:
+      213: 3606631483978982087
+    second: Spr_FogStarsLastLayer_32
+  - first:
+      213: 6828523588184313701
+    second: Spr_FogStarsLastLayer_33
+  - first:
+      213: 599446014714147681
+    second: Spr_FogStarsLastLayer_34
+  - first:
+      213: 556718567191227067
+    second: Spr_FogStarsLastLayer_35
+  - first:
+      213: -2803751547936310219
+    second: Spr_FogStarsLastLayer_36
+  - first:
+      213: 2632627802001357944
+    second: Spr_FogStarsLastLayer_37
+  - first:
+      213: -6867263585893769720
+    second: Spr_FogStarsLastLayer_38
+  - first:
+      213: 2447747080778789794
+    second: Spr_FogStarsLastLayer_39
+  - first:
+      213: 3869614604592793879
+    second: Spr_FogStarsLastLayer_40
+  - first:
+      213: 3717892863184936216
+    second: Spr_FogStarsLastLayer_41
+  - first:
+      213: 3517634969880436333
+    second: Spr_FogStarsLastLayer_42
+  - first:
+      213: 4028150549229927304
+    second: Spr_FogStarsLastLayer_43
+  - first:
+      213: 4914060362513369499
+    second: Spr_FogStarsLastLayer_44
+  - first:
+      213: 150495573572451415
+    second: Spr_FogStarsLastLayer_45
+  - first:
+      213: 4084047243721719733
+    second: Spr_FogStarsLastLayer_46
+  - first:
+      213: 4318090157432948734
+    second: Spr_FogStarsLastLayer_47
+  - first:
+      213: 4834120014710790124
+    second: Spr_FogStarsLastLayer_48
+  - first:
+      213: 6904385486405005883
+    second: Spr_FogStarsLastLayer_49
+  - first:
+      213: 8242168755855048839
+    second: Spr_FogStarsLastLayer_50
+  - first:
+      213: -1981242739827021050
+    second: Spr_FogStarsLastLayer_51
+  - first:
+      213: -6549570127166961623
+    second: Spr_FogStarsLastLayer_52
+  - first:
+      213: -6046532657305698768
+    second: Spr_FogStarsLastLayer_53
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 257
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27bf67efff9be550800000000000000
+      internalID: 6191218034199213866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 213
+        width: 50
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f31c14524993ad0800000000000000
+      internalID: -2721981612030869625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 265
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316fb399119bc30c0800000000000000
+      internalID: -4594594034588322285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_3
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 291
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047e442d5e997b8e0800000000000000
+      internalID: -1677703123817928896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_4
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 183
+        width: 128
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d59ad62e58eb2ee0800000000000000
+      internalID: -1284677777607715370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_5
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 273
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcd83b6edf508f90800000000000000
+      internalID: -6953452415773778694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_6
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 285
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1266e4d7f8f658170800000000000000
+      internalID: 8180066960261670433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_7
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 233
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bce3bcb7a900790800000000000000
+      internalID: -7565877517500888306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9dd5331bbda31f30800000000000000
+      internalID: 4545167467939749276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_9
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 217
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efb51a4ab1674ff0800000000000000
+      internalID: -51965417956720669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 241
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb3734a41fd0ae60800000000000000
+      internalID: 7971616620193201092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_11
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 225
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c773308db966a10800000000000000
+      internalID: 1902379244679822420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_12
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 227
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f64c176706ff9e0800000000000000
+      internalID: -1585442481980018858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_13
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 223
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc35ab201ac8713b0800000000000000
+      internalID: -5541806193292717109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_14
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 223
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14debbf00da534780800000000000000
+      internalID: -8700010205485994687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_15
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 229
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981000e7e592b5300800000000000000
+      internalID: 241832490812047753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b68fc6fb59bdce10800000000000000
+      internalID: 2219633995997480625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 133
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc6583d8bc65a9e0800000000000000
+      internalID: -1610761750636565322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 125
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f0de306b0b0cce0800000000000000
+      internalID: -1386914389433708656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_19
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2375773aeb307be10800000000000000
+      internalID: 2213241859197065010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_20
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 121
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3adf148e06467760800000000000000
+      internalID: 7455223261318601279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_21
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 159
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac9127b66adee320800000000000000
+      internalID: 2589246970478566569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_22
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 205
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edb53badb377d510800000000000000
+      internalID: 1573853853247716840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_23
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 99
+        width: 70
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09d4dc9e96101ad0800000000000000
+      internalID: -2733660103322052341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_24
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 144
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bb96a1a099a5150800000000000000
+      internalID: 5862166133647981346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_25
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 199
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b34cf04c4737b5b0800000000000000
+      internalID: -5352748831459228743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_26
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 183
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0018f327c90e72210800000000000000
+      internalID: 1308261179310702848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_27
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 181
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03cb9157017ec7c0800000000000000
+      internalID: -4049174738711624949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_28
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 105
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fae9261cf34c8810800000000000000
+      internalID: 1768863503632427766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_29
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 145
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc082235aef6bee40800000000000000
+      internalID: 5686762006693183692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_30
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 93
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7295b43275612acb0800000000000000
+      internalID: -4854292884841866969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_31
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 79
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629c64ba2a7901190800000000000000
+      internalID: -7993722613668591322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_32
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 53
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2ae46d9345d0230800000000000000
+      internalID: 3606631483978982087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_33
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 69
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f0a1e360ac3ce50800000000000000
+      internalID: 6828523588184313701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_34
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 71
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1637f0179f8a15800800000000000000
+      internalID: 599446014714147681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_35
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 45
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bba2c45569cd9b700800000000000000
+      internalID: 556718567191227067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_36
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 63
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cfdc272d21719d0800000000000000
+      internalID: -2803751547936310219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_37
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cbb14a909f88420800000000000000
+      internalID: 2632627802001357944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_38
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 69
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e93d7272492b0a0800000000000000
+      internalID: -6867263585893769720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_39
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 23
+        width: 19
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3b1d1500528f120800000000000000
+      internalID: 2447747080778789794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_40
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719ca641bf1a3b530800000000000000
+      internalID: 3869614604592793879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_41
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d191f5cdb989330800000000000000
+      internalID: 3717892863184936216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e173d2e5621d030800000000000000
+      internalID: 3517634969880436333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_43
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 37
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88bf4ac159dd6e730800000000000000
+      internalID: 4028150549229927304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_44
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99cf682ddf323440800000000000000
+      internalID: 4914060362513369499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_45
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cfd034deaa61200800000000000000
+      internalID: 150495573572451415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_46
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf32f774537da830800000000000000
+      internalID: 4084047243721719733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_47
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 9
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7c6e5be10fceb30800000000000000
+      internalID: 4318090157432948734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_48
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce751768a8e361340800000000000000
+      internalID: 4834120014710790124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_49
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 11
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b327885d40e41df50800000000000000
+      internalID: 6904385486405005883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_50
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780409780d0126270800000000000000
+      internalID: 8242168755855048839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_51
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60be9c6a9363184e0800000000000000
+      internalID: -1981242739827021050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_52
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92804b2aba04b15a0800000000000000
+      internalID: -6549570127166961623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_FogStarsLastLayer_53
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ebe768596661ca0800000000000000
+      internalID: -6046532657305698768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spr_FogStarsLastLayer_0: 6191218034199213866
+      Spr_FogStarsLastLayer_1: -2721981612030869625
+      Spr_FogStarsLastLayer_10: 7971616620193201092
+      Spr_FogStarsLastLayer_11: 1902379244679822420
+      Spr_FogStarsLastLayer_12: -1585442481980018858
+      Spr_FogStarsLastLayer_13: -5541806193292717109
+      Spr_FogStarsLastLayer_14: -8700010205485994687
+      Spr_FogStarsLastLayer_15: 241832490812047753
+      Spr_FogStarsLastLayer_16: 2219633995997480625
+      Spr_FogStarsLastLayer_17: -1610761750636565322
+      Spr_FogStarsLastLayer_18: -1386914389433708656
+      Spr_FogStarsLastLayer_19: 2213241859197065010
+      Spr_FogStarsLastLayer_2: -4594594034588322285
+      Spr_FogStarsLastLayer_20: 7455223261318601279
+      Spr_FogStarsLastLayer_21: 2589246970478566569
+      Spr_FogStarsLastLayer_22: 1573853853247716840
+      Spr_FogStarsLastLayer_23: -2733660103322052341
+      Spr_FogStarsLastLayer_24: 5862166133647981346
+      Spr_FogStarsLastLayer_25: -5352748831459228743
+      Spr_FogStarsLastLayer_26: 1308261179310702848
+      Spr_FogStarsLastLayer_27: -4049174738711624949
+      Spr_FogStarsLastLayer_28: 1768863503632427766
+      Spr_FogStarsLastLayer_29: 5686762006693183692
+      Spr_FogStarsLastLayer_3: -1677703123817928896
+      Spr_FogStarsLastLayer_30: -4854292884841866969
+      Spr_FogStarsLastLayer_31: -7993722613668591322
+      Spr_FogStarsLastLayer_32: 3606631483978982087
+      Spr_FogStarsLastLayer_33: 6828523588184313701
+      Spr_FogStarsLastLayer_34: 599446014714147681
+      Spr_FogStarsLastLayer_35: 556718567191227067
+      Spr_FogStarsLastLayer_36: -2803751547936310219
+      Spr_FogStarsLastLayer_37: 2632627802001357944
+      Spr_FogStarsLastLayer_38: -6867263585893769720
+      Spr_FogStarsLastLayer_39: 2447747080778789794
+      Spr_FogStarsLastLayer_4: -1284677777607715370
+      Spr_FogStarsLastLayer_40: 3869614604592793879
+      Spr_FogStarsLastLayer_41: 3717892863184936216
+      Spr_FogStarsLastLayer_42: 3517634969880436333
+      Spr_FogStarsLastLayer_43: 4028150549229927304
+      Spr_FogStarsLastLayer_44: 4914060362513369499
+      Spr_FogStarsLastLayer_45: 150495573572451415
+      Spr_FogStarsLastLayer_46: 4084047243721719733
+      Spr_FogStarsLastLayer_47: 4318090157432948734
+      Spr_FogStarsLastLayer_48: 4834120014710790124
+      Spr_FogStarsLastLayer_49: 6904385486405005883
+      Spr_FogStarsLastLayer_5: -6953452415773778694
+      Spr_FogStarsLastLayer_50: 8242168755855048839
+      Spr_FogStarsLastLayer_51: -1981242739827021050
+      Spr_FogStarsLastLayer_52: -6549570127166961623
+      Spr_FogStarsLastLayer_53: -6046532657305698768
+      Spr_FogStarsLastLayer_6: 8180066960261670433
+      Spr_FogStarsLastLayer_7: -7565877517500888306
+      Spr_FogStarsLastLayer_8: 4545167467939749276
+      Spr_FogStarsLastLayer_9: -51965417956720669
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
