@@ -11,7 +11,7 @@ public class PlayerData
     public int lechatelieriteAmount;
     public int elaliiteAmount;
 
-    public List<String> toolsObtained;
+    public List<String> toolsObtained = new();
 }
 
 public class GameData
@@ -27,8 +27,8 @@ public static class SaveManager
 {
     private const string PLAYER_SAVE_KEY = "GalacticStractum_Player_SaveFile";
     private const string GAME_SAVE_KEY = "GalacticStractum_Game_SaveFile";
-    public static PlayerData currentPlayerData = new();
-    public static GameData currentGameData = new();
+    public static PlayerData currentPlayerData;
+    public static GameData currentGameData;
 
     public static void LoadGame()
     {
@@ -40,7 +40,7 @@ public static class SaveManager
         else
         {
             currentPlayerData = new();
-            currentPlayerData.toolsObtained.Add("tDrill");
+            currentPlayerData.toolsObtained.Add("tDrill"); 
         }
 
         if (PlayerPrefs.HasKey(GAME_SAVE_KEY))
@@ -71,6 +71,21 @@ public static class SaveManager
         PlayerPrefs.SetString(GAME_SAVE_KEY, gameJson);
 
         PlayerPrefs.Save();
+    }
+
+    public static void ResetGame()
+    {
+        currentPlayerData = null;
+        PlayerPrefs.DeleteKey(PLAYER_SAVE_KEY);
+        currentGameData = null;
+        PlayerPrefs.DeleteKey(GAME_SAVE_KEY);
+
+        LoadGame();
+    }
+
+    public static bool CheckIfHasSavedGame()
+    {
+        return PlayerPrefs.HasKey(GAME_SAVE_KEY);
     }
 
     public static bool CheckIfHasTool(string toolId)
