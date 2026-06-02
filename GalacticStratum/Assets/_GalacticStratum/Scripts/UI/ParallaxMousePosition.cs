@@ -9,7 +9,7 @@ public class ParallaxMousePosition : MonoBehaviour
 
     void Start()
     {
-        SpriteRenderer sprite = GetComponent<SpriteRenderer>();
+        Image sprite = GetComponent<Image>();
         material = sprite.material;
         cam = Camera.main;
     }

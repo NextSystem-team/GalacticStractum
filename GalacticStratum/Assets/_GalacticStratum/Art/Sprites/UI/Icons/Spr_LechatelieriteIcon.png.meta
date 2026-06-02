@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 704e4c61c947e214f8ef75f5be1a7efa
+guid: 540696a87950df949b0a9aa744021612
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6351204415407323150
-    second: Spr_Asteroid1_0
+      213: -2625909972281338263
+    second: Spr_LechatelieriteIcon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spr_Asteroid1_0
+      name: Spr_LechatelieriteIcon_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 51
-        width: 186
-        height: 154
+        x: 83
+        y: 67
+        width: 90
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e08fe3404c2042850800000000000000
-      internalID: 6351204415407323150
+      spriteID: 966d30afac4ee8bd0800000000000000
+      internalID: -2625909972281338263
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Spr_Asteroid1_0: 6351204415407323150
+      Spr_LechatelieriteIcon_0: -2625909972281338263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

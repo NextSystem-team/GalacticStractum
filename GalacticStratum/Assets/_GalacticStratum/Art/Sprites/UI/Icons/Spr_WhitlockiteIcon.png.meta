@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 704e4c61c947e214f8ef75f5be1a7efa
+guid: 4fd9298c4b324ce4cb5d940e64e0f3d3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6351204415407323150
-    second: Spr_Asteroid1_0
+      213: 2559339156945033824
+    second: Spr_WhitlockiteIcon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spr_Asteroid1_0
+      name: Spr_WhitlockiteIcon_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 51
-        width: 186
-        height: 154
+        x: 67
+        y: 87
+        width: 126
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e08fe3404c2042850800000000000000
-      internalID: 6351204415407323150
+      spriteID: 06ad47d3769948320800000000000000
+      internalID: 2559339156945033824
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Spr_Asteroid1_0: 6351204415407323150
+      Spr_WhitlockiteIcon_0: 2559339156945033824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
