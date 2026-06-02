@@ -4,6 +4,7 @@ public class Asteroid : MonoBehaviour
 {
     [Header("Dados do Asteroide")]
     [SerializeField] private GameObject brush;
+    [SerializeField] private ParticleSystem explosionParticles;
     public AsteroidData data;
 
     [Header("Banco de dados das sprites de Asteroide")]
@@ -14,6 +15,9 @@ public class Asteroid : MonoBehaviour
 
     void Start()
     {
+        var main = explosionParticles.main;
+        main.startSize = transform.localScale.x / 10f;
+
         brushRenderer = brush.GetComponent<SpriteRenderer>();
         spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -37,7 +41,8 @@ public class Asteroid : MonoBehaviour
     public void Explode()
     {
         //Colocar efeitos visuais e sonoros aqui...
-
+        explosionParticles.transform.parent = null;
+        explosionParticles.gameObject.SetActive(true);
         Destroy(gameObject);
     }
 }

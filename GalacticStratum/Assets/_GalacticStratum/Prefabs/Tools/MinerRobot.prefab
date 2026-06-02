@@ -171,11 +171,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MinerRobot
   speed: 18
-  timeToMine: 0.5
+  timeToMine: 0.1
   player: {fileID: 0}
   asteroid: {fileID: 0}
   waterAmount: 0
   beskariumAmount: 0
-  peridotAmount: 0
+  whitlockiteAmount: 0
   lechatelieriteAmount: 0
   elaliiteAmount: 0

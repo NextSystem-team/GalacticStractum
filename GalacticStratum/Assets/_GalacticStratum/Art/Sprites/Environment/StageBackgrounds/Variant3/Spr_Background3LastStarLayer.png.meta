@@ -1,0 +1,5746 @@
+fileFormatVersion: 2
+guid: bb4a9cbbf3544b44fa28dee4d97dccf9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6488145773009350328
+    second: Spr_Background3LastStarLayer_0
+  - first:
+      213: 7241330051630048223
+    second: Spr_Background3LastStarLayer_1
+  - first:
+      213: -7326130942507207531
+    second: Spr_Background3LastStarLayer_2
+  - first:
+      213: 4393839847906770436
+    second: Spr_Background3LastStarLayer_3
+  - first:
+      213: -8774601455042432075
+    second: Spr_Background3LastStarLayer_4
+  - first:
+      213: 7738138653337939797
+    second: Spr_Background3LastStarLayer_5
+  - first:
+      213: -4656221207458068869
+    second: Spr_Background3LastStarLayer_6
+  - first:
+      213: -6783428627274591910
+    second: Spr_Background3LastStarLayer_7
+  - first:
+      213: 4226533554097327983
+    second: Spr_Background3LastStarLayer_8
+  - first:
+      213: -5259255037664807896
+    second: Spr_Background3LastStarLayer_9
+  - first:
+      213: 3186385386479893196
+    second: Spr_Background3LastStarLayer_10
+  - first:
+      213: 6238395098833806161
+    second: Spr_Background3LastStarLayer_11
+  - first:
+      213: -4961037819979922118
+    second: Spr_Background3LastStarLayer_12
+  - first:
+      213: -5505247287734820093
+    second: Spr_Background3LastStarLayer_13
+  - first:
+      213: 7462174059477400382
+    second: Spr_Background3LastStarLayer_14
+  - first:
+      213: -310696056861714023
+    second: Spr_Background3LastStarLayer_15
+  - first:
+      213: 726678781734660410
+    second: Spr_Background3LastStarLayer_16
+  - first:
+      213: -3544615543609425022
+    second: Spr_Background3LastStarLayer_17
+  - first:
+      213: 2431162734939821233
+    second: Spr_Background3LastStarLayer_18
+  - first:
+      213: 8948776886834863832
+    second: Spr_Background3LastStarLayer_19
+  - first:
+      213: -470534280430728500
+    second: Spr_Background3LastStarLayer_20
+  - first:
+      213: -7443543661857472881
+    second: Spr_Background3LastStarLayer_21
+  - first:
+      213: -4666971112393038857
+    second: Spr_Background3LastStarLayer_22
+  - first:
+      213: -3737245490691564279
+    second: Spr_Background3LastStarLayer_23
+  - first:
+      213: 1221194540402392847
+    second: Spr_Background3LastStarLayer_24
+  - first:
+      213: -703124600271445738
+    second: Spr_Background3LastStarLayer_25
+  - first:
+      213: 2128601114784872000
+    second: Spr_Background3LastStarLayer_26
+  - first:
+      213: -7128576780599168076
+    second: Spr_Background3LastStarLayer_27
+  - first:
+      213: -1698847068597086662
+    second: Spr_Background3LastStarLayer_28
+  - first:
+      213: -4749188069301539021
+    second: Spr_Background3LastStarLayer_29
+  - first:
+      213: -1570095140965137441
+    second: Spr_Background3LastStarLayer_30
+  - first:
+      213: -4874308946176322645
+    second: Spr_Background3LastStarLayer_31
+  - first:
+      213: 6927262382396613227
+    second: Spr_Background3LastStarLayer_32
+  - first:
+      213: -782604119137902915
+    second: Spr_Background3LastStarLayer_33
+  - first:
+      213: -4636508490439886563
+    second: Spr_Background3LastStarLayer_34
+  - first:
+      213: 884003050694735198
+    second: Spr_Background3LastStarLayer_35
+  - first:
+      213: -7579057789307658517
+    second: Spr_Background3LastStarLayer_36
+  - first:
+      213: -1226363309884670748
+    second: Spr_Background3LastStarLayer_37
+  - first:
+      213: 8310176624896331039
+    second: Spr_Background3LastStarLayer_38
+  - first:
+      213: -964453731077730063
+    second: Spr_Background3LastStarLayer_39
+  - first:
+      213: -4912406090251766822
+    second: Spr_Background3LastStarLayer_40
+  - first:
+      213: 2179772706686562099
+    second: Spr_Background3LastStarLayer_41
+  - first:
+      213: -8481025854176451586
+    second: Spr_Background3LastStarLayer_42
+  - first:
+      213: -6124099944585508528
+    second: Spr_Background3LastStarLayer_43
+  - first:
+      213: -2694430881436023284
+    second: Spr_Background3LastStarLayer_44
+  - first:
+      213: 853237694763962376
+    second: Spr_Background3LastStarLayer_45
+  - first:
+      213: -8952056625658752579
+    second: Spr_Background3LastStarLayer_46
+  - first:
+      213: -1185106926352633662
+    second: Spr_Background3LastStarLayer_47
+  - first:
+      213: 813723203095898210
+    second: Spr_Background3LastStarLayer_48
+  - first:
+      213: 8069402862018099876
+    second: Spr_Background3LastStarLayer_49
+  - first:
+      213: 2646109961273168590
+    second: Spr_Background3LastStarLayer_50
+  - first:
+      213: 7135247614670737449
+    second: Spr_Background3LastStarLayer_51
+  - first:
+      213: 650580402552350493
+    second: Spr_Background3LastStarLayer_52
+  - first:
+      213: 8283517187695556501
+    second: Spr_Background3LastStarLayer_53
+  - first:
+      213: -2870309740945678254
+    second: Spr_Background3LastStarLayer_54
+  - first:
+      213: -5076308651353011197
+    second: Spr_Background3LastStarLayer_55
+  - first:
+      213: 7562501179487224764
+    second: Spr_Background3LastStarLayer_56
+  - first:
+      213: -1847123329967558957
+    second: Spr_Background3LastStarLayer_57
+  - first:
+      213: 2031928455269492461
+    second: Spr_Background3LastStarLayer_58
+  - first:
+      213: 1419154079811584258
+    second: Spr_Background3LastStarLayer_59
+  - first:
+      213: 503027327468171427
+    second: Spr_Background3LastStarLayer_60
+  - first:
+      213: 2223983005055119635
+    second: Spr_Background3LastStarLayer_61
+  - first:
+      213: -4423121561157960461
+    second: Spr_Background3LastStarLayer_62
+  - first:
+      213: -6634313625559551375
+    second: Spr_Background3LastStarLayer_63
+  - first:
+      213: -3404154012437646161
+    second: Spr_Background3LastStarLayer_64
+  - first:
+      213: 4048385442144562325
+    second: Spr_Background3LastStarLayer_65
+  - first:
+      213: 739932704459032337
+    second: Spr_Background3LastStarLayer_66
+  - first:
+      213: 726330003061612268
+    second: Spr_Background3LastStarLayer_67
+  - first:
+      213: -523093163876769129
+    second: Spr_Background3LastStarLayer_68
+  - first:
+      213: -6943145594783224267
+    second: Spr_Background3LastStarLayer_69
+  - first:
+      213: -4986867071045488075
+    second: Spr_Background3LastStarLayer_70
+  - first:
+      213: 6604713428064856244
+    second: Spr_Background3LastStarLayer_71
+  - first:
+      213: -7296413723981396745
+    second: Spr_Background3LastStarLayer_72
+  - first:
+      213: -2987384261842651112
+    second: Spr_Background3LastStarLayer_73
+  - first:
+      213: 3693195216999654887
+    second: Spr_Background3LastStarLayer_74
+  - first:
+      213: -2901603925044238994
+    second: Spr_Background3LastStarLayer_75
+  - first:
+      213: 6474135023221805259
+    second: Spr_Background3LastStarLayer_76
+  - first:
+      213: -8784057168648803692
+    second: Spr_Background3LastStarLayer_77
+  - first:
+      213: 5341408523564854572
+    second: Spr_Background3LastStarLayer_78
+  - first:
+      213: -5023385879478759895
+    second: Spr_Background3LastStarLayer_79
+  - first:
+      213: -5882779526069045217
+    second: Spr_Background3LastStarLayer_80
+  - first:
+      213: -4981161106162773419
+    second: Spr_Background3LastStarLayer_81
+  - first:
+      213: 4433554578241756624
+    second: Spr_Background3LastStarLayer_82
+  - first:
+      213: 7034278583385059503
+    second: Spr_Background3LastStarLayer_83
+  - first:
+      213: -5348376031828148846
+    second: Spr_Background3LastStarLayer_84
+  - first:
+      213: 6416504046600493123
+    second: Spr_Background3LastStarLayer_85
+  - first:
+      213: 1398610279472130711
+    second: Spr_Background3LastStarLayer_86
+  - first:
+      213: 1533756318532406868
+    second: Spr_Background3LastStarLayer_87
+  - first:
+      213: -3812747834256692482
+    second: Spr_Background3LastStarLayer_88
+  - first:
+      213: -1573795604151451225
+    second: Spr_Background3LastStarLayer_89
+  - first:
+      213: 9042273611071687308
+    second: Spr_Background3LastStarLayer_90
+  - first:
+      213: -454628774876692581
+    second: Spr_Background3LastStarLayer_91
+  - first:
+      213: -2838188569167507835
+    second: Spr_Background3LastStarLayer_92
+  - first:
+      213: 541266929425871309
+    second: Spr_Background3LastStarLayer_93
+  - first:
+      213: -6446996664023103315
+    second: Spr_Background3LastStarLayer_94
+  - first:
+      213: 7610800894946892083
+    second: Spr_Background3LastStarLayer_95
+  - first:
+      213: -2622398824178883496
+    second: Spr_Background3LastStarLayer_96
+  - first:
+      213: -3901831832948741743
+    second: Spr_Background3LastStarLayer_97
+  - first:
+      213: -8037546181589781393
+    second: Spr_Background3LastStarLayer_98
+  - first:
+      213: -4069959919555341320
+    second: Spr_Background3LastStarLayer_99
+  - first:
+      213: 5428384840502113177
+    second: Spr_Background3LastStarLayer_100
+  - first:
+      213: -7108037907907769638
+    second: Spr_Background3LastStarLayer_101
+  - first:
+      213: -4060160810042356878
+    second: Spr_Background3LastStarLayer_102
+  - first:
+      213: 2778287929987967736
+    second: Spr_Background3LastStarLayer_103
+  - first:
+      213: 4209353709668401657
+    second: Spr_Background3LastStarLayer_104
+  - first:
+      213: 3584889629507902636
+    second: Spr_Background3LastStarLayer_105
+  - first:
+      213: -2488876849880011334
+    second: Spr_Background3LastStarLayer_106
+  - first:
+      213: -3771466281435132415
+    second: Spr_Background3LastStarLayer_107
+  - first:
+      213: -90255184700120443
+    second: Spr_Background3LastStarLayer_108
+  - first:
+      213: 6953207716869078629
+    second: Spr_Background3LastStarLayer_109
+  - first:
+      213: 804615149510480564
+    second: Spr_Background3LastStarLayer_110
+  - first:
+      213: -60231600647113252
+    second: Spr_Background3LastStarLayer_111
+  - first:
+      213: 542936320109840491
+    second: Spr_Background3LastStarLayer_112
+  - first:
+      213: 9164925430619410582
+    second: Spr_Background3LastStarLayer_113
+  - first:
+      213: 2558437355780347355
+    second: Spr_Background3LastStarLayer_114
+  - first:
+      213: -3142886571084979189
+    second: Spr_Background3LastStarLayer_115
+  - first:
+      213: -6686848925224526735
+    second: Spr_Background3LastStarLayer_116
+  - first:
+      213: 2277786630129811585
+    second: Spr_Background3LastStarLayer_117
+  - first:
+      213: 4232015751876988849
+    second: Spr_Background3LastStarLayer_118
+  - first:
+      213: 1706936404497803078
+    second: Spr_Background3LastStarLayer_119
+  - first:
+      213: 1863634461298814438
+    second: Spr_Background3LastStarLayer_120
+  - first:
+      213: 3165936723783047696
+    second: Spr_Background3LastStarLayer_121
+  - first:
+      213: -2132387990621021812
+    second: Spr_Background3LastStarLayer_122
+  - first:
+      213: -3362163683592543269
+    second: Spr_Background3LastStarLayer_123
+  - first:
+      213: -1245864188617526296
+    second: Spr_Background3LastStarLayer_124
+  - first:
+      213: 3507262264167065604
+    second: Spr_Background3LastStarLayer_125
+  - first:
+      213: 1625122987543269581
+    second: Spr_Background3LastStarLayer_126
+  - first:
+      213: -1839159019719432985
+    second: Spr_Background3LastStarLayer_127
+  - first:
+      213: -6507061145517463368
+    second: Spr_Background3LastStarLayer_128
+  - first:
+      213: 4134085365633417357
+    second: Spr_Background3LastStarLayer_129
+  - first:
+      213: -5437269160963056877
+    second: Spr_Background3LastStarLayer_130
+  - first:
+      213: 7676205030704522582
+    second: Spr_Background3LastStarLayer_131
+  - first:
+      213: -1080185196463295372
+    second: Spr_Background3LastStarLayer_132
+  - first:
+      213: -1356892497559725244
+    second: Spr_Background3LastStarLayer_133
+  - first:
+      213: 3103574716725559805
+    second: Spr_Background3LastStarLayer_134
+  - first:
+      213: -7906176780597261432
+    second: Spr_Background3LastStarLayer_135
+  - first:
+      213: 8200121342970926436
+    second: Spr_Background3LastStarLayer_136
+  - first:
+      213: -4473341011392866543
+    second: Spr_Background3LastStarLayer_137
+  - first:
+      213: 6383504661298417877
+    second: Spr_Background3LastStarLayer_138
+  - first:
+      213: 5007643503592366474
+    second: Spr_Background3LastStarLayer_139
+  - first:
+      213: 8539249697766568369
+    second: Spr_Background3LastStarLayer_140
+  - first:
+      213: 6169131495309793145
+    second: Spr_Background3LastStarLayer_141
+  - first:
+      213: 6431208523470510261
+    second: Spr_Background3LastStarLayer_142
+  - first:
+      213: 1664997452124903965
+    second: Spr_Background3LastStarLayer_143
+  - first:
+      213: -7018098991467388454
+    second: Spr_Background3LastStarLayer_144
+  - first:
+      213: 6771744299806854289
+    second: Spr_Background3LastStarLayer_145
+  - first:
+      213: 8830530089671352772
+    second: Spr_Background3LastStarLayer_146
+  - first:
+      213: -3469835557876256873
+    second: Spr_Background3LastStarLayer_147
+  - first:
+      213: -1499054117164675839
+    second: Spr_Background3LastStarLayer_148
+  - first:
+      213: 2611143246544929632
+    second: Spr_Background3LastStarLayer_149
+  - first:
+      213: 2759101297007825530
+    second: Spr_Background3LastStarLayer_150
+  - first:
+      213: -2326700617775282763
+    second: Spr_Background3LastStarLayer_151
+  - first:
+      213: 5289655890028709683
+    second: Spr_Background3LastStarLayer_152
+  - first:
+      213: -4448099036390173427
+    second: Spr_Background3LastStarLayer_153
+  - first:
+      213: -391299491489201806
+    second: Spr_Background3LastStarLayer_154
+  - first:
+      213: -8144500950411173807
+    second: Spr_Background3LastStarLayer_155
+  - first:
+      213: -8586307522051949990
+    second: Spr_Background3LastStarLayer_156
+  - first:
+      213: -5962475478771481934
+    second: Spr_Background3LastStarLayer_157
+  - first:
+      213: -5847450765163537865
+    second: Spr_Background3LastStarLayer_158
+  - first:
+      213: 4501579764519155461
+    second: Spr_Background3LastStarLayer_159
+  - first:
+      213: -8303267318957049994
+    second: Spr_Background3LastStarLayer_160
+  - first:
+      213: -909913489341324881
+    second: Spr_Background3LastStarLayer_161
+  - first:
+      213: -8157944702870749330
+    second: Spr_Background3LastStarLayer_162
+  - first:
+      213: -3697716561919495226
+    second: Spr_Background3LastStarLayer_163
+  - first:
+      213: 7896554932245056700
+    second: Spr_Background3LastStarLayer_164
+  - first:
+      213: 732197874964153851
+    second: Spr_Background3LastStarLayer_165
+  - first:
+      213: -2091549699044324998
+    second: Spr_Background3LastStarLayer_166
+  - first:
+      213: 2698865854706015355
+    second: Spr_Background3LastStarLayer_167
+  - first:
+      213: -5346748224262406807
+    second: Spr_Background3LastStarLayer_168
+  - first:
+      213: 5853258932769111937
+    second: Spr_Background3LastStarLayer_169
+  - first:
+      213: -3667551629213211221
+    second: Spr_Background3LastStarLayer_170
+  - first:
+      213: 7635487868601654203
+    second: Spr_Background3LastStarLayer_171
+  - first:
+      213: -343206926453537555
+    second: Spr_Background3LastStarLayer_172
+  - first:
+      213: 3975207125679212401
+    second: Spr_Background3LastStarLayer_173
+  - first:
+      213: -9118785730520433084
+    second: Spr_Background3LastStarLayer_174
+  - first:
+      213: 4860348646654209671
+    second: Spr_Background3LastStarLayer_175
+  - first:
+      213: -933710254909697800
+    second: Spr_Background3LastStarLayer_176
+  - first:
+      213: -5673284722076276876
+    second: Spr_Background3LastStarLayer_177
+  - first:
+      213: 7252250288806758562
+    second: Spr_Background3LastStarLayer_178
+  - first:
+      213: 8255850875167671863
+    second: Spr_Background3LastStarLayer_179
+  - first:
+      213: -2887272893991527930
+    second: Spr_Background3LastStarLayer_180
+  - first:
+      213: -8022857856785195455
+    second: Spr_Background3LastStarLayer_181
+  - first:
+      213: 3497246746229439319
+    second: Spr_Background3LastStarLayer_182
+  - first:
+      213: 4187042253183562119
+    second: Spr_Background3LastStarLayer_183
+  - first:
+      213: 4552476799543501997
+    second: Spr_Background3LastStarLayer_184
+  - first:
+      213: 9028906442039769983
+    second: Spr_Background3LastStarLayer_185
+  - first:
+      213: 3628508611332599372
+    second: Spr_Background3LastStarLayer_186
+  - first:
+      213: -6775351522185592238
+    second: Spr_Background3LastStarLayer_187
+  - first:
+      213: -8161653872818919018
+    second: Spr_Background3LastStarLayer_188
+  - first:
+      213: -8573464837614478227
+    second: Spr_Background3LastStarLayer_189
+  - first:
+      213: 1778721742412247117
+    second: Spr_Background3LastStarLayer_190
+  - first:
+      213: -197803166807539615
+    second: Spr_Background3LastStarLayer_191
+  - first:
+      213: -8889409062383493573
+    second: Spr_Background3LastStarLayer_192
+  - first:
+      213: -7605139053030077715
+    second: Spr_Background3LastStarLayer_193
+  - first:
+      213: 208745602142398170
+    second: Spr_Background3LastStarLayer_194
+  - first:
+      213: 3704742739655576114
+    second: Spr_Background3LastStarLayer_195
+  - first:
+      213: -5250076600558453800
+    second: Spr_Background3LastStarLayer_196
+  - first:
+      213: 4109162307117865475
+    second: Spr_Background3LastStarLayer_197
+  - first:
+      213: 4957341431189774051
+    second: Spr_Background3LastStarLayer_198
+  - first:
+      213: 3479622137309796284
+    second: Spr_Background3LastStarLayer_199
+  - first:
+      213: 6691366139918861557
+    second: Spr_Background3LastStarLayer_200
+  - first:
+      213: 4522155749105943549
+    second: Spr_Background3LastStarLayer_201
+  - first:
+      213: 5856458702709545971
+    second: Spr_Background3LastStarLayer_202
+  - first:
+      213: 4362204273086067137
+    second: Spr_Background3LastStarLayer_203
+  - first:
+      213: 2901838274176057999
+    second: Spr_Background3LastStarLayer_204
+  - first:
+      213: -8366915924683001387
+    second: Spr_Background3LastStarLayer_205
+  - first:
+      213: 981688648705867826
+    second: Spr_Background3LastStarLayer_206
+  - first:
+      213: 3385967913742308720
+    second: Spr_Background3LastStarLayer_207
+  - first:
+      213: 4227643751042549494
+    second: Spr_Background3LastStarLayer_208
+  - first:
+      213: 6264243785037099197
+    second: Spr_Background3LastStarLayer_209
+  - first:
+      213: 1872781901022983431
+    second: Spr_Background3LastStarLayer_210
+  - first:
+      213: -7330406098926563214
+    second: Spr_Background3LastStarLayer_211
+  - first:
+      213: -6994310646965541005
+    second: Spr_Background3LastStarLayer_212
+  - first:
+      213: 4881587559962760899
+    second: Spr_Background3LastStarLayer_213
+  - first:
+      213: -944643678034601325
+    second: Spr_Background3LastStarLayer_214
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 277
+        width: 51
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84153dc8bc975f5a0800000000000000
+      internalID: -6488145773009350328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 297
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd325c4d05f5e7460800000000000000
+      internalID: 7241330051630048223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_2
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 267
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5943cd929ba545a90800000000000000
+      internalID: -7326130942507207531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_3
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 293
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e7076ef0e0afc30800000000000000
+      internalID: 4393839847906770436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 201
+        width: 90
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b3f19a677a5a3680800000000000000
+      internalID: -8774601455042432075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 140
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f6de65b14636b60800000000000000
+      internalID: 7738138653337939797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 293
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7642d54b77c16fb0800000000000000
+      internalID: -4656221207458068869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_7
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 141
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5115188a9b6cd1a0800000000000000
+      internalID: -6783428627274591910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 291
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f8d33dfd9a7aa30800000000000000
+      internalID: 4226533554097327983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_9
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 297
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8243ec0786f5307b0800000000000000
+      internalID: -5259255037664807896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_10
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 287
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca31a670a0583c20800000000000000
+      internalID: 3186385386479893196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 271
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153e68a3a4b339650800000000000000
+      internalID: 6238395098833806161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 259
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3581de236ad62bb0800000000000000
+      internalID: -4961037819979922118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 279
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30322e582ce6993b0800000000000000
+      internalID: -5505247287734820093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_14
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 265
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bf84355c7fe8760800000000000000
+      internalID: 7462174059477400382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_15
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 255
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99994a9159f20bbf0800000000000000
+      internalID: -310696056861714023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_16
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 219
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39ab1b708ea51a00800000000000000
+      internalID: 726678781734660410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_17
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 273
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28305d971fefecec0800000000000000
+      internalID: -3544615543609425022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_18
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 267
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4514760a93db120800000000000000
+      internalID: 2431162734939821233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_19
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de940a7a21703c70800000000000000
+      internalID: 8948776886834863832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_20
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 241
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca4840a0935879f0800000000000000
+      internalID: -470534280430728500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_21
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 269
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8effd42a7833b890800000000000000
+      internalID: -7443543661857472881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 245
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3adccff769b3fb0800000000000000
+      internalID: -4666971112393038857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_23
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 229
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d16e8e603a22cc0800000000000000
+      internalID: -3737245490691564279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_24
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 227
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fb45ed6fd82f010800000000000000
+      internalID: 1221194540402392847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 239
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6116bffb6effd36f0800000000000000
+      internalID: -703124600271445738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_26
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 249
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046b043af6f4a8d10800000000000000
+      internalID: 2128601114784872000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_27
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 245
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3f946df25321d90800000000000000
+      internalID: -7128576780599168076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_28
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a369e8c879b7c68e0800000000000000
+      internalID: -1698847068597086662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_29
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 241
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f22cdfc9e771eb0800000000000000
+      internalID: -4749188069301539021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_30
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 213
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3c43bb9c6e53ae0800000000000000
+      internalID: -1570095140965137441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_31
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3d6a1b6d9fa5cb0800000000000000
+      internalID: -4874308946176322645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_32
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 231
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b622da04f64922060800000000000000
+      internalID: 6927262382396613227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_33
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 227
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe170733b1a325f0800000000000000
+      internalID: -782604119137902915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_34
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 215
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d197f3dd710d7afb0800000000000000
+      internalID: -4636508490439886563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_35
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 211
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e557509471c944c00800000000000000
+      internalID: 884003050694735198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_36
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 215
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beed820a817c1d690800000000000000
+      internalID: -7579057789307658517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_37
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 219
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec70c431151bfee0800000000000000
+      internalID: -1226363309884670748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_38
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 205
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d43b37c9da35370800000000000000
+      internalID: 8310176624896331039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_39
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0dfc401729d92f0800000000000000
+      internalID: -964453731077730063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3f31e10b0a3dbb0800000000000000
+      internalID: -4912406090251766822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_41
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 159
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fe4215abb104e10800000000000000
+      internalID: 2179772706686562099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_42
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3a8e68be75d4a80800000000000000
+      internalID: -8481025854176451586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_43
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 213
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059cdf91c83d20ba0800000000000000
+      internalID: -6124099944585508528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_44
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 187
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06c92893657b9ad0800000000000000
+      internalID: -2694430881436023284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_45
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 205
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8001169a92f47db00800000000000000
+      internalID: 853237694763962376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_46
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 201
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db19d62dde7e3c380800000000000000
+      internalID: -8952056625658752579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_47
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 187
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c075e98787ad8fe0800000000000000
+      internalID: -1185106926352633662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_48
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 187
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 268260221fcea4b00800000000000000
+      internalID: 813723203095898210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_49
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 179
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aafb1446274cff60800000000000000
+      internalID: 8069402862018099876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_50
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 195
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec25f467dfed8b420800000000000000
+      internalID: 2646109961273168590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_51
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 189
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92017e0c6ed750360800000000000000
+      internalID: 7135247614670737449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_52
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 173
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17a6ffdd63570900800000000000000
+      internalID: 650580402552350493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_53
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 191
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597bf678ef6f4f270800000000000000
+      internalID: 8283517187695556501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_54
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 193
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250e6978f7c9a28d0800000000000000
+      internalID: -2870309740945678254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_55
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 189
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c8cd15d245d89b0800000000000000
+      internalID: -5076308651353011197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_56
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 191
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb30fc041c663f860800000000000000
+      internalID: 7562501179487224764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_57
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 193
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de62fc2e13bd56e0800000000000000
+      internalID: -1847123329967558957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_58
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 45
+        width: 76
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6a8591a2cd23c10800000000000000
+      internalID: 2031928455269492461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_59
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 185
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20147b8dd19d1b310800000000000000
+      internalID: 1419154079811584258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_60
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 181
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0fd0e60bc1bf600800000000000000
+      internalID: 503027327468171427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_61
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 179
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311f0da82cc2dde10800000000000000
+      internalID: 2223983005055119635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_62
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 87
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcfec4ff5aed92c0800000000000000
+      internalID: -4423121561157960461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_63
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 173
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1723dfb58ee2ee3a0800000000000000
+      internalID: -6634313625559551375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_64
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 181
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4feef26f302c0d0800000000000000
+      internalID: -3404154012437646161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_65
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 173
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59ca3e04c11ce2830800000000000000
+      internalID: 4048385442144562325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_66
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 177
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11789f6dfd4c44a00800000000000000
+      internalID: 739932704459032337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_67
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 169
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee123e1a41741a00800000000000000
+      internalID: 726330003061612268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_68
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 155
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792a0b6f9899db8f0800000000000000
+      internalID: -523093163876769129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_69
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 147
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ea02f2eddf4af90800000000000000
+      internalID: -6943145594783224267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_70
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 155
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532bd3802d61bcab0800000000000000
+      internalID: -4986867071045488075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_71
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 157
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8ee0b9ed7a8ab50800000000000000
+      internalID: 6604713428064856244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_72
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 147
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4cdc7406eedba90800000000000000
+      internalID: -7296413723981396745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_73
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818b64977ddaa86d0800000000000000
+      internalID: -2987384261842651112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_74
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 157
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e5af638b7dd04330800000000000000
+      internalID: 3693195216999654887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_75
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 161
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65ebd08a9e6bb7d0800000000000000
+      internalID: -2901603925044238994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_76
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 163
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc01d0f808fb8d950800000000000000
+      internalID: 6474135023221805259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_77
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 121
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ae6f78b82c81680800000000000000
+      internalID: -8784057168648803692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_78
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 141
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2da35f80ce702a40800000000000000
+      internalID: 5341408523564854572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_79
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e84fb5829594ab0800000000000000
+      internalID: -5023385879478759895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_80
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 153
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18b6b8703b2c5ea0800000000000000
+      internalID: -5882779526069045217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_81
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 149
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5521d228d5c5fdab0800000000000000
+      internalID: -4981161106162773419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_82
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 153
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd18602666278d30800000000000000
+      internalID: 4433554578241756624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_83
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa0fdc53a17ce9160800000000000000
+      internalID: 7034278583385059503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_84
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 149
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d7ba10650c6c5b0800000000000000
+      internalID: -5348376031828148846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_85
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 129
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3489a7d2f600c0950800000000000000
+      internalID: 6416504046600493123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_86
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 129
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a652793acd86310800000000000000
+      internalID: 1398610279472130711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_87
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 139
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e822ade3ff84510800000000000000
+      internalID: 1533756318532406868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_88
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 141
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa6df8ab06661bc0800000000000000
+      internalID: -3812747834256692482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_89
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 135
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a14b718c31c82ae0800000000000000
+      internalID: -1573795604151451225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_90
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 135
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a01d5f0fb9c7d70800000000000000
+      internalID: 9042273611071687308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_91
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 127
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fbdc8b985d0b9f0800000000000000
+      internalID: -454628774876692581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_92
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 129
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e4231a88abc98d0800000000000000
+      internalID: -2838188569167507835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_93
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 123
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc178119767f28700800000000000000
+      internalID: 541266929425871309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_94
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da846c411baa786a0800000000000000
+      internalID: -6446996664023103315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_95
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 117
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339d887171ffe9960800000000000000
+      internalID: 7610800894946892083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_96
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8546a69d92e5b9bd0800000000000000
+      internalID: -2622398824178883496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_97
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 101
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19967c7ee98e9d9c0800000000000000
+      internalID: -3901831832948741743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_98
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 117
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f643b842556e47090800000000000000
+      internalID: -8037546181589781393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_99
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 121
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f393d844099487c0800000000000000
+      internalID: -4069959919555341320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_100
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 107
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9937e3a604f755b40800000000000000
+      internalID: 5428384840502113177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_101
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 109
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada8529ce2d2b5d90800000000000000
+      internalID: -7108037907907769638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_102
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b8672414967a7c0800000000000000
+      internalID: -4060160810042356878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_103
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 109
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa20bef6267e8620800000000000000
+      internalID: 2778287929987967736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_104
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 113
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f102c695e0aa6a30800000000000000
+      internalID: 4209353709668401657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_105
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 107
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacdccddf1610c130800000000000000
+      internalID: 3584889629507902636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_106
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 109
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd653111bbb57dd0800000000000000
+      internalID: -2488876849880011334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_107
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e02bc266f09abc0800000000000000
+      internalID: -3771466281435132415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_108
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 95
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582efc043695fbef0800000000000000
+      internalID: -90255184700120443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_109
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 83
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e7c7d2491ce7060800000000000000
+      internalID: 6953207716869078629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_110
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 89
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2587727319a2b00800000000000000
+      internalID: 804615149510480564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_111
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 89
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd5fc27ada30a2ff0800000000000000
+      internalID: -60231600647113252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_112
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b680ecfd4b5e88700800000000000000
+      internalID: 542936320109840491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_113
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 91
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690930d0f1b503f70800000000000000
+      internalID: 9164925430619410582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_114
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 95
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5906b4835618320800000000000000
+      internalID: 2558437355780347355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_115
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b046229b0593264d0800000000000000
+      internalID: -3142886571084979189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_116
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 99
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c1a49b45a8333a0800000000000000
+      internalID: -6686848925224526735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_117
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 91
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18085033fd25c9f10800000000000000
+      internalID: 2277786630129811585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_118
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf4c7677e32bba30800000000000000
+      internalID: 4232015751876988849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_119
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 103
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647264cbd9140b710800000000000000
+      internalID: 1706936404497803078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_120
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 97
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed64e82ba5fcd910800000000000000
+      internalID: 1863634461298814438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_121
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ad37a2daaafeb20800000000000000
+      internalID: 3165936723783047696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_122
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 89
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8999bf9b6c3862e0800000000000000
+      internalID: -2132387990621021812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_123
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 65
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd36fba71f13751d0800000000000000
+      internalID: -3362163683592543269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_124
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 87
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3721f0f1dc5bee0800000000000000
+      internalID: -1245864188617526296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_125
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 71
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4086fcd627c4ca030800000000000000
+      internalID: 3507262264167065604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_126
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 79
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc096d43fb89d8610800000000000000
+      internalID: 1625122987543269581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_127
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 89
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4ea28ad9ef976e0800000000000000
+      internalID: -1839159019719432985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_128
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 83
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b86fa13d5642b5a0800000000000000
+      internalID: -6507061145517463368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_129
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 89
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8088b99cb83f5930800000000000000
+      internalID: 4134085365633417357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_130
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b5c988180fa84b0800000000000000
+      internalID: -5437269160963056877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_131
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 87
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655a53e1ecb578a60800000000000000
+      internalID: 7676205030704522582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 21
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4747b2179496201f0800000000000000
+      internalID: -1080185196463295372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_133
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 77
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b5f8c66795b2de0800000000000000
+      internalID: -1356892497559725244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_134
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 75
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df18f4ce2cc121b20800000000000000
+      internalID: 3103574716725559805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_135
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 73
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b0f055b1e974290800000000000000
+      internalID: -7906176780597261432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_136
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46591e25aeeacc170800000000000000
+      internalID: 8200121342970926436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_137
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 79
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117ddb80d008be1c0800000000000000
+      internalID: -4473341011392866543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_138
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 71
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d01ebe0ba3c69850800000000000000
+      internalID: 6383504661298417877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_139
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 63
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a816a612c39be7540800000000000000
+      internalID: 5007643503592366474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_140
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1fcb37b52818670800000000000000
+      internalID: 8539249697766568369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_141
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 69
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9775d96d8682d9550800000000000000
+      internalID: 6169131495309793145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_142
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b89cedf31e304950800000000000000
+      internalID: 6431208523470510261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_143
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 69
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ad5d57c524b1710800000000000000
+      internalID: 1664997452124903965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_144
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 69
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad12f079624ba9e90800000000000000
+      internalID: -7018098991467388454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_145
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 55
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c83cbff811afd50800000000000000
+      internalID: 6771744299806854289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_146
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 49
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1624594585c8a70800000000000000
+      internalID: 8830530089671352772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_147
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 25
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f24cfa1faa8dfc0800000000000000
+      internalID: -3469835557876256873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_148
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d0057093a423be0800000000000000
+      internalID: -1499054117164675839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_149
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06388f3c2f4ac3420800000000000000
+      internalID: 2611143246544929632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_150
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 61
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a729873e20c4a4620800000000000000
+      internalID: 2759101297007825530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_151
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b582d29d16e5bfd0800000000000000
+      internalID: -2326700617775282763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_152
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337c6359102a86940800000000000000
+      internalID: 5289655890028709683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_153
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 57
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05d4325e7d2542c0800000000000000
+      internalID: -4448099036390173427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_154
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271cef88f23d19af0800000000000000
+      internalID: -391299491489201806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_155
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15029e9798be8fe80800000000000000
+      internalID: -8144500950411173807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_156
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a34d70dce47d880800000000000000
+      internalID: -8586307522051949990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_157
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b249d18428014da0800000000000000
+      internalID: -5962475478771481934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_158
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a57dc928ea9dea0800000000000000
+      internalID: -5847450765163537865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_159
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 45
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507304802f2d87e30800000000000000
+      internalID: 4501579764519155461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_160
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 7
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6777472bd5ed4cc80800000000000000
+      internalID: -8303267318957049994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_161
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 39
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1697b90865f53f0800000000000000
+      internalID: -909913489341324881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_162
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 49
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ffb10f38829ce80800000000000000
+      internalID: -8157944702870749330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_163
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 45
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3b5b6d0621facc0800000000000000
+      internalID: -3697716561919495226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_164
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 43
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc43d58fd2369d60800000000000000
+      internalID: 7896554932245056700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_165
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 51
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5c882861a492a00800000000000000
+      internalID: 732197874964153851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_166
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 45
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79436651a259f2e0800000000000000
+      internalID: -2091549699044324998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_167
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 15
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7cde26123c447520800000000000000
+      internalID: 2698865854706015355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_168
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 25
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d736d71d88cc5b0800000000000000
+      internalID: -5346748224262406807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_169
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 25
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fb51accf3fa3150800000000000000
+      internalID: 5853258932769111937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_170
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 35
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba56759893d3a1dc0800000000000000
+      internalID: -3667551629213211221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_171
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 33
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb5ece03c3b6f960800000000000000
+      internalID: 7635487868601654203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_172
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de488486e1fac3bf0800000000000000
+      internalID: -343206926453537555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_173
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 39
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17706bab1d5ca2730800000000000000
+      internalID: 3975207125679212401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_174
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 37
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ebd6501b0937180800000000000000
+      internalID: -9118785730520433084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_175
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 37
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78eef58c75d637340800000000000000
+      internalID: 4860348646654209671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_176
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0d7fc587bca03f0800000000000000
+      internalID: -933710254909697800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_177
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 3
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4772ef68a917441b0800000000000000
+      internalID: -5673284722076276876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_178
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 27
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a80d8ea63b25a460800000000000000
+      internalID: 7252250288806758562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_179
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73687fc21aca29270800000000000000
+      internalID: 8255850875167671863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_180
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 27
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a5500b9985ee7d0800000000000000
+      internalID: -2887272893991527930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_181
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 27
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14eddd2494519a090800000000000000
+      internalID: -8022857856785195455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_182
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 27
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b75e0f267b88030800000000000000
+      internalID: 3497246746229439319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_183
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781be80debc5b1a30800000000000000
+      internalID: 4187042253183562119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_184
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 27
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da46ff47785ad2f30800000000000000
+      internalID: 4552476799543501997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_185
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b3404629e1d4d70800000000000000
+      internalID: 9028906442039769983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_186
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4eecea7b5d0b5230800000000000000
+      internalID: 3628508611332599372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_187
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5
+        width: 7
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252c9bb10bd19f1a0800000000000000
+      internalID: -6775351522185592238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_188
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699efe28b0bfbbe80800000000000000
+      internalID: -8161653872818919018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_189
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cdfa3872fe40980800000000000000
+      internalID: -8573464837614478227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_190
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40feba200a4fa810800000000000000
+      internalID: 1778721742412247117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_191
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 17
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1604dfa5113414df0800000000000000
+      internalID: -197803166807539615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_192
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 21
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e5e7d4e8972a480800000000000000
+      internalID: -8889409062383493573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_193
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea01b4335e157690800000000000000
+      internalID: -7605139053030077715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_194
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 17
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad66f18e40d95e200800000000000000
+      internalID: 208745602142398170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_195
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 25
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ac065a4e3e96330800000000000000
+      internalID: 3704742739655576114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_196
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 25
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db7f1cd52bf327b0800000000000000
+      internalID: -5250076600558453800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_197
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 19
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a5f28d85da60930800000000000000
+      internalID: 4109162307117865475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_198
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 3
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee946c34c30cc440800000000000000
+      internalID: 4957341431189774051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_199
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 13
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb79fe6e5e91a4030800000000000000
+      internalID: 3479622137309796284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_200
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 3
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4c0f74d028cdc50800000000000000
+      internalID: 6691366139918861557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_201
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df34374c1bce1ce30800000000000000
+      internalID: 4522155749105943549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_202
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 5
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb5fb84922564150800000000000000
+      internalID: 5856458702709545971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_203
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c17cf6aca9a98c30800000000000000
+      internalID: 4362204273086067137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_204
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8285e72986654820800000000000000
+      internalID: 2901838274176057999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_205
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 15
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1f5bbdb4eb2eb80800000000000000
+      internalID: -8366915924683001387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_206
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 15
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2308522ff98af9d00800000000000000
+      internalID: 981688648705867826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_207
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0751b7fb0ef5dfe20800000000000000
+      internalID: 3385967913742308720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_208
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 7
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f68ac1b79b9baa30800000000000000
+      internalID: 4227643751042549494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_209
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0b59978801fe650800000000000000
+      internalID: 6264243785037099197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_210
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 705714077357df910800000000000000
+      internalID: 1872781901022983431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_211
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270102ebd7a254a90800000000000000
+      internalID: -7330406098926563214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_212
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 5
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377e2e626873fee90800000000000000
+      internalID: -6994310646965541005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_213
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 7
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6db83a502eeb340800000000000000
+      internalID: 4881587559962760899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background3LastStarLayer_214
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 0
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39add6b6493f3e2f0800000000000000
+      internalID: -944643678034601325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spr_Background3LastStarLayer_0: -6488145773009350328
+      Spr_Background3LastStarLayer_1: 7241330051630048223
+      Spr_Background3LastStarLayer_10: 3186385386479893196
+      Spr_Background3LastStarLayer_100: 5428384840502113177
+      Spr_Background3LastStarLayer_101: -7108037907907769638
+      Spr_Background3LastStarLayer_102: -4060160810042356878
+      Spr_Background3LastStarLayer_103: 2778287929987967736
+      Spr_Background3LastStarLayer_104: 4209353709668401657
+      Spr_Background3LastStarLayer_105: 3584889629507902636
+      Spr_Background3LastStarLayer_106: -2488876849880011334
+      Spr_Background3LastStarLayer_107: -3771466281435132415
+      Spr_Background3LastStarLayer_108: -90255184700120443
+      Spr_Background3LastStarLayer_109: 6953207716869078629
+      Spr_Background3LastStarLayer_11: 6238395098833806161
+      Spr_Background3LastStarLayer_110: 804615149510480564
+      Spr_Background3LastStarLayer_111: -60231600647113252
+      Spr_Background3LastStarLayer_112: 542936320109840491
+      Spr_Background3LastStarLayer_113: 9164925430619410582
+      Spr_Background3LastStarLayer_114: 2558437355780347355
+      Spr_Background3LastStarLayer_115: -3142886571084979189
+      Spr_Background3LastStarLayer_116: -6686848925224526735
+      Spr_Background3LastStarLayer_117: 2277786630129811585
+      Spr_Background3LastStarLayer_118: 4232015751876988849
+      Spr_Background3LastStarLayer_119: 1706936404497803078
+      Spr_Background3LastStarLayer_12: -4961037819979922118
+      Spr_Background3LastStarLayer_120: 1863634461298814438
+      Spr_Background3LastStarLayer_121: 3165936723783047696
+      Spr_Background3LastStarLayer_122: -2132387990621021812
+      Spr_Background3LastStarLayer_123: -3362163683592543269
+      Spr_Background3LastStarLayer_124: -1245864188617526296
+      Spr_Background3LastStarLayer_125: 3507262264167065604
+      Spr_Background3LastStarLayer_126: 1625122987543269581
+      Spr_Background3LastStarLayer_127: -1839159019719432985
+      Spr_Background3LastStarLayer_128: -6507061145517463368
+      Spr_Background3LastStarLayer_129: 4134085365633417357
+      Spr_Background3LastStarLayer_13: -5505247287734820093
+      Spr_Background3LastStarLayer_130: -5437269160963056877
+      Spr_Background3LastStarLayer_131: 7676205030704522582
+      Spr_Background3LastStarLayer_132: -1080185196463295372
+      Spr_Background3LastStarLayer_133: -1356892497559725244
+      Spr_Background3LastStarLayer_134: 3103574716725559805
+      Spr_Background3LastStarLayer_135: -7906176780597261432
+      Spr_Background3LastStarLayer_136: 8200121342970926436
+      Spr_Background3LastStarLayer_137: -4473341011392866543
+      Spr_Background3LastStarLayer_138: 6383504661298417877
+      Spr_Background3LastStarLayer_139: 5007643503592366474
+      Spr_Background3LastStarLayer_14: 7462174059477400382
+      Spr_Background3LastStarLayer_140: 8539249697766568369
+      Spr_Background3LastStarLayer_141: 6169131495309793145
+      Spr_Background3LastStarLayer_142: 6431208523470510261
+      Spr_Background3LastStarLayer_143: 1664997452124903965
+      Spr_Background3LastStarLayer_144: -7018098991467388454
+      Spr_Background3LastStarLayer_145: 6771744299806854289
+      Spr_Background3LastStarLayer_146: 8830530089671352772
+      Spr_Background3LastStarLayer_147: -3469835557876256873
+      Spr_Background3LastStarLayer_148: -1499054117164675839
+      Spr_Background3LastStarLayer_149: 2611143246544929632
+      Spr_Background3LastStarLayer_15: -310696056861714023
+      Spr_Background3LastStarLayer_150: 2759101297007825530
+      Spr_Background3LastStarLayer_151: -2326700617775282763
+      Spr_Background3LastStarLayer_152: 5289655890028709683
+      Spr_Background3LastStarLayer_153: -4448099036390173427
+      Spr_Background3LastStarLayer_154: -391299491489201806
+      Spr_Background3LastStarLayer_155: -8144500950411173807
+      Spr_Background3LastStarLayer_156: -8586307522051949990
+      Spr_Background3LastStarLayer_157: -5962475478771481934
+      Spr_Background3LastStarLayer_158: -5847450765163537865
+      Spr_Background3LastStarLayer_159: 4501579764519155461
+      Spr_Background3LastStarLayer_16: 726678781734660410
+      Spr_Background3LastStarLayer_160: -8303267318957049994
+      Spr_Background3LastStarLayer_161: -909913489341324881
+      Spr_Background3LastStarLayer_162: -8157944702870749330
+      Spr_Background3LastStarLayer_163: -3697716561919495226
+      Spr_Background3LastStarLayer_164: 7896554932245056700
+      Spr_Background3LastStarLayer_165: 732197874964153851
+      Spr_Background3LastStarLayer_166: -2091549699044324998
+      Spr_Background3LastStarLayer_167: 2698865854706015355
+      Spr_Background3LastStarLayer_168: -5346748224262406807
+      Spr_Background3LastStarLayer_169: 5853258932769111937
+      Spr_Background3LastStarLayer_17: -3544615543609425022
+      Spr_Background3LastStarLayer_170: -3667551629213211221
+      Spr_Background3LastStarLayer_171: 7635487868601654203
+      Spr_Background3LastStarLayer_172: -343206926453537555
+      Spr_Background3LastStarLayer_173: 3975207125679212401
+      Spr_Background3LastStarLayer_174: -9118785730520433084
+      Spr_Background3LastStarLayer_175: 4860348646654209671
+      Spr_Background3LastStarLayer_176: -933710254909697800
+      Spr_Background3LastStarLayer_177: -5673284722076276876
+      Spr_Background3LastStarLayer_178: 7252250288806758562
+      Spr_Background3LastStarLayer_179: 8255850875167671863
+      Spr_Background3LastStarLayer_18: 2431162734939821233
+      Spr_Background3LastStarLayer_180: -2887272893991527930
+      Spr_Background3LastStarLayer_181: -8022857856785195455
+      Spr_Background3LastStarLayer_182: 3497246746229439319
+      Spr_Background3LastStarLayer_183: 4187042253183562119
+      Spr_Background3LastStarLayer_184: 4552476799543501997
+      Spr_Background3LastStarLayer_185: 9028906442039769983
+      Spr_Background3LastStarLayer_186: 3628508611332599372
+      Spr_Background3LastStarLayer_187: -6775351522185592238
+      Spr_Background3LastStarLayer_188: -8161653872818919018
+      Spr_Background3LastStarLayer_189: -8573464837614478227
+      Spr_Background3LastStarLayer_19: 8948776886834863832
+      Spr_Background3LastStarLayer_190: 1778721742412247117
+      Spr_Background3LastStarLayer_191: -197803166807539615
+      Spr_Background3LastStarLayer_192: -8889409062383493573
+      Spr_Background3LastStarLayer_193: -7605139053030077715
+      Spr_Background3LastStarLayer_194: 208745602142398170
+      Spr_Background3LastStarLayer_195: 3704742739655576114
+      Spr_Background3LastStarLayer_196: -5250076600558453800
+      Spr_Background3LastStarLayer_197: 4109162307117865475
+      Spr_Background3LastStarLayer_198: 4957341431189774051
+      Spr_Background3LastStarLayer_199: 3479622137309796284
+      Spr_Background3LastStarLayer_2: -7326130942507207531
+      Spr_Background3LastStarLayer_20: -470534280430728500
+      Spr_Background3LastStarLayer_200: 6691366139918861557
+      Spr_Background3LastStarLayer_201: 4522155749105943549
+      Spr_Background3LastStarLayer_202: 5856458702709545971
+      Spr_Background3LastStarLayer_203: 4362204273086067137
+      Spr_Background3LastStarLayer_204: 2901838274176057999
+      Spr_Background3LastStarLayer_205: -8366915924683001387
+      Spr_Background3LastStarLayer_206: 981688648705867826
+      Spr_Background3LastStarLayer_207: 3385967913742308720
+      Spr_Background3LastStarLayer_208: 4227643751042549494
+      Spr_Background3LastStarLayer_209: 6264243785037099197
+      Spr_Background3LastStarLayer_21: -7443543661857472881
+      Spr_Background3LastStarLayer_210: 1872781901022983431
+      Spr_Background3LastStarLayer_211: -7330406098926563214
+      Spr_Background3LastStarLayer_212: -6994310646965541005
+      Spr_Background3LastStarLayer_213: 4881587559962760899
+      Spr_Background3LastStarLayer_214: -944643678034601325
+      Spr_Background3LastStarLayer_22: -4666971112393038857
+      Spr_Background3LastStarLayer_23: -3737245490691564279
+      Spr_Background3LastStarLayer_24: 1221194540402392847
+      Spr_Background3LastStarLayer_25: -703124600271445738
+      Spr_Background3LastStarLayer_26: 2128601114784872000
+      Spr_Background3LastStarLayer_27: -7128576780599168076
+      Spr_Background3LastStarLayer_28: -1698847068597086662
+      Spr_Background3LastStarLayer_29: -4749188069301539021
+      Spr_Background3LastStarLayer_3: 4393839847906770436
+      Spr_Background3LastStarLayer_30: -1570095140965137441
+      Spr_Background3LastStarLayer_31: -4874308946176322645
+      Spr_Background3LastStarLayer_32: 6927262382396613227
+      Spr_Background3LastStarLayer_33: -782604119137902915
+      Spr_Background3LastStarLayer_34: -4636508490439886563
+      Spr_Background3LastStarLayer_35: 884003050694735198
+      Spr_Background3LastStarLayer_36: -7579057789307658517
+      Spr_Background3LastStarLayer_37: -1226363309884670748
+      Spr_Background3LastStarLayer_38: 8310176624896331039
+      Spr_Background3LastStarLayer_39: -964453731077730063
+      Spr_Background3LastStarLayer_4: -8774601455042432075
+      Spr_Background3LastStarLayer_40: -4912406090251766822
+      Spr_Background3LastStarLayer_41: 2179772706686562099
+      Spr_Background3LastStarLayer_42: -8481025854176451586
+      Spr_Background3LastStarLayer_43: -6124099944585508528
+      Spr_Background3LastStarLayer_44: -2694430881436023284
+      Spr_Background3LastStarLayer_45: 853237694763962376
+      Spr_Background3LastStarLayer_46: -8952056625658752579
+      Spr_Background3LastStarLayer_47: -1185106926352633662
+      Spr_Background3LastStarLayer_48: 813723203095898210
+      Spr_Background3LastStarLayer_49: 8069402862018099876
+      Spr_Background3LastStarLayer_5: 7738138653337939797
+      Spr_Background3LastStarLayer_50: 2646109961273168590
+      Spr_Background3LastStarLayer_51: 7135247614670737449
+      Spr_Background3LastStarLayer_52: 650580402552350493
+      Spr_Background3LastStarLayer_53: 8283517187695556501
+      Spr_Background3LastStarLayer_54: -2870309740945678254
+      Spr_Background3LastStarLayer_55: -5076308651353011197
+      Spr_Background3LastStarLayer_56: 7562501179487224764
+      Spr_Background3LastStarLayer_57: -1847123329967558957
+      Spr_Background3LastStarLayer_58: 2031928455269492461
+      Spr_Background3LastStarLayer_59: 1419154079811584258
+      Spr_Background3LastStarLayer_6: -4656221207458068869
+      Spr_Background3LastStarLayer_60: 503027327468171427
+      Spr_Background3LastStarLayer_61: 2223983005055119635
+      Spr_Background3LastStarLayer_62: -4423121561157960461
+      Spr_Background3LastStarLayer_63: -6634313625559551375
+      Spr_Background3LastStarLayer_64: -3404154012437646161
+      Spr_Background3LastStarLayer_65: 4048385442144562325
+      Spr_Background3LastStarLayer_66: 739932704459032337
+      Spr_Background3LastStarLayer_67: 726330003061612268
+      Spr_Background3LastStarLayer_68: -523093163876769129
+      Spr_Background3LastStarLayer_69: -6943145594783224267
+      Spr_Background3LastStarLayer_7: -6783428627274591910
+      Spr_Background3LastStarLayer_70: -4986867071045488075
+      Spr_Background3LastStarLayer_71: 6604713428064856244
+      Spr_Background3LastStarLayer_72: -7296413723981396745
+      Spr_Background3LastStarLayer_73: -2987384261842651112
+      Spr_Background3LastStarLayer_74: 3693195216999654887
+      Spr_Background3LastStarLayer_75: -2901603925044238994
+      Spr_Background3LastStarLayer_76: 6474135023221805259
+      Spr_Background3LastStarLayer_77: -8784057168648803692
+      Spr_Background3LastStarLayer_78: 5341408523564854572
+      Spr_Background3LastStarLayer_79: -5023385879478759895
+      Spr_Background3LastStarLayer_8: 4226533554097327983
+      Spr_Background3LastStarLayer_80: -5882779526069045217
+      Spr_Background3LastStarLayer_81: -4981161106162773419
+      Spr_Background3LastStarLayer_82: 4433554578241756624
+      Spr_Background3LastStarLayer_83: 7034278583385059503
+      Spr_Background3LastStarLayer_84: -5348376031828148846
+      Spr_Background3LastStarLayer_85: 6416504046600493123
+      Spr_Background3LastStarLayer_86: 1398610279472130711
+      Spr_Background3LastStarLayer_87: 1533756318532406868
+      Spr_Background3LastStarLayer_88: -3812747834256692482
+      Spr_Background3LastStarLayer_89: -1573795604151451225
+      Spr_Background3LastStarLayer_9: -5259255037664807896
+      Spr_Background3LastStarLayer_90: 9042273611071687308
+      Spr_Background3LastStarLayer_91: -454628774876692581
+      Spr_Background3LastStarLayer_92: -2838188569167507835
+      Spr_Background3LastStarLayer_93: 541266929425871309
+      Spr_Background3LastStarLayer_94: -6446996664023103315
+      Spr_Background3LastStarLayer_95: 7610800894946892083
+      Spr_Background3LastStarLayer_96: -2622398824178883496
+      Spr_Background3LastStarLayer_97: -3901831832948741743
+      Spr_Background3LastStarLayer_98: -8037546181589781393
+      Spr_Background3LastStarLayer_99: -4069959919555341320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

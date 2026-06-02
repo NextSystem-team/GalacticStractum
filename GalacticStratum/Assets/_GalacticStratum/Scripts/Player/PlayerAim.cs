@@ -41,6 +41,8 @@ public class PlayerAim : MonoBehaviour
 
     private void Update()
     {
+        transform.rotation = Quaternion.identity;
+
         ApplyClick();
     }
 

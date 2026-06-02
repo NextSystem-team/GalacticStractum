@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 802379322fb9e7f46924201390806eb8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5406443472887813778
+    second: Spr_Background2TopStarLayer_0
+  - first:
+      213: -9080588652702610127
+    second: Spr_Background2TopStarLayer_1
+  - first:
+      213: 6106451921205728273
+    second: Spr_Background2TopStarLayer_2
+  - first:
+      213: -7718804132783478722
+    second: Spr_Background2TopStarLayer_3
+  - first:
+      213: -4787178419638258277
+    second: Spr_Background2TopStarLayer_4
+  - first:
+      213: 6725781784424192944
+    second: Spr_Background2TopStarLayer_5
+  - first:
+      213: 933494720464324525
+    second: Spr_Background2TopStarLayer_6
+  - first:
+      213: 7315059328615950467
+    second: Spr_Background2TopStarLayer_7
+  - first:
+      213: 7740266229105240917
+    second: Spr_Background2TopStarLayer_8
+  - first:
+      213: -4351897329307983824
+    second: Spr_Background2TopStarLayer_9
+  - first:
+      213: 6317149149039932571
+    second: Spr_Background2TopStarLayer_10
+  - first:
+      213: -7864700318803586142
+    second: Spr_Background2TopStarLayer_11
+  - first:
+      213: 7694650007572069595
+    second: Spr_Background2TopStarLayer_12
+  - first:
+      213: -8189879404095649928
+    second: Spr_Background2TopStarLayer_13
+  - first:
+      213: -2481253455903831072
+    second: Spr_Background2TopStarLayer_14
+  - first:
+      213: 8213860499381076111
+    second: Spr_Background2TopStarLayer_15
+  - first:
+      213: 6769821868629046480
+    second: Spr_Background2TopStarLayer_16
+  - first:
+      213: 9110704281491119006
+    second: Spr_Background2TopStarLayer_17
+  - first:
+      213: 4120271910430714231
+    second: Spr_Background2TopStarLayer_18
+  - first:
+      213: 5775007576247903001
+    second: Spr_Background2TopStarLayer_19
+  - first:
+      213: 3291738755313563971
+    second: Spr_Background2TopStarLayer_20
+  - first:
+      213: -2623705020341683404
+    second: Spr_Background2TopStarLayer_21
+  - first:
+      213: 3575816745323008505
+    second: Spr_Background2TopStarLayer_22
+  - first:
+      213: -8962060353338631690
+    second: Spr_Background2TopStarLayer_23
+  - first:
+      213: 6736288201951946847
+    second: Spr_Background2TopStarLayer_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 163
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29615bba1bb870b40800000000000000
+      internalID: 5406443472887813778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 280
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dc73c3bb44bf180800000000000000
+      internalID: -9080588652702610127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_2
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 265
+        width: 76
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11418714ba97eb450800000000000000
+      internalID: 6106451921205728273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 129
+        width: 30
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38af96898c41e490800000000000000
+      internalID: -7718804132783478722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_4
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 231
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95bb054796809db0800000000000000
+      internalID: -4787178419638258277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_5
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 203
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb9561f5e6c65d50800000000000000
+      internalID: 6725781784424192944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_6
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 205
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da78afc908074fc00800000000000000
+      internalID: 933494720464324525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 185
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388af09d3bf448560800000000000000
+      internalID: 7315059328615950467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_8
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 163
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b25cc2023fa6b60800000000000000
+      internalID: 7740266229105240917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_9
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 165
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03060a3bf64fa93c0800000000000000
+      internalID: -4351897329307983824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_10
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94bfad6ea50ba750800000000000000
+      internalID: 6317149149039932571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_11
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 141
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a39fc0aab8fad290800000000000000
+      internalID: -7864700318803586142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_12
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 109
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc3a44f963e8ca60800000000000000
+      internalID: 7694650007572069595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 85
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8774795e214b75e80800000000000000
+      internalID: -8189879404095649928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_14
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 95
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb442bc021d09dd0800000000000000
+      internalID: -2481253455903831072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_15
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 97
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80c834fa9e7df170800000000000000
+      internalID: 8213860499381076111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d43e481f1d33fd50800000000000000
+      internalID: 6769821868629046480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_17
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b98eff549bf6e70800000000000000
+      internalID: 9110704281491119006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_18
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7792e3fe8752e2930800000000000000
+      internalID: 4120271910430714231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_19
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 37
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91322751bc2f42050800000000000000
+      internalID: 5775007576247903001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_20
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 31
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349f9d325fa9ead20800000000000000
+      internalID: 3291738755313563971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_21
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 37
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43bff1b5f2ab69bd0800000000000000
+      internalID: -2623705020341683404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_22
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 25
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f11fd6626adf9130800000000000000
+      internalID: 3575816745323008505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_23
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 7
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f993a7779d50a380800000000000000
+      internalID: -8962060353338631690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_Background2TopStarLayer_24
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 13
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f582006ed6a1c7d50800000000000000
+      internalID: 6736288201951946847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Spr_Background2TopStarLayer_0: 5406443472887813778
+      Spr_Background2TopStarLayer_1: -9080588652702610127
+      Spr_Background2TopStarLayer_10: 6317149149039932571
+      Spr_Background2TopStarLayer_11: -7864700318803586142
+      Spr_Background2TopStarLayer_12: 7694650007572069595
+      Spr_Background2TopStarLayer_13: -8189879404095649928
+      Spr_Background2TopStarLayer_14: -2481253455903831072
+      Spr_Background2TopStarLayer_15: 8213860499381076111
+      Spr_Background2TopStarLayer_16: 6769821868629046480
+      Spr_Background2TopStarLayer_17: 9110704281491119006
+      Spr_Background2TopStarLayer_18: 4120271910430714231
+      Spr_Background2TopStarLayer_19: 5775007576247903001
+      Spr_Background2TopStarLayer_2: 6106451921205728273
+      Spr_Background2TopStarLayer_20: 3291738755313563971
+      Spr_Background2TopStarLayer_21: -2623705020341683404
+      Spr_Background2TopStarLayer_22: 3575816745323008505
+      Spr_Background2TopStarLayer_23: -8962060353338631690
+      Spr_Background2TopStarLayer_24: 6736288201951946847
+      Spr_Background2TopStarLayer_3: -7718804132783478722
+      Spr_Background2TopStarLayer_4: -4787178419638258277
+      Spr_Background2TopStarLayer_5: 6725781784424192944
+      Spr_Background2TopStarLayer_6: 933494720464324525
+      Spr_Background2TopStarLayer_7: 7315059328615950467
+      Spr_Background2TopStarLayer_8: 7740266229105240917
+      Spr_Background2TopStarLayer_9: -4351897329307983824
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

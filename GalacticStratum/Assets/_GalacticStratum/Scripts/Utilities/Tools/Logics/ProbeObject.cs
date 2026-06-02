@@ -19,6 +19,7 @@ public class ProbeObject : _ToolObject
         GameObject probe = Instantiate(probePrefab, player.transform.position, Quaternion.identity);
         ProbePulse probePulse = probe.GetComponent<ProbePulse>();
         probePulse.maxRadius = maxProbeRange;
+        currentProbe = probe;
     }
 
 }

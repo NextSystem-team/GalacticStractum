@@ -20,8 +20,6 @@ public class ReportButton : MonoBehaviour
         layoutElement = GetComponent<LayoutElement>();
 
         interactButton.onClick.AddListener(ToggleContent);
-
-        layoutElement.preferredHeight = closedContentHeight;
     }
 
     private void Update()
