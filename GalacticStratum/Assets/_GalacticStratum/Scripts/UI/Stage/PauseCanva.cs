@@ -13,9 +13,11 @@ public class PauseCanva : MonoBehaviour
     [SerializeField] private Button openSettingsButton;
     [SerializeField] private Button endMissionButton;
 
-    private bool isPaused;
-    private bool isSettingsOpen;
-    private bool isMissionEndingOpen;
+    [SerializeField] private EndMissionCanva endMissionCanva;
+
+    private bool isPaused = false;
+    private bool isSettingsOpen = false;
+    private bool isMissionEndingOpen = false;
 
     private void Start()
     {
@@ -25,6 +27,8 @@ public class PauseCanva : MonoBehaviour
         { 
             GlobalEvents.ToggleSettings?.Invoke(); 
         });
+
+        endMissionButton.onClick.AddListener(EndMission);
     }
 
     private void Update()
@@ -63,5 +67,11 @@ public class PauseCanva : MonoBehaviour
     private void ToggleEscapeKey(bool isSettingsOpen)
     {
         this.isSettingsOpen = isSettingsOpen;
+    }
+
+    private void EndMission()
+    {
+        isMissionEndingOpen = true;
+        endMissionCanva.OpenEndMission();
     }
 }

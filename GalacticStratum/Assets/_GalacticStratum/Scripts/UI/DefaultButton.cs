@@ -34,11 +34,11 @@ public class DefaultButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     {
         if (!isPressed)
         {
-            button.transform.DOScale(hoveredScale, 0.2f);
+            button.transform.DOScale(hoveredScale, 0.2f).SetUpdate(true);
             text.color = hoverTextColor;
         }
 
-        material.DOColor(hoverHighlightColor, ShaderUtilities.ID_FaceColor, 0.2f);
+        material.DOColor(hoverHighlightColor, ShaderUtilities.ID_FaceColor, 0.2f).SetUpdate(true);
         currentScale = hoveredScale;
         currentTextColor = hoverTextColor;
     }
@@ -47,11 +47,11 @@ public class DefaultButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     {
         if (!isPressed)
         {
-            button.transform.DOScale(defaultScale, 0.2f);
+            button.transform.DOScale(defaultScale, 0.2f).SetUpdate(true);
             text.color = defaultTextColor;
         }
        
-        material.DOColor(Color.white, ShaderUtilities.ID_FaceColor, 0.2f);
+        material.DOColor(Color.white, ShaderUtilities.ID_FaceColor, 0.2f).SetUpdate(true);
         currentScale = defaultScale;
         currentTextColor = defaultTextColor;
     }
@@ -59,14 +59,14 @@ public class DefaultButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     public void OnPointerDown(PointerEventData eventData)
     {
         text.color = Color.black;
-        button.transform.DOScale(pressedScale, 0.3f);
+        button.transform.DOScale(pressedScale, 0.3f).SetUpdate(true);
         isPressed = true;
     }
 
     public void OnPointerUp(PointerEventData eventData)
     {
         text.color = defaultTextColor;
-        button.transform.DOScale(currentScale, 0.3f);
+        button.transform.DOScale(currentScale, 0.3f).SetUpdate(true);
         isPressed = false;
     }
 }

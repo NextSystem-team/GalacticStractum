@@ -15,10 +15,13 @@ public class MainCanva : MonoBehaviour
     [SerializeField] private InputActionReference escape;
     private bool isShopOpened;
 
+    [SerializeField] private Button backToTitleButton;
+
     private void Start()
     {
         startGameButton.onClick.AddListener(StartGame);
         openShopButton.onClick.AddListener(TogleShop);
+        backToTitleButton.onClick.AddListener(BackToTitle);
     }
 
     private void Update()
@@ -58,5 +61,11 @@ public class MainCanva : MonoBehaviour
                 darkShopPanel.gameObject.SetActive(false);
             });
         }
+    }
+
+    private void BackToTitle()
+    {
+        SaveManager.SaveGame();
+        SceneManager.LoadScene("TitleScreenScene");
     }
 }
