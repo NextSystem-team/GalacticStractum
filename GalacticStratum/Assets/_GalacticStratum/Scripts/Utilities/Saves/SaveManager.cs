@@ -73,6 +73,13 @@ public static class SaveManager
         PlayerPrefs.Save();
     }
 
+    public static void ApplyAndSaveSettings(float musicVolume, float sfxVolume)
+    {
+        currentGameData.musicVolume = musicVolume;
+        currentGameData.sfxVolume = sfxVolume;
+        SaveGame();
+    }
+
     public static void ResetGame()
     {
         currentPlayerData = null;
