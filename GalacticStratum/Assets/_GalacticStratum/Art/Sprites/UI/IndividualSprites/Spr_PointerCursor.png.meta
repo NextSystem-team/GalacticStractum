@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 078a9b9a58190214182e8592dd180780
+guid: 72fc25e958d0cc444b75df6744ee41f1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4201063887542588991
-    second: Spr_UIPressedButtonDark_0
+      213: -7682509076515183450
+    second: Spr_PointerCursor_0
+  - first:
+      213: -9130605730008279983
+    second: Spr_PointerCursor_1
+  - first:
+      213: -1764190457367191026
+    second: Spr_PointerCursor_2
+  - first:
+      213: -5550974832528779108
+    second: Spr_PointerCursor_3
+  - first:
+      213: -8481622102528656925
+    second: Spr_PointerCursor_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,19 +52,19 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 12, y: 12, z: 12, w: 12}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -113,23 +125,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spr_UIPressedButtonDark_0
+      name: Spr_PointerCursor_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 32
+        x: 47
+        y: 23
+        width: 186
+        height: 186
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3692b7f85d2d4a30800000000000000
-      internalID: 4201063887542588991
+      spriteID: 6a42996d2be326590800000000000000
+      internalID: -7682509076515183450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_PointerCursor_1
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 63
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 154d5bee672994180800000000000000
+      internalID: -9130605730008279983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_PointerCursor_2
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02ae7840265487e0800000000000000
+      internalID: -1764190457367191026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_PointerCursor_3
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 7
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c981df5dcc9f6f2b0800000000000000
+      internalID: -5550974832528779108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spr_PointerCursor_4
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e97da3a2a93b4a80800000000000000
+      internalID: -8481622102528656925
       vertices: []
       indices: 
       edges: []
@@ -139,7 +239,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -148,7 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Spr_UIPressedButtonDark_0: 4201063887542588991
+      Spr_PointerCursor_0: -7682509076515183450
+      Spr_PointerCursor_1: -9130605730008279983
+      Spr_PointerCursor_2: -1764190457367191026
+      Spr_PointerCursor_3: -5550974832528779108
+      Spr_PointerCursor_4: -8481622102528656925
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

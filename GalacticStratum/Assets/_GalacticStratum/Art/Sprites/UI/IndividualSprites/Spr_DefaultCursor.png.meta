@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 078a9b9a58190214182e8592dd180780
+guid: 525dd7f70891bcf47aa4d0aaa7bcd33e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4201063887542588991
-    second: Spr_UIPressedButtonDark_0
+      213: -5050504307687362300
+    second: Spr_DefaultCursor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,19 +40,19 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
   spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 12, y: 12, z: 12, w: 12}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spr_UIPressedButtonDark_0
+      name: Spr_DefaultCursor_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 96
-        height: 32
+        x: 47
+        y: 47
+        width: 162
+        height: 162
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3692b7f85d2d4a30800000000000000
-      internalID: 4201063887542588991
+      spriteID: 401f6b3471109e9b0800000000000000
+      internalID: -5050504307687362300
       vertices: []
       indices: 
       edges: []
@@ -139,7 +139,7 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Spr_UIPressedButtonDark_0: 4201063887542588991
+      Spr_DefaultCursor_0: -5050504307687362300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

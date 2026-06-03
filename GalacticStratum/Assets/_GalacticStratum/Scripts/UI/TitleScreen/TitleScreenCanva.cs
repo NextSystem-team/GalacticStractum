@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TitleScreenCanva : MonoBehaviour
@@ -24,18 +25,18 @@ public class TitleScreenCanva : MonoBehaviour
     private void LoadCampaign()
     {
         SaveManager.LoadGame();
-        print("Vai pra tela principal");
+        SceneManager.LoadScene("MainScene");
     }
 
     private void StartNewCampaign()
     {
         SaveManager.ResetGame();
-        print("Vai pra tela principal");
+        SceneManager.LoadScene("MainScene");
     }
 
     private void OpenSettings()
     {
-        print("Sobe tela de configurações");
+        GlobalEvents.ToggleSettings?.Invoke();
     }
 
     private void ExitGame() 

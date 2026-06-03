@@ -16,19 +16,24 @@ public class PlayerData
 
 public class GameData
 {
-    public float musicVolume;
-    public float sfxVolume;
-
     public int currentMoneyGoal;
     public int timeToReachGoal;
+}
+
+public class SettingsData
+{
+    public float musicVolume;
+    public float sfxVolume;
 }
 
 public static class SaveManager
 {
     private const string PLAYER_SAVE_KEY = "GalacticStractum_Player_SaveFile";
     private const string GAME_SAVE_KEY = "GalacticStractum_Game_SaveFile";
+    private const string SETTINGS_SAVE_KEY = "GalacticStractum_Settings_SaveFile";
     public static PlayerData currentPlayerData;
     public static GameData currentGameData;
+    public static SettingsData currentSettings;
 
     public static void LoadGame()
     {
@@ -52,8 +57,6 @@ public static class SaveManager
         {
             currentGameData = new()
             {
-                musicVolume = 0.5f,
-                sfxVolume = 0.5f,
                 currentMoneyGoal = 5000,
                 timeToReachGoal = 3
             };
@@ -73,11 +76,36 @@ public static class SaveManager
         PlayerPrefs.Save();
     }
 
+    public static void LoadSettings()
+    {
+        if (PlayerPrefs.HasKey(SETTINGS_SAVE_KEY))
+        {
+            string settingsJson = PlayerPrefs.GetString(SETTINGS_SAVE_KEY);
+            currentSettings = JsonUtility.FromJson<SettingsData>(settingsJson);
+        }
+        else
+        {
+            currentSettings = new() { 
+                musicVolume = 0.5f,
+                sfxVolume = 0.5f
+            };
+        }
+
+        SaveSettings();
+    }
+
+    public static void SaveSettings()
+    {
+        string settingsJson = JsonUtility.ToJson(currentSettings);
+        PlayerPrefs.SetString(SETTINGS_SAVE_KEY, settingsJson);
+    }
+
     public static void ApplyAndSaveSettings(float musicVolume, float sfxVolume)
     {
-        currentGameData.musicVolume = musicVolume;
-        currentGameData.sfxVolume = sfxVolume;
-        SaveGame();
+        currentSettings.musicVolume = musicVolume;
+        currentSettings.sfxVolume = sfxVolume;
+
+        SaveSettings();
     }
 
     public static void ResetGame()

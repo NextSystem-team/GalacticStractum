@@ -1360,7 +1360,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 104.33276, y: 0.0029296875}
+  m_AnchoredPosition: {x: 104.33276, y: 0}
   m_SizeDelta: {x: 589.3342, y: 694.5341}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &237847962
@@ -2983,6 +2983,7 @@ GameObject:
   - component: {fileID: 571546015}
   - component: {fileID: 571546017}
   - component: {fileID: 571546016}
+  - component: {fileID: 571546018}
   m_Layer: 5
   m_Name: ShopPanel
   m_TagString: Untagged
@@ -3008,7 +3009,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -964}
   m_SizeDelta: {x: 1000, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &571546016
@@ -3049,6 +3050,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 571546014}
   m_CullTransparentMesh: 1
+--- !u!114 &571546018
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571546014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 933e6a6da5850ce448350d24c095453d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShopContainer
+  shopBox: {fileID: 771617306}
+  switchToBuyButton: {fileID: 1992203241}
+  switchToSellButton: {fileID: 1986561453}
 --- !u!1 &595798338
 GameObject:
   m_ObjectHideFlags: 0
@@ -3372,7 +3388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.9607843}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6372,107 +6388,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335397060}
   m_CullTransparentMesh: 1
---- !u!1 &1340691351
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1340691355}
-  - component: {fileID: 1340691354}
-  - component: {fileID: 1340691353}
-  - component: {fileID: 1340691352}
-  m_Layer: 5
-  m_Name: SettingsCanva
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1340691352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340691351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.GraphicRaycaster
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1340691353
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340691351}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.CanvasScaler
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1440, y: 1040}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.5
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &1340691354
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340691351}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 519420031}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 10
-  m_TargetDisplay: 0
---- !u!224 &1340691355
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340691351}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1346369945
 GameObject:
   m_ObjectHideFlags: 0
@@ -7764,6 +7679,7 @@ GameObject:
   - component: {fileID: 1487139652}
   - component: {fileID: 1487139651}
   - component: {fileID: 1487139650}
+  - component: {fileID: 1487139654}
   m_Layer: 5
   m_Name: MainCanva
   m_TagString: Untagged
@@ -7860,6 +7776,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1487139654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487139649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 537f56c403a988f4a99da8536c80d797, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MainCanva
+  startGameButton: {fileID: 1657196542}
+  playerImage: {fileID: 237847961}
+  openShopButton: {fileID: 3167780}
+  darkShopPanel: {fileID: 653275414}
+  shopPanel: {fileID: 571546015}
+  escape: {fileID: 8365202045391343877, guid: f763683b805aa274788d9049077dfc10, type: 3}
 --- !u!1 &1489459682
 GameObject:
   m_ObjectHideFlags: 0
@@ -12350,20 +12284,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &4899083216375512879
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6340524676610550503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8a0957e57fb06964daab7cbdec0a08eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ToolButton
-  tool: {fileID: 0}
-  icon: {fileID: 7176045792668412433}
 --- !u!222 &4937475669513507797
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12384,7 +12304,6 @@ GameObject:
   - component: {fileID: 4937475669513507797}
   - component: {fileID: 3392193744893963020}
   - component: {fileID: 2699338218196708744}
-  - component: {fileID: 4899083216375512879}
   m_Layer: 5
   m_Name: ToolShopButton
   m_TagString: Untagged
@@ -12520,4 +12439,3 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 1487139653}
   - {fileID: 1651678878}
-  - {fileID: 1340691355}
