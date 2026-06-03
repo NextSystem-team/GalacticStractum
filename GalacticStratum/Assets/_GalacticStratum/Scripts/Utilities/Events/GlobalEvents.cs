@@ -7,4 +7,5 @@ public static class GlobalEvents
     public static Action<AsteroidData> CreateReport;
 
     public static Action ToggleSettings;
+    public static Action<bool> NotifySettingsToggle;
 }

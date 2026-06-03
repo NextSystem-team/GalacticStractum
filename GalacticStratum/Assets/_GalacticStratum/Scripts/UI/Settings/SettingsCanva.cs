@@ -55,19 +55,21 @@ public class SettingsCanva : MonoBehaviour
         {
             UpdateVolumes();
 
+            GlobalEvents.NotifySettingsToggle?.Invoke(true);
             isOpened = true;
             darkPanel.gameObject.SetActive(true);
 
-            darkPanel.DOFade(0.8f, 1f);
-            settingsPanel.DOAnchorPosY(0, 1f);
+            darkPanel.DOFade(0.8f, 0.3f).SetUpdate(true);
+            settingsPanel.DOAnchorPosY(0, 0.3f).SetUpdate(true);
         }
         else
         {
             UpdateVolumes();
 
+            GlobalEvents.NotifySettingsToggle?.Invoke(false);
             isOpened = false;
-            darkPanel.DOFade(0.0f, 1f);
-            settingsPanel.DOAnchorPosY(-964, 1f).OnComplete(() =>
+            darkPanel.DOFade(0.0f, 0.3f).SetUpdate(true);
+            settingsPanel.DOAnchorPosY(-964, 0.3f).SetUpdate(true).OnComplete(() =>
             {
                 darkPanel.gameObject.SetActive(false);
             });
