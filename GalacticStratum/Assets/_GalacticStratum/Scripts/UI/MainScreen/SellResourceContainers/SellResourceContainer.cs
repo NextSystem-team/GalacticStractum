@@ -4,13 +4,6 @@ using UnityEngine.UI;
 
 public class SellResourceContainer : MonoBehaviour
 {
-    private enum ResourceType
-    {
-        Beskarium,
-        Whitlockite,
-        Lechatelierite,
-        Elaliite
-    }
 
     private struct ResourceData
     {
@@ -18,7 +11,7 @@ public class SellResourceContainer : MonoBehaviour
         public int Price { get; set; }
     }
 
-    [SerializeField] private ResourceType resourceType;
+    [SerializeField] private AsteroidData.ResourceType resourceType;
     [SerializeField] private Button sellOneButton;
     [SerializeField] private Button sellAllButton;
     [SerializeField] private Button sellCustomAmount;
@@ -39,7 +32,7 @@ public class SellResourceContainer : MonoBehaviour
         amountText.text = GetResourceData(resourceType).Amount.ToString();
     }
 
-    private void SellResource(int sellAmount, ResourceType resourceType)
+    private void SellResource(int sellAmount, AsteroidData.ResourceType resourceType)
     {
         if (sellAmount <= 0) return;
 
@@ -52,41 +45,42 @@ public class SellResourceContainer : MonoBehaviour
             if (sellAmount > resourceData.Amount)
             {
                 resourcesSelled = resourceData.Amount;
-                amountText.text = DecreasePlayerResourAmount(resourcesSelled, resourceType).ToString();
+                amountText.text = DecreasePlayerResourceAmount(resourcesSelled, resourceType).ToString();
             }
             else
             {
                 resourcesSelled = sellAmount;
-                amountText.text = amountText.text = DecreasePlayerResourAmount(resourcesSelled, resourceType).ToString();
+                amountText.text = amountText.text = DecreasePlayerResourceAmount(resourcesSelled, resourceType).ToString();
             }
 
             SaveManager.currentPlayerData.moneyAmount += resourcesSelled * resourceData.Price;
+            ResourcesPriceManager.RegisterSale(resourceType, resourcesSelled);
         }
     }
 
-    private ResourceData GetResourceData(ResourceType resource)
+    private ResourceData GetResourceData(AsteroidData.ResourceType resource)
     {
         switch (resource)
         {
-            case ResourceType.Beskarium:
+            case AsteroidData.ResourceType.Beskarium:
                 return new ResourceData
                 {
                     Amount = SaveManager.currentPlayerData.beskariumAmount,
                     Price = SaveManager.currentGameData.beskariumPrice
                 };
-            case ResourceType.Whitlockite:
+            case AsteroidData.ResourceType.Whitlockite:
                 return new ResourceData
                 {
                     Amount = SaveManager.currentPlayerData.whitlockiteAmount,
                     Price = SaveManager.currentGameData.whitlockitePrice
                 };
-            case ResourceType.Lechatelierite:
+            case AsteroidData.ResourceType.Lechatelierite:
                 return new ResourceData
                 {
                     Amount = SaveManager.currentPlayerData.lechatelieriteAmount,
                     Price = SaveManager.currentGameData.lechatelieritePrice
                 };
-            case ResourceType.Elaliite:
+            case AsteroidData.ResourceType.Elaliite:
                 return new ResourceData
                 {
                     Amount = SaveManager.currentPlayerData.elaliiteAmount,
@@ -97,20 +91,20 @@ public class SellResourceContainer : MonoBehaviour
         }
     }
 
-    private int DecreasePlayerResourAmount(int amount, ResourceType resource)
+    private int DecreasePlayerResourceAmount(int amount, AsteroidData.ResourceType resource)
     {
         switch (resource)
         {
-            case ResourceType.Beskarium:
+            case AsteroidData.ResourceType.Beskarium:
                 SaveManager.currentPlayerData.beskariumAmount -= amount;
                 return SaveManager.currentPlayerData.beskariumAmount;
-            case ResourceType.Whitlockite:
+            case AsteroidData.ResourceType.Whitlockite:
                 SaveManager.currentPlayerData.whitlockiteAmount -= amount;
                 return SaveManager.currentPlayerData.whitlockiteAmount;
-            case ResourceType.Lechatelierite:
+            case AsteroidData.ResourceType.Lechatelierite:
                 SaveManager.currentPlayerData.lechatelieriteAmount -= amount;
                 return SaveManager.currentPlayerData.lechatelieriteAmount;
-            case ResourceType.Elaliite:
+            case AsteroidData.ResourceType.Elaliite:
                 SaveManager.currentPlayerData.elaliiteAmount -= amount;
                 return SaveManager.currentPlayerData.elaliiteAmount;
             default:

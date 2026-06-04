@@ -16,13 +16,13 @@ public class PlayerData
 
 public class GameData
 {
-    public int currentMoneyGoal;
+    public int currentMoneyQuota;
     public int timeToReachGoal;
 
-    public int lechatelieritePrice = 20;
-    public int elaliitePrice = 20;
-    public int whitlockitePrice = 20;
-    public int beskariumPrice = 20;
+    public int lechatelieritePrice = 25;
+    public int elaliitePrice = 25;
+    public int whitlockitePrice = 25;
+    public int beskariumPrice = 25;
 
     public int lechatelieriteSaturationLevel;
     public int elaliiteSaturationLevel;
@@ -67,7 +67,7 @@ public static class SaveManager
         {
             currentGameData = new()
             {
-                currentMoneyGoal = 5000,
+                currentMoneyQuota = 60000,
                 timeToReachGoal = 3
             };
         }

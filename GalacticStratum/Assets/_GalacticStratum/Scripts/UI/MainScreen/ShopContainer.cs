@@ -55,5 +55,10 @@ public class ShopContainer : MonoBehaviour
                              whitlockiteAmount * SaveManager.currentGameData.whitlockitePrice;
 
         SaveManager.currentPlayerData.moneyAmount += totalSellValue;
+
+        ResourcesPriceManager.RegisterSale(AsteroidData.ResourceType.Lechatelierite, lechatelieriteAmount);
+        ResourcesPriceManager.RegisterSale(AsteroidData.ResourceType.Elaliite, elaliiteAmount);
+        ResourcesPriceManager.RegisterSale(AsteroidData.ResourceType.Beskarium, beskariumAmount);
+        ResourcesPriceManager.RegisterSale(AsteroidData.ResourceType.Whitlockite, whitlockiteAmount);
     }
 }
