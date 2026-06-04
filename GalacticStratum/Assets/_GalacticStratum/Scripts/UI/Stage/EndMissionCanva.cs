@@ -34,6 +34,10 @@ public class EndMissionCanva : MonoBehaviour
 
     public void OpenEndMission()
     {
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+        CursorSpriteManager.currentCursorSprite = null;
+        CursorSpriteManager.currentCursorHotspot = Vector2.zero;
+
         darkPanel.SetActive(true);
         Time.timeScale = 0.0f;
 
@@ -47,6 +51,7 @@ public class EndMissionCanva : MonoBehaviour
     {
         Time.timeScale = 1.0f;
         DOTween.KillAll();
+        SaveManager.SaveGame();
         SceneManager.LoadScene("MainScene");
     }
 }

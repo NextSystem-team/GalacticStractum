@@ -18,6 +18,16 @@ public class GameData
 {
     public int currentMoneyGoal;
     public int timeToReachGoal;
+
+    public int lechatelieritePrice = 20;
+    public int elaliitePrice = 20;
+    public int whitlockitePrice = 20;
+    public int beskariumPrice = 20;
+
+    public int lechatelieriteSaturationLevel;
+    public int elaliiteSaturationLevel;
+    public int whitlockiteSaturationLevel;
+    public int beskariumSaturationLevel;
 }
 
 public class SettingsData

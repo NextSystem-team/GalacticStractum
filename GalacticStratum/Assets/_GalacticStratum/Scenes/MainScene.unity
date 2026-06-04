@@ -2518,7 +2518,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2541,7 +2541,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -2645,7 +2645,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540696a87950df949b0a9aa744021612, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b06feb00a092ec4d8367998aa611a2f, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2959,7 +2959,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540696a87950df949b0a9aa744021612, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4fd9298c4b324ce4cb5d940e64e0f3d3, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -3107,6 +3107,11 @@ MonoBehaviour:
   shopBox: {fileID: 771617306}
   switchToBuyButton: {fileID: 1992203241}
   switchToSellButton: {fileID: 1986561453}
+  sellAllResources: {fileID: 986774841}
+  lechatelieriteAmountText: {fileID: 872841702}
+  elaliiteAmountText: {fileID: 1756374321}
+  beskariumAmountText: {fileID: 1082837335}
+  whitlockiteAmountText: {fileID: 2134433953}
 --- !u!1 &595798338
 GameObject:
   m_ObjectHideFlags: 0
@@ -3988,7 +3993,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $0000
+  m_text: '$0
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5249,8 +5256,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1020972415}
+  - component: {fileID: 1020972416}
   m_Layer: 5
-  m_Name: SellResourceContainer (3)
+  m_Name: SellResourceContainerElaliite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5279,6 +5287,24 @@ RectTransform:
   m_AnchoredPosition: {x: 822, y: 49.000004}
   m_SizeDelta: {x: 121.9, y: 297.14}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1020972416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020972414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffbca1447248ac4cab9685888fcba72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SellResourceContainer
+  resourceType: 3
+  sellOneButton: {fileID: 1479563535}
+  sellAllButton: {fileID: 393784899}
+  sellCustomAmount: {fileID: 1804965934}
+  customAmountField: {fileID: 1384494659}
+  amountText: {fileID: 1756374321}
 --- !u!1 &1025370410
 GameObject:
   m_ObjectHideFlags: 0
@@ -5732,7 +5758,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5755,7 +5781,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -6278,7 +6304,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540696a87950df949b0a9aa744021612, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a106644be85269b478b356159f38360a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -6842,7 +6868,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $0000
+  m_text: '$0
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6931,8 +6959,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1363112384}
+  - component: {fileID: 1363112385}
   m_Layer: 5
-  m_Name: SellResourceContainer (2)
+  m_Name: SellResourceContainerBeskarium
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6961,6 +6990,24 @@ RectTransform:
   m_AnchoredPosition: {x: 601, y: 49.000004}
   m_SizeDelta: {x: 121.9, y: 297.14}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1363112385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363112383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffbca1447248ac4cab9685888fcba72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SellResourceContainer
+  resourceType: 0
+  sellOneButton: {fileID: 1597489892}
+  sellAllButton: {fileID: 749706743}
+  sellCustomAmount: {fileID: 1751002192}
+  customAmountField: {fileID: 181190829}
+  amountText: {fileID: 1082837335}
 --- !u!1 &1365632678
 GameObject:
   m_ObjectHideFlags: 0
@@ -7358,7 +7405,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -7381,7 +7428,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -7534,8 +7581,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1442518340}
+  - component: {fileID: 1442518341}
   m_Layer: 5
-  m_Name: SellResourceContainer
+  m_Name: SellResourceContainerLechatelierite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7564,6 +7612,24 @@ RectTransform:
   m_AnchoredPosition: {x: 149, y: 49}
   m_SizeDelta: {x: 121.9, y: 297.14}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1442518341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442518339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffbca1447248ac4cab9685888fcba72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SellResourceContainer
+  resourceType: 2
+  sellOneButton: {fileID: 1865435958}
+  sellAllButton: {fileID: 193402517}
+  sellCustomAmount: {fileID: 2030120827}
+  customAmountField: {fileID: 924551609}
+  amountText: {fileID: 872841702}
 --- !u!1 &1445810339
 GameObject:
   m_ObjectHideFlags: 0
@@ -7573,8 +7639,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1445810340}
+  - component: {fileID: 1445810341}
   m_Layer: 5
-  m_Name: SellResourceContainer (1)
+  m_Name: SellResourceContainerWhitlockite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7603,6 +7670,24 @@ RectTransform:
   m_AnchoredPosition: {x: 380, y: 49.000004}
   m_SizeDelta: {x: 121.9, y: 297.14}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1445810341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445810339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffbca1447248ac4cab9685888fcba72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SellResourceContainer
+  resourceType: 1
+  sellOneButton: {fileID: 1335397064}
+  sellAllButton: {fileID: 1766590157}
+  sellCustomAmount: {fileID: 1346369949}
+  customAmountField: {fileID: 1529461112}
+  amountText: {fileID: 2134433953}
 --- !u!1 &1469361610
 GameObject:
   m_ObjectHideFlags: 0
@@ -8047,6 +8132,7 @@ MonoBehaviour:
   escape: {fileID: 8365202045391343877, guid: f763683b805aa274788d9049077dfc10, type: 3}
   backToTitleButton: {fileID: 1519385395}
   clickBlockingPanel: {fileID: 1649940006}
+  moneyAmountText: {fileID: 1346782127}
 --- !u!1 &1489459682
 GameObject:
   m_ObjectHideFlags: 0
@@ -9891,7 +9977,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9914,7 +10000,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535

@@ -1,4 +1,6 @@
 using DG.Tweening;
+using System.Globalization;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -17,6 +19,9 @@ public class MainCanva : MonoBehaviour
 
     [SerializeField] private Button backToTitleButton;
     [SerializeField] private GameObject clickBlockingPanel;
+
+    [SerializeField] private TextMeshProUGUI moneyAmountText;
+    private int moneyAmount;
 
     private void Start()
     {
@@ -42,9 +47,14 @@ public class MainCanva : MonoBehaviour
 
     private void Update()
     {
+        if (moneyAmount != SaveManager.currentPlayerData.moneyAmount)
+        {
+            moneyAmount = SaveManager.currentPlayerData.moneyAmount;
+            moneyAmountText.text = "$" + moneyAmount.ToString("N0", CultureInfo.CurrentCulture);
+        }
+
         if (isShopOpened && escape.action.WasPressedThisFrame())
         {
-            print("Escape pressionado");
             TogleShop();
         }
     }

@@ -20,6 +20,7 @@ public class ToolData : ScriptableObject
 
     [Header("Tool Properties")]
     [SerializeField] private int toolPrice;
+    [SerializeField] private int toolUsePrice;
     [SerializeField] private _ToolObject tool;
 
     public string ToolID => toolID;

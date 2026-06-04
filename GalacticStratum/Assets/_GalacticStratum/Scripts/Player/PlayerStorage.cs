@@ -30,9 +30,13 @@ public class PlayerStorage : MonoBehaviour
         }
 
         beskariumAmount += robot.beskariumAmount;
+        SaveManager.currentPlayerData.beskariumAmount += robot.beskariumAmount;
         whitlockiteAmount += robot.whitlockiteAmount;
+        SaveManager.currentPlayerData.whitlockiteAmount += robot.whitlockiteAmount;
         lechatelieriteAmount += robot.lechatelieriteAmount;
+        SaveManager.currentPlayerData.lechatelieriteAmount += robot.lechatelieriteAmount;
         elaliiteAmount += robot.elaliiteAmount;
+        SaveManager.currentPlayerData.elaliiteAmount += robot.elaliiteAmount;
     }
 
     private IEnumerator LossFuel(float fuelLoss)
@@ -59,15 +63,19 @@ public class PlayerStorage : MonoBehaviour
                 break;
             case AsteroidData.ResourceType.Beskarium:
                 beskariumAmount++;
+                SaveManager.currentPlayerData.beskariumAmount++;
                 break;
             case AsteroidData.ResourceType.Whitlockite:
                 whitlockiteAmount++;
+                SaveManager.currentPlayerData.whitlockiteAmount++;
                 break;
             case AsteroidData.  ResourceType.Lechatelierite:
                 lechatelieriteAmount++;
+                SaveManager.currentPlayerData.lechatelieriteAmount++;
                 break;
             case AsteroidData.ResourceType.Elaliite:
                 elaliiteAmount++;
+                SaveManager.currentPlayerData.elaliiteAmount++;
                 break;
             default:
                 break;
