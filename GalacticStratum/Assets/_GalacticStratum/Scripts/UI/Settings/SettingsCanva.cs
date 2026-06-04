@@ -1,6 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SettingsCanva : MonoBehaviour
@@ -38,10 +39,37 @@ public class SettingsCanva : MonoBehaviour
 
         applySettings.onClick.AddListener(ApplySettings);
 
-        GlobalEvents.ToggleSettings += Toggle;
+        
     }
 
-    private void Update()
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        GlobalEvents.ToggleSettings += Toggle;
+
+        ActivateInput();
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+        GlobalEvents.ToggleSettings -= Toggle;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        ActivateInput();
+    }
+
+    private void ActivateInput()
+    {
+        if (escape != null && escape.action != null)
+        {
+            escape.action.Enable();
+        }
+    }
+
+    private void LateUpdate()
     {
         if (isOpened && escape.action.WasPressedThisFrame())
         {

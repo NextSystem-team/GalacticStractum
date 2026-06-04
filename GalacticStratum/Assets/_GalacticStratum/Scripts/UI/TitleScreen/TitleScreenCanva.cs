@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -25,12 +26,14 @@ public class TitleScreenCanva : MonoBehaviour
     private void LoadCampaign()
     {
         SaveManager.LoadGame();
+        DOTween.KillAll();
         SceneManager.LoadScene("MainScene");
     }
 
     private void StartNewCampaign()
     {
         SaveManager.ResetGame();
+        DOTween.KillAll();
         SceneManager.LoadScene("MainScene");
     }
 

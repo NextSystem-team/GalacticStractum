@@ -17,6 +17,21 @@ public class EndMissionCanva : MonoBehaviour
         backToHomeButton.onClick.AddListener(BackToHome);
     }
 
+    private void OnEnable()
+    {
+        GlobalEvents.EndMission += OpenEndMission;
+    }
+
+    private void OnDisable()
+    {
+        GlobalEvents.EndMission -= OpenEndMission;
+    }
+
+    private void OnDestroy()
+    {
+        GlobalEvents.EndMission -= OpenEndMission;
+    }
+
     public void OpenEndMission()
     {
         darkPanel.SetActive(true);
@@ -31,6 +46,7 @@ public class EndMissionCanva : MonoBehaviour
     private void BackToHome()
     {
         Time.timeScale = 1.0f;
+        DOTween.KillAll();
         SceneManager.LoadScene("MainScene");
     }
 }

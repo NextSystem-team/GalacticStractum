@@ -46,7 +46,7 @@ public class PlayerStorage : MonoBehaviour
         }
         else
         {
-            print("Cabô o combustível");
+            GlobalEvents.EndMission?.Invoke();
         }
     }
 

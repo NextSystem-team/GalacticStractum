@@ -22,12 +22,28 @@ public class MainCanva : MonoBehaviour
         startGameButton.onClick.AddListener(StartGame);
         openShopButton.onClick.AddListener(TogleShop);
         backToTitleButton.onClick.AddListener(BackToTitle);
+
+        if (escape != null && escape.action != null)
+        {
+            escape.action.Enable();
+        }
+    }
+
+    private void OnEnable()
+    {
+        escape.action.Enable();
+    }
+
+    private void OnDisable()
+    {
+        escape.action.Disable();
     }
 
     private void Update()
     {
         if (isShopOpened && escape.action.WasPressedThisFrame())
         {
+            print("Escape pressionado");
             TogleShop();
         }
     }
@@ -36,6 +52,7 @@ public class MainCanva : MonoBehaviour
     {
         playerImage.DOAnchorPosY(1800, 4.5f).SetEase(Ease.InBack).OnComplete(() =>
         {
+            DOTween.KillAll();
             SceneManager.LoadScene("GameplayScene");
         });
     }
@@ -66,6 +83,7 @@ public class MainCanva : MonoBehaviour
     private void BackToTitle()
     {
         SaveManager.SaveGame();
+        DOTween.KillAll();
         SceneManager.LoadScene("TitleScreenScene");
     }
 }

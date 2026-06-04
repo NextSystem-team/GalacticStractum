@@ -21,8 +21,6 @@ public class PauseCanva : MonoBehaviour
 
     private void Start()
     {
-        GlobalEvents.NotifySettingsToggle += ToggleEscapeKey;
-
         openSettingsButton.onClick.AddListener(() => 
         { 
             GlobalEvents.ToggleSettings?.Invoke(); 
@@ -31,10 +29,27 @@ public class PauseCanva : MonoBehaviour
         endMissionButton.onClick.AddListener(EndMission);
     }
 
+    private void OnEnable()
+    {
+        GlobalEvents.NotifySettingsToggle += ToggleEscapeKey;
+    }
+
+    private void OnDisable()
+    {
+        GlobalEvents.NotifySettingsToggle -= ToggleEscapeKey;
+    }
+
+    private void OnDestroy()
+    {
+        GlobalEvents.NotifySettingsToggle -= ToggleEscapeKey;
+    }
+
     private void Update()
     {
-        if (!isSettingsOpen && !isMissionEndingOpen && escape.action.WasPressedThisFrame())
+        if (escape.action.WasPressedThisFrame())
         {
+            if (isMissionEndingOpen || isSettingsOpen) return;
+
             Toggle();
         }
     }
