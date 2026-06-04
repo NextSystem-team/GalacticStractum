@@ -212,6 +212,7 @@ GameObject:
   - component: {fileID: 35866285}
   - component: {fileID: 35866284}
   - component: {fileID: 35866283}
+  - component: {fileID: 35866288}
   m_Layer: 5
   m_Name: ApplySettingsButton
   m_TagString: Untagged
@@ -360,6 +361,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 35866281}
   m_CullTransparentMesh: 1
+--- !u!114 &35866288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35866281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5582a8463de66448b44c4f20757047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
+  pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
 --- !u!1 &108165154
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,6 +525,7 @@ GameObject:
   - component: {fileID: 137254595}
   - component: {fileID: 137254594}
   - component: {fileID: 137254598}
+  - component: {fileID: 137254599}
   m_Layer: 5
   m_Name: SettingsButton
   m_TagString: Untagged
@@ -659,6 +674,19 @@ MonoBehaviour:
   pressedScale: 1.8
   hoverHighlightColor: {r: 1.431654, g: 8.000002, b: 0, a: 1}
   hoverTextColor: {r: 0.13333334, g: 1, b: 0, a: 1}
+--- !u!114 &137254599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137254592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5582a8463de66448b44c4f20757047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
+  pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
 --- !u!1 &151134687
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,6 +838,7 @@ GameObject:
   - component: {fileID: 209158159}
   - component: {fileID: 209158158}
   - component: {fileID: 209158162}
+  - component: {fileID: 209158163}
   m_Layer: 5
   m_Name: StartCampaignButton
   m_TagString: Untagged
@@ -958,6 +987,19 @@ MonoBehaviour:
   pressedScale: 1.8
   hoverHighlightColor: {r: 1.431654, g: 8.000002, b: 0, a: 1}
   hoverTextColor: {r: 0.13333334, g: 1, b: 0, a: 1}
+--- !u!114 &209158163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 209158156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5582a8463de66448b44c4f20757047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
+  pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
 --- !u!1 &230685811
 GameObject:
   m_ObjectHideFlags: 0
@@ -1609,6 +1651,7 @@ GameObject:
   - component: {fileID: 758642307}
   - component: {fileID: 758642310}
   - component: {fileID: 758642311}
+  - component: {fileID: 758642312}
   m_Layer: 5
   m_Name: LoadCampaignButton
   m_TagString: Untagged
@@ -1757,6 +1800,19 @@ MonoBehaviour:
   pressedScale: 1.8
   hoverHighlightColor: {r: 1.431654, g: 8.000002, b: 0, a: 1}
   hoverTextColor: {r: 0.13333334, g: 1, b: 0, a: 1}
+--- !u!114 &758642312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 758642305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5582a8463de66448b44c4f20757047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
+  pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
 --- !u!1 &794779055
 GameObject:
   m_ObjectHideFlags: 0
@@ -3214,6 +3270,7 @@ GameObject:
   - component: {fileID: 1927654951}
   - component: {fileID: 1927654950}
   - component: {fileID: 1927654954}
+  - component: {fileID: 1927654955}
   m_Layer: 5
   m_Name: ExitButton
   m_TagString: Untagged
@@ -3362,6 +3419,19 @@ MonoBehaviour:
   pressedScale: 1.8
   hoverHighlightColor: {r: 10.680627, g: 0, b: 0, a: 1}
   hoverTextColor: {r: 0.7830189, g: 0, b: 0, a: 1}
+--- !u!114 &1927654955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927654948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5582a8463de66448b44c4f20757047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
+  pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
 --- !u!1 &1984444163
 GameObject:
   m_ObjectHideFlags: 0

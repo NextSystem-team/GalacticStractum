@@ -88,6 +88,7 @@ GameObject:
   - component: {fileID: 3392193746046080427}
   - component: {fileID: 2699338217111687983}
   - component: {fileID: 4899083217547018632}
+  - component: {fileID: 120756220910596848}
   m_Layer: 5
   m_Name: ToolButton
   m_TagString: Untagged
@@ -211,6 +212,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ToolButton
   tool: {fileID: 0}
   icon: {fileID: 7176045791465428150}
+--- !u!114 &120756220910596848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6340524677452813376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5582a8463de66448b44c4f20757047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
+  pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
 --- !u!1 &8821146226241962211
 GameObject:
   m_ObjectHideFlags: 0

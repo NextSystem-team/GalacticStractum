@@ -16,6 +16,7 @@ public class MainCanva : MonoBehaviour
     private bool isShopOpened;
 
     [SerializeField] private Button backToTitleButton;
+    [SerializeField] private GameObject clickBlockingPanel;
 
     private void Start()
     {
@@ -50,6 +51,7 @@ public class MainCanva : MonoBehaviour
 
     private void StartGame()
     {
+        clickBlockingPanel.SetActive(true);
         playerImage.DOAnchorPosY(1800, 4.5f).SetEase(Ease.InBack).OnComplete(() =>
         {
             DOTween.KillAll();

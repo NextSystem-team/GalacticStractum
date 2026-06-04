@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class ToolButton : MonoBehaviour
@@ -15,6 +16,15 @@ public class ToolButton : MonoBehaviour
 
     private void OnClick()
     {
+        SetCursor(tool.Icon.texture);
         GlobalEvents.OnToolSelected?.Invoke(tool.Tool);
+    }
+
+    private void SetCursor(Texture2D toolSprite)
+    {
+        Vector2 newHotspot = new(toolSprite.width / 2, toolSprite.height / 2);
+        Cursor.SetCursor(toolSprite, newHotspot, CursorMode.Auto);
+        CursorSpriteManager.currentCursorSprite = toolSprite;
+        CursorSpriteManager.currentCursorHotspot = newHotspot;
     }
 }

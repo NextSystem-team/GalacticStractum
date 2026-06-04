@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 2486793079252545593}
   - component: {fileID: 7266665029756502039}
   - component: {fileID: 3227218737643476332}
+  - component: {fileID: 1906785304540906126}
   m_Layer: 5
   m_Name: ReportButton
   m_TagString: Untagged
@@ -285,3 +286,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ReportButton
   reportContent: {fileID: 6290480894013969649}
   animationSpeed: 8
+--- !u!114 &1906785304540906126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8626879240847189602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb5582a8463de66448b44c4f20757047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
+  pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}

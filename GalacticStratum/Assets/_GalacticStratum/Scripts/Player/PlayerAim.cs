@@ -48,9 +48,10 @@ public class PlayerAim : MonoBehaviour
 
     private void ApplyClick()
     {
-        if (rightClickInput.action.WasPressedThisFrame())
+        if (currentTool != null && rightClickInput.action.WasPressedThisFrame())
         {
             TurnOffAim();
+            SetDefaultCursor();
             currentTool = null;
         }
 
@@ -111,5 +112,12 @@ public class PlayerAim : MonoBehaviour
         {
             TurnOffAim();
         }
+    }
+
+    private void SetDefaultCursor()
+    {
+        Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+        CursorSpriteManager.currentCursorSprite = null;
+        CursorSpriteManager.currentCursorHotspot = Vector2.zero;
     }
 }
