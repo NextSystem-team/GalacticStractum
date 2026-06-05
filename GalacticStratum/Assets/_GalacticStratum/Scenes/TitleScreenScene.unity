@@ -1901,6 +1901,7 @@ GameObject:
   - component: {fileID: 895433081}
   - component: {fileID: 895433080}
   - component: {fileID: 895433084}
+  - component: {fileID: 895433085}
   m_Layer: 5
   m_Name: SettingsCanva
   m_TagString: Untagged
@@ -2009,6 +2010,19 @@ MonoBehaviour:
   darkPanel: {fileID: 1984444165}
   settingsPanel: {fileID: 230685812}
   escape: {fileID: 8365202045391343877, guid: f763683b805aa274788d9049077dfc10, type: 3}
+--- !u!114 &895433085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895433079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e923d0c5d9501f24b841b78d0dd95ec9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CheatCodes
+  toolListData: {fileID: 11400000, guid: 5ac7d28730c0a1748bc7d8fbc9c76b81, type: 2}
 --- !u!1 &917644384
 GameObject:
   m_ObjectHideFlags: 0

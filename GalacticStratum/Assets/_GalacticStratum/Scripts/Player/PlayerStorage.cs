@@ -22,6 +22,7 @@ public class PlayerStorage : MonoBehaviour
         StartCoroutine(LossFuel(fuelLossBySecond));
 
         fuelAmountDisplay = FindFirstObjectByType<FuelAmountDisplay>();
+        fuelAmountDisplay.playerStorage = this;
     }
 
     public void CollectMinerRobotResources(MinerRobot robot)
@@ -37,10 +38,13 @@ public class PlayerStorage : MonoBehaviour
 
         beskariumAmount += robot.beskariumAmount;
         SaveManager.currentPlayerData.beskariumAmount += robot.beskariumAmount;
+
         whitlockiteAmount += robot.whitlockiteAmount;
         SaveManager.currentPlayerData.whitlockiteAmount += robot.whitlockiteAmount;
+
         lechatelieriteAmount += robot.lechatelieriteAmount;
         SaveManager.currentPlayerData.lechatelieriteAmount += robot.lechatelieriteAmount;
+
         elaliiteAmount += robot.elaliiteAmount;
         SaveManager.currentPlayerData.elaliiteAmount += robot.elaliiteAmount;
     }

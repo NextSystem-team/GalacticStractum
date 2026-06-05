@@ -20,18 +20,59 @@ public class MainCanva : MonoBehaviour
     [SerializeField] private Button backToTitleButton;
     [SerializeField] private GameObject clickBlockingPanel;
 
+    [SerializeField] private TextMeshProUGUI currentQuotaText;
+    [SerializeField] private TextMeshProUGUI timeToReachGoalText;
     [SerializeField] private TextMeshProUGUI moneyAmountText;
-    private int moneyAmount;
+    private int moneyAmount = -1;
+
+    [SerializeField] private GameObject quotaReachedPanel;
+    [SerializeField] private TextMeshProUGUI quotaChangeText;
+
+    [SerializeField] private GameObject quotaFailedPanel;
+
+    [SerializeField] private Button quotaReachedButton;
+    [SerializeField] private Button quotaFailedButton;
 
     private void Start()
     {
         startGameButton.onClick.AddListener(StartGame);
-        openShopButton.onClick.AddListener(TogleShop);
+        openShopButton.onClick.AddListener(ToggleShop);
         backToTitleButton.onClick.AddListener(BackToTitle);
+
+        quotaReachedButton.onClick.AddListener(CloseQuotaReachedPanel);
+        quotaFailedButton.onClick.AddListener(() =>
+        {
+            SaveManager.ResetGame();
+            DOTween.KillAll();
+            SceneManager.LoadScene("TitleScreenScene");
+        });
 
         if (escape != null && escape.action != null)
         {
             escape.action.Enable();
+        }
+
+        currentQuotaText.text = "$" + SaveManager.currentGameData.currentMoneyQuota.ToString("N0", CultureInfo.CurrentCulture);
+        timeToReachGoalText.text = $"{SaveManager.currentGameData.timeToReachQuota} Years";
+
+        if (SaveManager.currentGameData.timeToReachQuota <= 0)
+        {
+            if (SaveManager.currentPlayerData.moneyAmount >= SaveManager.currentGameData.currentMoneyQuota)
+            {
+                string currentQuota = SaveManager.currentGameData.currentMoneyQuota.ToString("N0", CultureInfo.CurrentCulture);
+                string nextQuota = (SaveManager.currentGameData.currentMoneyQuota + 60000).ToString("N0", CultureInfo.CurrentCulture);
+
+                quotaChangeText.text = $"{currentQuota} > {nextQuota}";
+
+                SaveManager.currentGameData.currentMoneyQuota += 60000;
+                SaveManager.currentGameData.timeToReachQuota = 3;
+
+                OpenQuotaReachedPanel();
+            }
+            else
+            {
+                OpenQuotaFailedPanel();
+            }
         }
     }
 
@@ -55,7 +96,7 @@ public class MainCanva : MonoBehaviour
 
         if (isShopOpened && escape.action.WasPressedThisFrame())
         {
-            TogleShop();
+            ToggleShop();
         }
     }
 
@@ -67,11 +108,12 @@ public class MainCanva : MonoBehaviour
             DOTween.KillAll();
             SaveManager.SaveGame();
             ResourcesPriceManager.UpdateResourcesPrices();
+            SaveManager.currentGameData.timeToReachQuota--;
             SceneManager.LoadScene("GameplayScene");
         });
     }
 
-    private void TogleShop()
+    private void ToggleShop()
     {
         if (!isShopOpened)
         {
@@ -92,6 +134,27 @@ public class MainCanva : MonoBehaviour
                 darkShopPanel.gameObject.SetActive(false);
             });
         }
+    }
+
+    private void OpenQuotaReachedPanel()
+    {
+        quotaReachedPanel.SetActive(true);
+
+        quotaReachedPanel.GetComponent<CanvasGroup>().DOFade(1, 1f);
+    }
+
+    private void CloseQuotaReachedPanel()
+    {
+        quotaReachedPanel.GetComponent<CanvasGroup>().DOFade(0, 0.3f).OnComplete(() =>
+        {
+            quotaReachedPanel.SetActive(false);
+        });
+    }
+
+    private void OpenQuotaFailedPanel()
+    {
+        quotaFailedPanel.SetActive(true);
+        quotaFailedPanel.GetComponent<CanvasGroup>().DOFade(1, 1f);
     }
 
     private void BackToTitle()

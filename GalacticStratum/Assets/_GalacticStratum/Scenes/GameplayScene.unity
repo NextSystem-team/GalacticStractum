@@ -4710,7 +4710,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Discover Bonus: +$0000'
+  m_text: 'Discover Bonus: +$30.000'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4742,7 +4742,7 @@ MonoBehaviour:
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_fontSizeMax: 40
   m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -7033,8 +7033,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ade873b38b6d5164db468db1b2123687, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EndMissionCanva
+  maxMoneyBonusForDiscoveredMap: 30000
   darkPanel: {fileID: 1576032082}
   backToHomeButton: {fileID: 189227544}
+  lechatelieriteCollectedText: {fileID: 1223831202}
+  elaliiteCollectedText: {fileID: 2076478390}
+  beskariumCollectedText: {fileID: 859590301}
+  whitlockiteCollectedText: {fileID: 222659949}
+  mapDiscoveredPercentage: {fileID: 410793581}
+  moneyBonusText: {fileID: 1012631807}
+  persistentMapRT: {fileID: 8400000, guid: 6902cc2f36c2e0e48817d2544e86a36e, type: 2}
 --- !u!1 &1654124974
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,7 +17,7 @@ public class PlayerData
 public class GameData
 {
     public int currentMoneyQuota;
-    public int timeToReachGoal;
+    public int timeToReachQuota;
 
     public int lechatelieritePrice = 25;
     public int elaliitePrice = 25;
@@ -68,7 +68,7 @@ public static class SaveManager
             currentGameData = new()
             {
                 currentMoneyQuota = 60000,
-                timeToReachGoal = 3
+                timeToReachQuota = 3
             };
         }
 

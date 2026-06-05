@@ -43,6 +43,12 @@ public class MinerRobot : MonoBehaviour
     {
         yield return new WaitForSeconds(timeToMine);
 
+        if (asteroid == null)
+        {
+            isReturning = true;
+            yield break;
+        }
+
         AsteroidData currentData = asteroid.data;
 
         if (currentData.WaterAmount > 0)

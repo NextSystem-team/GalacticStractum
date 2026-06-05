@@ -6,6 +6,11 @@ public class MoneyAmountDisplay : MonoBehaviour
 {
     private TextMeshProUGUI moneyAmountText;
     private int moneyAmount = -1;
+        
+    private void Start()
+    {
+        moneyAmountText = GetComponent<TextMeshProUGUI>();
+    }
 
     private void Update()
     {

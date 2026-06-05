@@ -32,6 +32,6 @@ public class FuelAmountDisplay : MonoBehaviour
 
         float fuelPercentage = (currentFuelAmount / maxFuelAmount) * 100f;
 
-        fuelAmountText.text = $"{fuelPercentage:F1}%";
+        fuelAmountText.text = $"{fuelPercentage:F0}%";
     }
 }

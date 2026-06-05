@@ -15,8 +15,8 @@ MonoBehaviour:
   toolID: tDrill
   toolType: 2
   toolName: Drill
-  toolDescription: It launches a cable with a drill head on the end in one direction;
-    if it hits an asteroid, it begins extracting its resources.
+  toolDescription: It launches up to 3 cables with a drilling head at the end in
+    one direction; if it hits an asteroid, it begins extracting its resources.
   toolIcon: {fileID: 21300000, guid: 3d7d8ee249c37ea44aec275ae27fcccd, type: 3}
   toolPrice: 0
   toolUsePrice: 0
