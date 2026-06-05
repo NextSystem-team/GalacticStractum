@@ -12,10 +12,16 @@ public class PlayerStorage : MonoBehaviour
     public int lechatelieriteAmount;
     public int elaliiteAmount;
 
+    public int MaxFuel => maxFuel;
+
+    private FuelAmountDisplay fuelAmountDisplay;
+
     private void Start()
     {
         fuelAmount = maxFuel;
         StartCoroutine(LossFuel(fuelLossBySecond));
+
+        fuelAmountDisplay = FindFirstObjectByType<FuelAmountDisplay>();
     }
 
     public void CollectMinerRobotResources(MinerRobot robot)

@@ -65,6 +65,7 @@ public class MainCanva : MonoBehaviour
         playerImage.DOAnchorPosY(1800, 4.5f).SetEase(Ease.InBack).OnComplete(() =>
         {
             DOTween.KillAll();
+            SaveManager.SaveGame();
             ResourcesPriceManager.UpdateResourcesPrices();
             SceneManager.LoadScene("GameplayScene");
         });

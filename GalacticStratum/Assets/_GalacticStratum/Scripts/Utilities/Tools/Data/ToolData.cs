@@ -29,5 +29,6 @@ public class ToolData : ScriptableObject
     public string Description => toolDescription;
     public Sprite Icon => toolIcon;
     public int Price => toolPrice;
+    public int UsePrice => toolUsePrice;
     public _ToolObject Tool => tool;
 }

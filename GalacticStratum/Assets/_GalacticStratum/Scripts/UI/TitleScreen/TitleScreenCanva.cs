@@ -33,6 +33,7 @@ public class TitleScreenCanva : MonoBehaviour
     private void StartNewCampaign()
     {
         SaveManager.ResetGame();
+        SaveManager.LoadGame();
         DOTween.KillAll();
         SceneManager.LoadScene("MainScene");
     }

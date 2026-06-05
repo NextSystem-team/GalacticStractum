@@ -124,8 +124,6 @@ public static class SaveManager
         PlayerPrefs.DeleteKey(PLAYER_SAVE_KEY);
         currentGameData = null;
         PlayerPrefs.DeleteKey(GAME_SAVE_KEY);
-
-        LoadGame();
     }
 
     public static bool CheckIfHasSavedGame()
