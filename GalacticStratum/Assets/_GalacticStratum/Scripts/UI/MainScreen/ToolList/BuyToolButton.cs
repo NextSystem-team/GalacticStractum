@@ -21,6 +21,9 @@ public class BuyToolButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         if (SaveManager.currentPlayerData.moneyAmount >= tool.Price)
         {
             SaveManager.currentPlayerData.toolsObtained.Add(tool.ToolID);
+
+            SaveManager.currentPlayerData.moneyAmount -= tool.Price;
+
             Destroy(gameObject);
         }
     }
@@ -31,6 +34,11 @@ public class BuyToolButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     }
 
     public void OnPointerExit(PointerEventData eventData)
+    {
+        tooltip.HideTooltip();
+    }
+
+    private void OnDestroy()
     {
         tooltip.HideTooltip();
     }
