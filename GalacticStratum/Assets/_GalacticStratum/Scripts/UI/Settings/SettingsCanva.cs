@@ -1,11 +1,14 @@
 using DG.Tweening;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SettingsCanva : MonoBehaviour
 {
+    [SerializeField] private AudioMixer audioMixer;
+
     [SerializeField] private Slider musicSlider;
     [SerializeField] private Slider sfxSlider;
     [SerializeField] private Button applySettings;
@@ -39,7 +42,15 @@ public class SettingsCanva : MonoBehaviour
 
         applySettings.onClick.AddListener(ApplySettings);
 
-        
+        sfxSlider.onValueChanged.AddListener((value) =>
+        {
+            audioMixer.SetFloat("MusicVolume", value);
+        });
+
+        sfxSlider.onValueChanged.AddListener((value) =>
+        {
+            audioMixer.SetFloat("SFXVolume", value);
+        });
     }
 
     private void OnEnable()
@@ -113,7 +124,7 @@ public class SettingsCanva : MonoBehaviour
 
     private void UpdateVolumes()
     {
-        musicSlider.value = SaveManager.currentSettings != null ? SaveManager.currentSettings.musicVolume : 0.5f;
-        sfxSlider.value = SaveManager.currentSettings != null ? SaveManager.currentSettings.sfxVolume : 0.5f;
+        musicSlider.value = SaveManager.currentSettings != null ? SaveManager.currentSettings.musicVolume : -40f;
+        sfxSlider.value = SaveManager.currentSettings != null ? SaveManager.currentSettings.sfxVolume : -40f;
     }
 }

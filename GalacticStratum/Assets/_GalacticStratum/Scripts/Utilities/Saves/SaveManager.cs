@@ -96,8 +96,8 @@ public static class SaveManager
         else
         {
             currentSettings = new() { 
-                musicVolume = 0.5f,
-                sfxVolume = 0.5f
+                musicVolume = -40f,
+                sfxVolume = -40f
             };
         }
 
