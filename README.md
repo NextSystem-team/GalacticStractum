@@ -12,6 +12,11 @@ Made for the FIAP Global Solution - Space Connect.*
 *  **Explore the unknown of space:** "Dig" through the darkness of the unknown and discover asteroids as you move or use tools.
 *  **Dynamic prices:** Prices fluctuate each round, so sell your resources at the right time! But be careful not to saturate the market.
 
+## Controls
+* **W, A and D** - Accelerate and turn keys.
+* **Right Click** - Dequip the current tool.
+* **Esc** - Pause the stage or close windows.
+
 ## 🛠️ Built With
 * **[Unity](https://unity.com/)** - Game Engine
 * **C#** - Programming Language
