@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00655cd480d2b2488b4ef8890dd0264, type: 3}
   m_Name: ButtonClick
   m_EditorClassIdentifier: Assembly-CSharp::AudioData
-  soundName: buttonClick
+  soundName: ButtonClick
   soundClip: {fileID: 8300000, guid: 865c2f0088eae9b48bfff7d04db3358d, type: 3}

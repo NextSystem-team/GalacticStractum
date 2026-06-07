@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 3167779}
   - component: {fileID: 3167778}
   - component: {fileID: 3167783}
+  - component: {fileID: 3167784}
   m_Layer: 5
   m_Name: ButtonShop
   m_TagString: Untagged
@@ -295,6 +296,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &3167784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3167776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &36886086
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,6 +1491,7 @@ GameObject:
   - component: {fileID: 193402516}
   - component: {fileID: 193402515}
   - component: {fileID: 193402520}
+  - component: {fileID: 193402521}
   m_Layer: 5
   m_Name: ButtonSellAll
   m_TagString: Untagged
@@ -1639,6 +1653,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &193402521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193402513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &212179205
 GameObject:
   m_ObjectHideFlags: 0
@@ -2503,6 +2529,7 @@ GameObject:
   - component: {fileID: 393784898}
   - component: {fileID: 393784897}
   - component: {fileID: 393784902}
+  - component: {fileID: 393784903}
   m_Layer: 5
   m_Name: ButtonSellAll
   m_TagString: Untagged
@@ -2664,6 +2691,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &393784903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 393784895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &398706552
 GameObject:
   m_ObjectHideFlags: 0
@@ -5053,6 +5092,7 @@ GameObject:
   - component: {fileID: 749706742}
   - component: {fileID: 749706741}
   - component: {fileID: 749706746}
+  - component: {fileID: 749706747}
   m_Layer: 5
   m_Name: ButtonSellAll
   m_TagString: Untagged
@@ -5214,6 +5254,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &749706747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749706739}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &753960723
 GameObject:
   m_ObjectHideFlags: 0
@@ -5542,6 +5594,7 @@ GameObject:
   - component: {fileID: 802427496}
   - component: {fileID: 802427495}
   - component: {fileID: 802427494}
+  - component: {fileID: 802427500}
   m_Layer: 5
   m_Name: ButtonContinue
   m_TagString: Untagged
@@ -5703,6 +5756,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802427492}
   m_CullTransparentMesh: 1
+--- !u!114 &802427500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 802427492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &824432027
 GameObject:
   m_ObjectHideFlags: 0
@@ -7105,6 +7170,7 @@ GameObject:
   - component: {fileID: 986774840}
   - component: {fileID: 986774839}
   - component: {fileID: 986774844}
+  - component: {fileID: 986774845}
   m_Layer: 5
   m_Name: ButtonSellAllResources
   m_TagString: Untagged
@@ -7266,6 +7332,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &986774845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 986774837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1020972414
 GameObject:
   m_ObjectHideFlags: 0
@@ -8905,6 +8983,7 @@ GameObject:
   - component: {fileID: 1335397063}
   - component: {fileID: 1335397062}
   - component: {fileID: 1335397067}
+  - component: {fileID: 1335397068}
   m_Layer: 5
   m_Name: ButtonSellOne
   m_TagString: Untagged
@@ -9066,6 +9145,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1335397068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1335397060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1346369945
 GameObject:
   m_ObjectHideFlags: 0
@@ -9081,6 +9172,7 @@ GameObject:
   - component: {fileID: 1346369948}
   - component: {fileID: 1346369947}
   - component: {fileID: 1346369952}
+  - component: {fileID: 1346369953}
   m_Layer: 5
   m_Name: ButtonSellCustomAmount
   m_TagString: Untagged
@@ -9242,6 +9334,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1346369953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346369945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1346782125
 GameObject:
   m_ObjectHideFlags: 0
@@ -9605,6 +9709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1382313617}
   - component: {fileID: 1382313618}
+  - component: {fileID: 1382313619}
   m_Layer: 5
   m_Name: SwitchButtonsContainer
   m_TagString: Untagged
@@ -9659,6 +9764,18 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &1382313619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382313616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1384494657
 GameObject:
   m_ObjectHideFlags: 0
@@ -10359,6 +10476,7 @@ GameObject:
   - component: {fileID: 1461525409}
   - component: {fileID: 1461525408}
   - component: {fileID: 1461525407}
+  - component: {fileID: 1461525413}
   m_Layer: 5
   m_Name: ButtonContinue
   m_TagString: Untagged
@@ -10520,6 +10638,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461525405}
   m_CullTransparentMesh: 1
+--- !u!114 &1461525413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461525405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1469361610
 GameObject:
   m_ObjectHideFlags: 0
@@ -10672,6 +10802,7 @@ GameObject:
   - component: {fileID: 1479563534}
   - component: {fileID: 1479563533}
   - component: {fileID: 1479563538}
+  - component: {fileID: 1479563539}
   m_Layer: 5
   m_Name: ButtonSellOne
   m_TagString: Untagged
@@ -10833,6 +10964,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1479563539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479563531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1487139649
 GameObject:
   m_ObjectHideFlags: 0
@@ -11181,6 +11324,7 @@ GameObject:
   - component: {fileID: 1519385394}
   - component: {fileID: 1519385393}
   - component: {fileID: 1519385398}
+  - component: {fileID: 1519385399}
   m_Layer: 5
   m_Name: ButtonBackToTitle
   m_TagString: Untagged
@@ -11342,6 +11486,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1519385399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1519385391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1527926883
 GameObject:
   m_ObjectHideFlags: 0
@@ -11793,6 +11949,7 @@ GameObject:
   - component: {fileID: 1597489891}
   - component: {fileID: 1597489890}
   - component: {fileID: 1597489895}
+  - component: {fileID: 1597489896}
   m_Layer: 5
   m_Name: ButtonSellOne
   m_TagString: Untagged
@@ -11954,6 +12111,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1597489896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597489888}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1649940006
 GameObject:
   m_ObjectHideFlags: 0
@@ -12123,6 +12292,7 @@ GameObject:
   - component: {fileID: 1657196541}
   - component: {fileID: 1657196540}
   - component: {fileID: 1657196545}
+  - component: {fileID: 1657196546}
   m_Layer: 5
   m_Name: ButtonStartGame
   m_TagString: Untagged
@@ -12284,6 +12454,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1657196546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657196538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1662769227
 GameObject:
   m_ObjectHideFlags: 0
@@ -12921,6 +13103,7 @@ GameObject:
   - component: {fileID: 1751002191}
   - component: {fileID: 1751002190}
   - component: {fileID: 1751002195}
+  - component: {fileID: 1751002196}
   m_Layer: 5
   m_Name: ButtonSellCustomAmount
   m_TagString: Untagged
@@ -13082,6 +13265,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1751002196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751002188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1756374319
 GameObject:
   m_ObjectHideFlags: 0
@@ -13234,6 +13429,7 @@ GameObject:
   - component: {fileID: 1766590156}
   - component: {fileID: 1766590155}
   - component: {fileID: 1766590160}
+  - component: {fileID: 1766590161}
   m_Layer: 5
   m_Name: ButtonSellAll
   m_TagString: Untagged
@@ -13395,6 +13591,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1766590161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766590153}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1767400542
 GameObject:
   m_ObjectHideFlags: 0
@@ -13547,6 +13755,7 @@ GameObject:
   - component: {fileID: 1804965933}
   - component: {fileID: 1804965932}
   - component: {fileID: 1804965937}
+  - component: {fileID: 1804965938}
   m_Layer: 5
   m_Name: ButtonSellCustomAmount
   m_TagString: Untagged
@@ -13708,6 +13917,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1804965938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804965930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1865435954
 GameObject:
   m_ObjectHideFlags: 0
@@ -13723,6 +13944,7 @@ GameObject:
   - component: {fileID: 1865435957}
   - component: {fileID: 1865435956}
   - component: {fileID: 1865435961}
+  - component: {fileID: 1865435962}
   m_Layer: 5
   m_Name: ButtonSellOne
   m_TagString: Untagged
@@ -13884,6 +14106,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1865435962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865435954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1916900840
 GameObject:
   m_ObjectHideFlags: 0
@@ -14502,6 +14736,7 @@ GameObject:
   - component: {fileID: 1986561454}
   - component: {fileID: 1986561453}
   - component: {fileID: 1986561456}
+  - component: {fileID: 1986561457}
   m_Layer: 5
   m_Name: ButtonSell
   m_TagString: Untagged
@@ -14624,6 +14859,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1986561457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1986561451}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &1989943853
 GameObject:
   m_ObjectHideFlags: 0
@@ -14774,6 +15021,7 @@ GameObject:
   - component: {fileID: 1992203242}
   - component: {fileID: 1992203241}
   - component: {fileID: 1992203244}
+  - component: {fileID: 1992203245}
   m_Layer: 5
   m_Name: ButtonBuy
   m_TagString: Untagged
@@ -14896,6 +15144,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &1992203245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1992203239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &2006757552
 GameObject:
   m_ObjectHideFlags: 0
@@ -15048,6 +15308,7 @@ GameObject:
   - component: {fileID: 2030120826}
   - component: {fileID: 2030120825}
   - component: {fileID: 2030120830}
+  - component: {fileID: 2030120831}
   m_Layer: 5
   m_Name: ButtonSellCustomAmount
   m_TagString: Untagged
@@ -15209,6 +15470,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CursorSpriteChanger
   pointerCursor: {fileID: 2800000, guid: 72fc25e958d0cc444b75df6744ee41f1, type: 3}
+--- !u!114 &2030120831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2030120823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &2051366479
 GameObject:
   m_ObjectHideFlags: 0

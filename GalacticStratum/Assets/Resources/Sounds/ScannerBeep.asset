@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00655cd480d2b2488b4ef8890dd0264, type: 3}
   m_Name: ScannerBeep
   m_EditorClassIdentifier: Assembly-CSharp::AudioData
-  soundName: scanner
+  soundName: Scanner
   soundClip: {fileID: 8300000, guid: 6465b266ad01cb242b2d510c6bb05d59, type: 3}

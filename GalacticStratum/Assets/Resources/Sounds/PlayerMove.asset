@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00655cd480d2b2488b4ef8890dd0264, type: 3}
   m_Name: PlayerMove
   m_EditorClassIdentifier: Assembly-CSharp::AudioData
-  soundName: move
+  soundName: Move
   soundClip: {fileID: 8300000, guid: 9dd87103ef894d545b427d616f5293e4, type: 3}

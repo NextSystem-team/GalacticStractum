@@ -22,9 +22,12 @@ public class Drill : MonoBehaviour
 
     private Asteroid currentAsteroid;
     private AsteroidData currentData;
+    private AudioSource audioSource;
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         direction = (targetPosition - (Vector2)startRopePoint.transform.position).normalized;
 
         storage = startRopePoint.GetComponent<PlayerStorage>();
@@ -41,6 +44,8 @@ public class Drill : MonoBehaviour
         {
             if (!asteroidParticles.activeInHierarchy)
             {
+                audioSource.clip = AudioManager.Instance.GetSound("Drill");
+                audioSource.Play();
                 asteroidParticles.SetActive(true);
             }
         }
@@ -48,6 +53,8 @@ public class Drill : MonoBehaviour
         {
             if (asteroidParticles.activeInHierarchy)
             {
+                audioSource.Stop();
+                audioSource.clip = null;
                 asteroidParticles.SetActive(false);
             }
         }

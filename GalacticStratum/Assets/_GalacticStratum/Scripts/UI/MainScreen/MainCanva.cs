@@ -35,6 +35,11 @@ public class MainCanva : MonoBehaviour
 
     private void Start()
     {
+        if (AudioManager.Instance.MusicSource.clip != AudioManager.Instance.GetMusic("MainMusic"))
+        {
+            AudioManager.Instance.PlayMusic("MainMusic");
+        }
+
         startGameButton.onClick.AddListener(StartGame);
         openShopButton.onClick.AddListener(ToggleShop);
         backToTitleButton.onClick.AddListener(BackToTitle);

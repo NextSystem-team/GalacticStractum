@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00655cd480d2b2488b4ef8890dd0264, type: 3}
   m_Name: AsteroidExploding
   m_EditorClassIdentifier: Assembly-CSharp::AudioData
-  soundName: asteroidExplosion
+  soundName: AsteroidExplosion
   soundClip: {fileID: 8300000, guid: 64122dd3beb64c14288989c36c5010ed, type: 3}

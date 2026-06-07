@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Unity.Cinemachine;
+using System.Collections;
 
 public class Player : MonoBehaviour
 {
@@ -26,12 +27,24 @@ public class Player : MonoBehaviour
     [SerializeField] private float zoomSpeed;
     [SerializeField] private float minZoom;
     [SerializeField] private float maxZoom;
+    
+    private AudioClip startClip;
+    private AudioClip loopClip;
+    private AudioClip stopClip;
 
+    private Coroutine engineCoroutine;
+
+    private AudioSource audioSource;
     private Rigidbody2D rigidBody;
     private CinemachineConfiner2D confiner;
 
     private void Start()
     {
+        startClip = AudioManager.Instance.GetSound("MoveStart");
+        loopClip = AudioManager.Instance.GetSound("Move");
+        stopClip = AudioManager.Instance.GetSound("MoveStop");
+
+        audioSource = GetComponent<AudioSource>();
         rigidBody = GetComponent<Rigidbody2D>();
         confiner = mainCamera.GetComponent<CinemachineConfiner2D>();
     }
@@ -78,6 +91,26 @@ public class Player : MonoBehaviour
         }
 
         rigidBody.linearVelocity = movement;
+
+        if (moveInputValue.y != 0 && audioSource.clip != loopClip && audioSource.clip != startClip)
+        {
+            audioSource.loop = false;
+            audioSource.clip = startClip;
+            audioSource.Play();
+            engineCoroutine = StartCoroutine(StartEngineLoop(startClip.length));
+        }
+        else if (moveInputValue.y == 0 && audioSource.clip != stopClip && audioSource.isPlaying)
+        {
+            if (engineCoroutine != null)
+            {
+                StopCoroutine(engineCoroutine);
+                engineCoroutine = null;
+            }
+            
+            audioSource.loop = false;
+            audioSource.clip = stopClip;
+            audioSource.Play();
+        }
     }
 
     private void ApplyRotation()
@@ -100,6 +133,18 @@ public class Player : MonoBehaviour
             mainCamera.Lens.OrthographicSize = Mathf.Clamp(currentZoom - zoomMultiplier, minZoom, maxZoom);
 
             confiner.InvalidateBoundingShapeCache();
+        }
+    }
+
+    private IEnumerator StartEngineLoop(float time)
+    {
+        yield return new WaitForSeconds(time);
+
+        if (moveInputValue.y != 0)
+        {
+            audioSource.clip = loopClip;
+            audioSource.loop = true;
+            audioSource.Play();
         }
     }
 }

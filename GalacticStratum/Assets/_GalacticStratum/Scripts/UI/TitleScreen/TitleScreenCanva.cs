@@ -12,6 +12,11 @@ public class TitleScreenCanva : MonoBehaviour
 
     void Start()
     {
+        if (AudioManager.Instance.MusicSource.clip != AudioManager.Instance.GetMusic("MainMusic"))
+        {
+            AudioManager.Instance.PlayMusic("MainMusic");
+        }
+
         loadGame.onClick.AddListener(LoadCampaign);
         startNewGame.onClick.AddListener(StartNewCampaign);
         openSettings.onClick.AddListener(OpenSettings);

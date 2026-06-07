@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d00655cd480d2b2488b4ef8890dd0264, type: 3}
-  m_Name: Drill
+  m_Name: GameplayMusic
   m_EditorClassIdentifier: Assembly-CSharp::AudioData
-  soundName: Drill
-  soundClip: {fileID: 8300000, guid: f67a079ecb9d34c45b3d7897ca349ae9, type: 3}
+  soundName: GameplayMusic
+  soundClip: {fileID: 8300000, guid: 51bf810e239a3eb448f1ada72b0bdd65, type: 3}

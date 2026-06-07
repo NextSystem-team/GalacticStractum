@@ -22,6 +22,7 @@ public class ScannerObject : _ToolObject
             {
                 if (CheckIfAsteroidIsRevealed(hit.point))
                 {
+                    AudioManager.Instance.PlaySFX("Scanner");
                     Asteroid asteroid = hit.collider.GetComponent<Asteroid>();
                     GlobalEvents.CreateReport?.Invoke(asteroid.data);
                 }

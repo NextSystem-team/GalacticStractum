@@ -17,8 +17,12 @@ public class MinerRobot : MonoBehaviour
 
     private bool isReturning = false;
 
+    private AudioSource audioSorce;
+
     private void Start()
     {
+        audioSorce = GetComponent<AudioSource>();
+
         if (asteroid != null)
         {
             StartCoroutine(Mine());
@@ -34,6 +38,12 @@ public class MinerRobot : MonoBehaviour
     {
         if (isReturning)
         {
+            if (audioSorce.clip != AudioManager.Instance.GetSound("MinerRobotReturn"))
+            {
+                audioSorce.clip = AudioManager.Instance.GetSound("MinerRobotReturn");
+                audioSorce.Play();
+            }
+
             transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
             transform.up = transform.position - player.transform.position;
         }

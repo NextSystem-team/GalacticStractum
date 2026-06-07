@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00655cd480d2b2488b4ef8890dd0264, type: 3}
   m_Name: MinerRobotFlying
   m_EditorClassIdentifier: Assembly-CSharp::AudioData
-  soundName: minerRobotReturn
+  soundName: MinerRobotReturn
   soundClip: {fileID: 8300000, guid: d709e9a3d7b80e84c8c6788ff70c6e06, type: 3}

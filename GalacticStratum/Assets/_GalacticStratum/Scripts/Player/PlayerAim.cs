@@ -9,6 +9,7 @@ public class PlayerAim : MonoBehaviour
     public float aimZoneRadius;
 
     public _ToolObject currentTool;
+    public ToolData currentToolData;
 
     [SerializeField] private InputActionReference leftClickInput;
     [SerializeField] private InputActionReference rightClickInput;
@@ -63,16 +64,19 @@ public class PlayerAim : MonoBehaviour
                 return;
             }
 
-            Vector2 mouseScreenPosition = Pointer.current.position.ReadValue();
-            Vector2 mouseWorldPosition = mainCamera.ScreenToWorldPoint(mouseScreenPosition);
-            float clickDistance = Vector2.Distance(mouseWorldPosition, transform.position);
-
-            if (currentTool != null && currentTool.UseAim && clickDistance > aimZoneRadius)
+            if (SaveManager.currentPlayerData.moneyAmount >= currentToolData.UsePrice)
             {
-                return;
-            }
+                Vector2 mouseScreenPosition = Pointer.current.position.ReadValue();
+                Vector2 mouseWorldPosition = mainCamera.ScreenToWorldPoint(mouseScreenPosition);
+                float clickDistance = Vector2.Distance(mouseWorldPosition, transform.position);
 
-            currentTool.OnUse(mouseWorldPosition, player);
+                if (currentTool != null && currentTool.UseAim && clickDistance > aimZoneRadius)
+                {
+                    return;
+                }
+
+                currentTool.OnUse(mouseWorldPosition, player);
+            }
         }
     }
 
@@ -98,9 +102,10 @@ public class PlayerAim : MonoBehaviour
         AdjustAimZoneSize();
     }
 
-    private void EquipTool(_ToolObject tool)
+    private void EquipTool(ToolData tool)
     {
-        currentTool = tool;
+        currentTool = tool.Tool;
+        currentToolData = tool;
 
         if (currentTool != null && currentTool.UseAim)
         {

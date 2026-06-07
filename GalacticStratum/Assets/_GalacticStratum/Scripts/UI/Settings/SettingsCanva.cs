@@ -42,7 +42,7 @@ public class SettingsCanva : MonoBehaviour
 
         applySettings.onClick.AddListener(ApplySettings);
 
-        sfxSlider.onValueChanged.AddListener((value) =>
+        musicSlider.onValueChanged.AddListener((value) =>
         {
             audioMixer.SetFloat("MusicVolume", value);
         });
@@ -124,7 +124,9 @@ public class SettingsCanva : MonoBehaviour
 
     private void UpdateVolumes()
     {
-        musicSlider.value = SaveManager.currentSettings != null ? SaveManager.currentSettings.musicVolume : -40f;
-        sfxSlider.value = SaveManager.currentSettings != null ? SaveManager.currentSettings.sfxVolume : -40f;
+        musicSlider.value = SaveManager.currentSettings != null ? SaveManager.currentSettings.musicVolume : -30f;
+        audioMixer.SetFloat("MusicVolume", musicSlider.value);
+        sfxSlider.value = SaveManager.currentSettings != null ? SaveManager.currentSettings.sfxVolume : -30f;
+        audioMixer.SetFloat("SFXVolume", sfxSlider.value);
     }
 }

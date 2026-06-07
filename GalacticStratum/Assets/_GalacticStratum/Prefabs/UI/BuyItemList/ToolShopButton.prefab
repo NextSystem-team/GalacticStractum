@@ -65,6 +65,7 @@ GameObject:
   - component: {fileID: 4470790225334330798}
   - component: {fileID: 7779402597284520239}
   - component: {fileID: 1300393015931867508}
+  - component: {fileID: -5605701314931189545}
   m_Layer: 5
   m_Name: ToolShopButton
   m_TagString: Untagged
@@ -201,6 +202,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BuyToolButton
   tool: {fileID: 0}
   icon: {fileID: 7632139437773293573}
+  tooltip: {fileID: 0}
+--- !u!114 &-5605701314931189545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2759257506220973017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28f459cc83224d3448d07d55fdc75318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ButtonSoundEmitter
 --- !u!1 &9016577790934987795
 GameObject:
   m_ObjectHideFlags: 0

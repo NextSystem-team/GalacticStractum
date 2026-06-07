@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00655cd480d2b2488b4ef8890dd0264, type: 3}
   m_Name: MinerRobotMining
   m_EditorClassIdentifier: Assembly-CSharp::AudioData
-  soundName: minerRobotMine
+  soundName: MinerRobotMine
   soundClip: {fileID: 8300000, guid: d06ca6cd7c460d549bab5c69c3fef32b, type: 3}

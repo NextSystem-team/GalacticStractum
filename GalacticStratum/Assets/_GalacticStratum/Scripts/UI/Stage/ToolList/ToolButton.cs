@@ -16,11 +16,8 @@ public class ToolButton : MonoBehaviour
 
     private void OnClick()
     {
-        if (SaveManager.currentPlayerData.moneyAmount >= tool.UsePrice)
-        {
-            SetCursor(tool.Icon.texture);
-            GlobalEvents.OnToolSelected?.Invoke(tool.Tool);
-        }
+        SetCursor(tool.Icon.texture);
+        GlobalEvents.OnToolSelected?.Invoke(tool);
     }
 
     private void SetCursor(Texture2D toolSprite)

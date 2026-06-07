@@ -40,7 +40,7 @@ public class Asteroid : MonoBehaviour
 
     public void Explode()
     {
-        //Colocar efeitos visuais e sonoros aqui...
+        AudioManager.Instance.PlaySFX("AsteroidExplosion");
         explosionParticles.transform.parent = null;
         explosionParticles.gameObject.SetActive(true);
         Destroy(gameObject);

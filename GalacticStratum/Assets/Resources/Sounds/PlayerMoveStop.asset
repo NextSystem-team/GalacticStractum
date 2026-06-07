@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00655cd480d2b2488b4ef8890dd0264, type: 3}
   m_Name: PlayerMoveStop
   m_EditorClassIdentifier: Assembly-CSharp::AudioData
-  soundName: moveStop
+  soundName: MoveStop
   soundClip: {fileID: 8300000, guid: 36e98ad4208ae4b4dbd885273c695449, type: 3}
