@@ -11,6 +11,7 @@ Made for the FIAP Global Solution - Space Connect.*
 *  **Random map generator:** Every match has a different pattern of asteroids!.
 *  **Explore the unknown of space:** "Dig" through the darkness of the unknown and discover asteroids as you move or use tools.
 *  **Dynamic prices:** Prices fluctuate each round, so sell your resources at the right time! But be careful not to saturate the market.
+*  **Save and Load:** The game saves your progress so you don't need to play in just a day!
 
 ## Controls
 * **W, A and D** - Accelerate and turn keys.
