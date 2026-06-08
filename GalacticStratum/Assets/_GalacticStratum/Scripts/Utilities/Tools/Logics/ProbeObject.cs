@@ -12,14 +12,16 @@ public class ProbeObject : _ToolObject
 
     private GameObject currentProbe;
 
-    public override void OnUse(Vector2 targetPosition, Player player)
+    public override bool OnUse(Vector2 targetPosition, Player player)
     {
-        if (currentProbe != null) return;
+        if (currentProbe != null) return false;
 
         GameObject probe = Instantiate(probePrefab, player.transform.position, Quaternion.identity);
         ProbePulse probePulse = probe.GetComponent<ProbePulse>();
         probePulse.maxRadius = maxProbeRange;
         currentProbe = probe;
+
+        return true;
     }
 
 }

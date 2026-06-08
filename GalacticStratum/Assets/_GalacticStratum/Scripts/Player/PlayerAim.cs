@@ -64,18 +64,26 @@ public class PlayerAim : MonoBehaviour
                 return;
             }
 
+            Vector2 mouseScreenPosition = Pointer.current.position.ReadValue();
+            Vector2 mouseWorldPosition = mainCamera.ScreenToWorldPoint(mouseScreenPosition);
+            float clickDistance = Vector2.Distance(mouseWorldPosition, transform.position);
+
             if (SaveManager.currentPlayerData.moneyAmount >= currentToolData.UsePrice)
             {
-                Vector2 mouseScreenPosition = Pointer.current.position.ReadValue();
-                Vector2 mouseWorldPosition = mainCamera.ScreenToWorldPoint(mouseScreenPosition);
-                float clickDistance = Vector2.Distance(mouseWorldPosition, transform.position);
-
                 if (currentTool != null && currentTool.UseAim && clickDistance > aimZoneRadius)
                 {
+                    PopUpCanva.Instance.SpawnAlertPopUp(mouseWorldPosition, PopUpCanva.NO_RANGE);
                     return;
                 }
 
-                currentTool.OnUse(mouseWorldPosition, player);
+                if (currentTool.OnUse(mouseWorldPosition, player))
+                {
+                    SaveManager.currentPlayerData.moneyAmount -= currentToolData.UsePrice;
+                }
+            }
+            else
+            {
+                PopUpCanva.Instance.SpawnAlertPopUp(mouseWorldPosition, PopUpCanva.CANT_PAY_TOOL);
             }
         }
     }

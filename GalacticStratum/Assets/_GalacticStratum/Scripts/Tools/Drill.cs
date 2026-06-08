@@ -82,6 +82,7 @@ public class Drill : MonoBehaviour
         {
             currentData.TakeResource(AsteroidData.ResourceType.Water);
             storage.AddResource(AsteroidData.ResourceType.Water);
+            PopUpCanva.Instance.SpawnResourcePopUp(transform.position, AsteroidData.ResourceType.Water);
 
             StartCoroutine(Mine());
         }
@@ -102,6 +103,7 @@ public class Drill : MonoBehaviour
 
                 currentData.TakeResource(randomResource);
                 storage.AddResource(randomResource);
+                PopUpCanva.Instance.SpawnResourcePopUp(transform.position, randomResource);
 
                 StartCoroutine(Mine());
             }

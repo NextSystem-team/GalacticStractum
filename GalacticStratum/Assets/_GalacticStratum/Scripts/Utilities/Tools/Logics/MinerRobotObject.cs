@@ -12,7 +12,7 @@ public class MinerRobotObject : _ToolObject
     private Camera mapCamera;
     private RaycastHit2D hit;
 
-    public override void OnUse(Vector2 targetPosition, Player player)
+    public override bool OnUse(Vector2 targetPosition, Player player)
     {
         hit = Physics2D.Raycast(targetPosition, Vector2.zero);
 
@@ -26,21 +26,24 @@ public class MinerRobotObject : _ToolObject
                     MinerRobot robot = Instantiate(minerRobotPrefab, hit.collider.transform.position, Quaternion.identity).GetComponent<MinerRobot>();
                     robot.asteroid = asteroid;
                     robot.player = player;
+                    return true;
                 }
                 else
                 {
-                    Debug.Log("Não tem nada aqui");
+                    PopUpCanva.Instance.SpawnAlertPopUp(targetPosition, PopUpCanva.NO_DISCOVERED_OBJECT);
                 }
             }
             else
             {
-                Debug.Log("Isso não é um asteroide");
+                PopUpCanva.Instance.SpawnAlertPopUp(targetPosition, PopUpCanva.NO_ASTEROID);
             }
         }
         else
         {
-            Debug.Log("Não tem nada aqui");
+            PopUpCanva.Instance.SpawnAlertPopUp(targetPosition, PopUpCanva.NO_DISCOVERED_OBJECT);
         }
+
+        return false;
     }
 
     private bool CheckIfAsteroidIsRevealed(Vector2 clickedPosition)

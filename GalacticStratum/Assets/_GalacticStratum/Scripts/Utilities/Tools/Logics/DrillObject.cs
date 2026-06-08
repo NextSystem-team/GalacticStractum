@@ -15,11 +15,11 @@ public class DrillObject : _ToolObject
         currentDrills.Clear();
     }
 
-    public override void OnUse(Vector2 targetPosition, Player player)
+    public override bool OnUse(Vector2 targetPosition, Player player)
     {
         currentDrills.RemoveAll(drill => drill == null);
 
-        if (currentDrills.Count >= 3) return;
+        if (currentDrills.Count >= 3) return false;
 
         GameObject drillInstance = Instantiate(drillPrefab, player.transform.position, Quaternion.identity);
         Drill drill = drillInstance.GetComponent<Drill>();
@@ -30,5 +30,6 @@ public class DrillObject : _ToolObject
         drillInstance.transform.position = player.transform.position;
 
         drill.canMove = true;
+        return true;
     }
 }

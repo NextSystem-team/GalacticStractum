@@ -27,6 +27,9 @@ public class PlayerStorage : MonoBehaviour
 
     public void CollectMinerRobotResources(MinerRobot robot)
     {
+
+        if (robot.waterAmount > 0) PopUpCanva.Instance.SpawnResourcePopUp(transform.position, AsteroidData.ResourceType.Water);
+
         if (fuelAmount + robot.waterAmount <= maxFuel)
         {
             fuelAmount += robot.waterAmount;
@@ -36,15 +39,19 @@ public class PlayerStorage : MonoBehaviour
             fuelAmount = maxFuel;
         }
 
+        if (robot.beskariumAmount > 0) PopUpCanva.Instance.SpawnResourcePopUp(transform.position, AsteroidData.ResourceType.Beskarium);
         beskariumAmount += robot.beskariumAmount;
         SaveManager.currentPlayerData.beskariumAmount += robot.beskariumAmount;
 
+        if (robot.whitlockiteAmount > 0) PopUpCanva.Instance.SpawnResourcePopUp(transform.position, AsteroidData.ResourceType.Whitlockite);
         whitlockiteAmount += robot.whitlockiteAmount;
         SaveManager.currentPlayerData.whitlockiteAmount += robot.whitlockiteAmount;
 
+        if (robot.lechatelieriteAmount > 0) PopUpCanva.Instance.SpawnResourcePopUp(transform.position, AsteroidData.ResourceType.Lechatelierite);
         lechatelieriteAmount += robot.lechatelieriteAmount;
         SaveManager.currentPlayerData.lechatelieriteAmount += robot.lechatelieriteAmount;
 
+        if (robot.elaliiteAmount > 0) PopUpCanva.Instance.SpawnResourcePopUp(transform.position, AsteroidData.ResourceType.Elaliite);
         elaliiteAmount += robot.elaliiteAmount;
         SaveManager.currentPlayerData.elaliiteAmount += robot.elaliiteAmount;
     }

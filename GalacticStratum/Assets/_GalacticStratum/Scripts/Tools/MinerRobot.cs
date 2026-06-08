@@ -65,6 +65,8 @@ public class MinerRobot : MonoBehaviour
         {
             currentData.TakeResource(AsteroidData.ResourceType.Water);
             StorageResource(AsteroidData.ResourceType.Water);
+            PopUpCanva.Instance.SpawnResourcePopUp(transform.position, AsteroidData.ResourceType.Water);
+
             StartCoroutine(Mine());
         }
         else
@@ -84,6 +86,7 @@ public class MinerRobot : MonoBehaviour
 
                 currentData.TakeResource(randomResource);
                 StorageResource(randomResource);
+                PopUpCanva.Instance.SpawnResourcePopUp(transform.position, randomResource);
 
                 StartCoroutine(Mine());
             }
