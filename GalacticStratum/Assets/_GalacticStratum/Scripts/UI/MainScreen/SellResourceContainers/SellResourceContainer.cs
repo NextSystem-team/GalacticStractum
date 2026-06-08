@@ -55,6 +55,8 @@ public class SellResourceContainer : MonoBehaviour
 
             SaveManager.currentPlayerData.moneyAmount += resourcesSelled * resourceData.Price;
             ResourcesPriceManager.RegisterSale(resourceType, resourcesSelled);
+
+            AudioManager.Instance.PlaySFX("Sell");
         }
     }
 

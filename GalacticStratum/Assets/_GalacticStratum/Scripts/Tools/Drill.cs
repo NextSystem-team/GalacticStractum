@@ -117,6 +117,11 @@ public class Drill : MonoBehaviour
 
     }
 
+    private void OnDestroy()
+    {
+        AudioManager.Instance.PlaySFX("Break");
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Asteroid"))

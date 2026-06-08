@@ -24,7 +24,13 @@ public class BuyToolButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
             SaveManager.currentPlayerData.moneyAmount -= tool.Price;
 
+            AudioManager.Instance.PlaySFX("Buy");
+
             Destroy(gameObject);
+        }
+        else
+        {
+            AudioManager.Instance.PlaySFX("Invalid");
         }
     }
 

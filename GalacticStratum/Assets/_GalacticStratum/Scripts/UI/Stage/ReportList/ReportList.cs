@@ -66,6 +66,8 @@ public class ReportList : MonoBehaviour
         {
             newPosition = new(280f, 0);
         }
+
+        AudioManager.Instance.PlaySFX("Sweep");
     }
 
     private void CreateNewReport(AsteroidData asteroid)

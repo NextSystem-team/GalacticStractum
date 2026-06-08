@@ -133,6 +133,8 @@ public class MainCanva : MonoBehaviour
         {
             isShopOpened = false;
 
+            AudioManager.Instance.PlaySFX("Sweep");
+
             darkShopPanel.DOFade(0.0f, 0.3f);
             shopPanel.DOAnchorPosY(-964, 0.3f).OnComplete(() =>
             {

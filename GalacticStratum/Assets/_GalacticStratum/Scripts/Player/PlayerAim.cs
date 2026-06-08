@@ -80,10 +80,15 @@ public class PlayerAim : MonoBehaviour
                 {
                     SaveManager.currentPlayerData.moneyAmount -= currentToolData.UsePrice;
                 }
+                else
+                {
+                    AudioManager.Instance.PlaySFX("Invalid");
+                }
             }
             else
             {
                 PopUpCanva.Instance.SpawnAlertPopUp(mouseWorldPosition, PopUpCanva.CANT_PAY_TOOL);
+                AudioManager.Instance.PlaySFX("Invalid");
             }
         }
     }

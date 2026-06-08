@@ -25,11 +25,13 @@ public class ShopContainer : MonoBehaviour
     private void SwitchToBuySession()
     {
         shopBox.DOAnchorPosX(0, 0.3f);
+        AudioManager.Instance.PlaySFX("Sweep");
     }
 
     private void SwitchToSellSession()
     {
         shopBox.DOAnchorPosX(-946, 0.3f);
+        AudioManager.Instance.PlaySFX("Sweep");
     }
 
     private void SellAllResources()
@@ -60,5 +62,7 @@ public class ShopContainer : MonoBehaviour
         ResourcesPriceManager.RegisterSale(AsteroidData.ResourceType.Elaliite, elaliiteAmount);
         ResourcesPriceManager.RegisterSale(AsteroidData.ResourceType.Beskarium, beskariumAmount);
         ResourcesPriceManager.RegisterSale(AsteroidData.ResourceType.Whitlockite, whitlockiteAmount);
+
+        AudioManager.Instance.PlaySFX("Sell");
     }
 }

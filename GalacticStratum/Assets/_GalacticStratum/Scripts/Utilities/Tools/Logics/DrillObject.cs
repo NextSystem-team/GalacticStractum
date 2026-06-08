@@ -30,6 +30,7 @@ public class DrillObject : _ToolObject
         drillInstance.transform.position = player.transform.position;
 
         drill.canMove = true;
+        AudioManager.Instance.PlaySFX("DrillLaunch");
         return true;
     }
 }

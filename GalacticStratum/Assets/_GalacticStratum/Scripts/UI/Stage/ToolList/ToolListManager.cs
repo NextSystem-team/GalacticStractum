@@ -40,6 +40,8 @@ public class ToolListManager : MonoBehaviour
                 }
             }
         }
+
+        AudioManager.Instance.PlaySFX("Sweep");
     }
 
     private void CreateToolButton(ToolData tool)

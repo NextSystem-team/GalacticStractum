@@ -105,6 +105,8 @@ public class SettingsCanva : MonoBehaviour
         {
             UpdateVolumes();
 
+            AudioManager.Instance.PlaySFX("Sweep");
+
             GlobalEvents.NotifySettingsToggle?.Invoke(false);
             isOpened = false;
             darkPanel.DOFade(0.0f, 0.3f).SetUpdate(true);
